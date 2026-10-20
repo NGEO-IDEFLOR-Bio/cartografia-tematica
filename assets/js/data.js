@@ -281,7 +281,7 @@ const MAPS_DATABASE = [
         "filename": "unidades-de-conservacao-estaduais-por-gerencia-regional.pdf",
         "url": "assets/downloads/unidades-de-conservacao-estaduais-por-gerencia-regional.pdf",
         "size": "14.6 MB",
-        "bytes": 15286366,
+        "bytes": 15284440,
         "extension": "PDF"
       }
     ]
