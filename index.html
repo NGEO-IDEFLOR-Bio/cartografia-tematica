@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositório de Malhas Territoriais e Cartografia Temática | NGEO / IDEFLOR-Bio</title>
+  
+  <!-- Meta tags institucionais e SEO -->
+  <meta name="description" content="Repositório oficial de malhas territoriais, cartas temáticas e mapas de Unidades de Conservação do Estado do Pará. Elaborado pelo Núcleo de Geotecnologias (NGEO / IDEFLOR-Bio) no Sistema Geodésico SIRGAS 2000.">
+  <meta name="keywords" content="Mapas, Pará, Geociências, IDEFLOR-Bio, NGEO, Unidades de Conservação, SIRGAS 2000, Malhas Territoriais, ZEE, Calha Norte, Cartografia">
+  <meta name="author" content="Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio — Governo do Estado do Pará">
+  <meta name="theme-color" content="#071d41">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Repositório de Cartografia Temática — NGEO / IDEFLOR-Bio">
+  <meta property="og:description" content="Catálogo oficial de cartas temáticas e malhas territoriais das Unidades de Conservação do Estado do Pará em alta definição.">
+  <meta property="og:image" content="assets/img/thumbnails/thumb-ucs-estaduais-a1.jpg">
+  
+  <link rel="icon" type="image/png" href="assets/img/brasao-para.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- 1. Barra de Identificação Superior de Governo (Gov.br / Pará) -->
+  <header class="gov-top-bar">
+    <div class="container">
+      <div class="gov-identification">
+        <a href="https://www.pa.gov.br" target="_blank" rel="noopener noreferrer" class="gov-title-link">
+          Governo do Estado do Pará
+        </a>
+      </div>
+      <ul class="gov-top-links">
+        <li><a href="https://ideflorbio.pa.gov.br/" target="_blank" rel="noopener noreferrer">Portal IDEFLOR-Bio</a></li>
+        <li><a href="https://ngeo-ideflor-bio.github.io/visualizador/" target="_blank" rel="noopener noreferrer">Visualizador WebGIS</a></li>
+        <li><a href="https://ngeo-ideflor-bio.github.io/guia-uc-para/" target="_blank" rel="noopener noreferrer">Guia de UCs</a></li>
+        <li>
+          <button id="contrastToggleBtn" class="accessibility-btn" title="Alternar Modo Alto Contraste">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18V4c4.41 0 8 3.59 8 8s-3.59 8-8 8z"/>
+            </svg>
+            Alto Contraste
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- 2. Cabeçalho Principal do Órgão -->
+  <div class="main-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-logos">
+          <img src="assets/img/brasao-para.png" alt="Brasão do Estado do Pará" class="header-brasao">
+          <div class="header-brand-divider"></div>
+          <img src="assets/img/logo-ideflor-bio.png" alt="Logomarca IDEFLOR-Bio" class="header-logo-ideflor">
+          <img src="assets/img/logo-ngeo.png" alt="Logomarca Núcleo de Geotecnologias NGEO" class="header-logo-ngeo">
+        </div>
+        
+        <div class="header-titles">
+          <h1 class="header-portal-name">Repositório de Malhas Territoriais e Cartografia Temática</h1>
+          <p class="header-portal-sub">Núcleo de Geotecnologias (NGEO) • Instituto de Desenvolvimento Florestal e da Biodiversidade do Pará</p>
+        </div>
+
+        <div class="header-badges">
+          <span class="badge-sirgas">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/><path fill="#ffffff" d="M12 6v6l4 2"/></svg>
+            Datum SIRGAS 2000
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Navegação em Breadcrumb (Padrão IBGE) -->
+  <nav class="breadcrumb-nav">
+    <div class="container">
+      <ul class="breadcrumb-list">
+        <li><a href="https://www.pa.gov.br">Início</a></li>
+        <li class="breadcrumb-separator">/</li>
+        <li><a href="https://ideflorbio.pa.gov.br/">IDEFLOR-Bio</a></li>
+        <li class="breadcrumb-separator">/</li>
+        <li><a href="#">Geociências & Gestão Territorial</a></li>
+        <li class="breadcrumb-separator">/</li>
+        <li><span>Malhas Territoriais e Cartas Oficiais</span></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 4. Conteúdo Central -->
+  <main class="container">
+
+    <!-- Seção de Contexto e Apresentação Institucional -->
+    <section class="hero-section">
+      <h2 class="hero-title">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+          <line x1="8" y1="2" x2="8" y2="18"></line>
+          <line x1="16" y1="6" x2="16" y2="22"></line>
+        </svg>
+        Bases Cartográficas e Produtos Geoespaciais do IDEFLOR-Bio
+      </h2>
+      <p class="hero-description">
+        Este portal disponibiliza para pesquisadores, gestores públicos, consultorias e cidadãos o acervo oficial de cartas temáticas elaboradas pelo <strong>Núcleo de Geotecnologias (NGEO)</strong> do IDEFLOR-Bio. Os produtos cobrem o mapeamento das Unidades de Conservação Estaduais geridas pela Diretoria de Gestão e Desenvolvimento de Unidades de Conservação (DGMUC), corredores ecológicos, divisões por Gerências Regionais, Macrozoneamento (ZEE) e ordenamento territorial no Pará, todos estruturados rigorosamente sobre o <strong>Sistema Geodésico SIRGAS 2000 (EPSG: 4674)</strong>.
+      </p>
+      
+      <div class="hero-meta-grid">
+        <div class="hero-meta-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+          <span><strong>17 Cartas Oficiais</strong> no repositório</span>
+        </div>
+        <div class="hero-meta-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          <span>Projeção Geográfica / Policônica <strong>SIRGAS 2000</strong></span>
+        </div>
+        <div class="hero-meta-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+          <span>Formatos: <strong>A0, A1, A4 e Painel HD</strong></span>
+        </div>
+        <div class="hero-meta-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Downloads em <strong>PDF Vetorial e JPEG/PNG</strong></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destaque: Plataformas WebGIS Interativas do NGEO -->
+    <section class="interactive-systems-card">
+      <div class="systems-info-col">
+        <span class="systems-badge-tag">Plataformas WebGIS Interativas</span>
+        <h3>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+          Sistemas Geoespaciais do NGEO / IDEFLOR-Bio
+        </h3>
+        <p>
+          Além dos mapas estáticos para download e plotagem, acesse os ambientes de mapas interativos desenvolvidos pelo NGEO para consulta dinâmica de camadas geográficas, Unidades de Conservação e limites territoriais do Estado do Pará.
+        </p>
+      </div>
+      <div class="systems-action-col">
+        <a href="https://ngeo-ideflor-bio.github.io/visualizador/" target="_blank" rel="noopener noreferrer" class="btn-open-webgis">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+          Visualizador WebGIS
+        </a>
+        <a href="https://ngeo-ideflor-bio.github.io/guia-uc-para/" target="_blank" rel="noopener noreferrer" class="btn-github-code">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          Guia Interativo de UCs
+        </a>
+      </div>
+    </section>
+
+    <!-- Barra de Ferramentas, Busca e Filtros -->
+    <section class="controls-card">
+      <div class="search-and-views">
+        <div class="search-box-wrapper">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="searchInput" class="search-input" placeholder="Pesquisar por nome da UC, município, escala, formato (A0, A1, A4) ou tema..." autocomplete="off">
+          <button id="clearSearchBtn" class="clear-search-btn" title="Limpar pesquisa">✕</button>
+        </div>
+
+        <div class="view-switcher">
+          <button id="viewGridBtn" class="view-btn active" title="Visualização em Grade de Cards">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <rect x="3" y="3" width="7" height="7"></rect>
+              <rect x="14" y="3" width="7" height="7"></rect>
+              <rect x="14" y="14" width="7" height="7"></rect>
+              <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            Grade
+          </button>
+          <button id="viewTableBtn" class="view-btn" title="Visualização em Tabela Detalhada (Padrão IBGE)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/>
+            </svg>
+            Tabela
+          </button>
+        </div>
+      </div>
+
+      <!-- Filtro Hierárquico por Gerência Regional (DGMUC/IDEFLOR-Bio) -->
+      <div class="regional-filter-row">
+        <label for="regionalOfficeSelect" class="regional-filter-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          Gerência Regional (DGMUC):
+        </label>
+        
+        <div class="regional-select-wrapper">
+          <select id="regionalOfficeSelect" class="regional-select">
+            <option value="all">Todas as Gerências Regionais / Geral Estadual</option>
+            <option value="estadual">Âmbito Geral Estadual (Mosaicos Estaduais)</option>
+            <option value="grcn-2">GRCN-II: Calha Norte II (7 cartas disponíveis)</option>
+            <option value="grx">GRX: Xingu (1 carta disponível: Tabuleiro do Embaubal)</option>
+            <option value="grcn-1">GRCN-I: Calha Norte I (Em catalogação cartográfica)</option>
+            <option value="grb">GRB: Belém / Região Metropolitana (Em catalogação)</option>
+            <option value="grmr">GRMR: Marajó (Em catalogação)</option>
+            <option value="gret">GRET: Tocantins / Estrada de Ferro (Em catalogação)</option>
+            <option value="grba">GRBA: Baixo Amazonas (Em catalogação)</option>
+            <option value="grt">GRT: Tapajós (Em catalogação)</option>
+            <option value="gra">GRA: Araguaia (Em catalogação)</option>
+          </select>
+          <svg class="regional-select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+
+        <span id="regionalOfficePill" class="regional-status-pill">Todas as Regionais</span>
+      </div>
+
+      <!-- Abas de Categorias Temáticas -->
+      <div class="categories-tabs">
+        <button class="category-tab active" data-category="all">
+          Todos os Temas
+          <span class="category-count">17</span>
+        </button>
+        <button class="category-tab" data-category="ucs">
+          Unidades de Conservação Estaduais
+          <span class="category-count">6</span>
+        </button>
+        <button class="category-tab" data-category="calha-norte">
+          Gerência Regional Calha Norte II
+          <span class="category-count">7</span>
+        </button>
+        <button class="category-tab" data-category="fundiario">
+          Ordenamento Territorial & ZEE
+          <span class="category-count">2</span>
+        </button>
+        <button class="category-tab" data-category="gestao">
+          Áreas Protegidas & Gestão
+          <span class="category-count">2</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Indicador de Resultados -->
+    <div class="results-status-bar">
+      <div>Exibindo <span id="resultsCount" class="results-count">17 mapas encontrados</span></div>
+      <div style="font-size: 0.8125rem;">Dados Abertos • Licença Creative Commons CC BY 4.0</div>
+    </div>
+
+    <!-- MODO 1: Grade de Cards Cartográficos -->
+    <section id="mapsGridContainer" class="maps-grid-view">
+      <!-- Inserido dinamicamente via assets/js/app.js -->
+    </section>
+
+    <!-- MODO 2: Tabela de Metadados Cartográficos (Estilo IBGE) -->
+    <section id="mapsTableContainer" class="maps-table-view" style="display: none;">
+      <table class="gov-data-table">
+        <thead>
+          <tr>
+            <th class="table-thumb-col">Preview</th>
+            <th>Título Oficial / Âmbito Territorial</th>
+            <th>Gerência Regional / Categoria</th>
+            <th>Escala / Folha</th>
+            <th>Datum / Data</th>
+            <th>Ações & Downloads</th>
+          </tr>
+        </thead>
+        <tbody id="mapsTableBody">
+          <!-- Inserido dinamicamente via assets/js/app.js -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Seção de Metadados e Normas Técnicas Governamentais -->
+    <section class="technical-section">
+      <h3 class="tech-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        Metadados, Padrões Cartográficos e Informações Legais
+      </h3>
+      <div class="tech-grid">
+        <div class="tech-box">
+          <h4>Sistema de Referência Espacial</h4>
+          <p>Todos os produtos geoespaciais foram elaborados e consolidados em conformidade com as normas oficiais da cartografia nacional:</p>
+          <ul>
+            <li><strong>Datum Geodésico:</strong> SIRGAS 2000 (EPSG: 4674)</li>
+            <li><strong>Elipsóide de Referência:</strong> GRS 1980</li>
+            <li><strong>Sistema de Coordenadas:</strong> Geográficas e Projetadas UTM (Fuso 21N, 21S, 22N, 22S).</li>
+          </ul>
+        </div>
+
+        <div class="tech-box">
+          <h4>Autoridade e Produção Técnica</h4>
+          <p>Elaboração conduzida pelo <strong>Núcleo de Geotecnologias (NGEO)</strong>, vinculado à Diretoria de Gestão e Desenvolvimento de Unidades de Conservação (DGMUC) do Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará (IDEFLOR-Bio).</p>
+        </div>
+
+        <div class="tech-box">
+          <h4>Bases Vetoriais e Fontes Oficiais</h4>
+          <p>As malhas cartográficas incorporam dados homologados de:</p>
+          <ul>
+            <li>Instituto de Desenvolvimento Florestal e da Biodiversidade (IDEFLOR-Bio)</li>
+            <li>Instituto de Terras do Pará (ITERPA)</li>
+            <li>Instituto Brasileiro de Geografia e Estatística (IBGE)</li>
+            <li>Fundação Nacional dos Povos Indígenas (FUNAI)</li>
+            <li>Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)</li>
+          </ul>
+        </div>
+
+        <div class="tech-box">
+          <h4>Licença e Direitos de Uso</h4>
+          <p>Estes dados são públicos e abertos sob os termos da licença <strong>Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)</strong>. É permitido o download, compartilhamento, adaptação e uso para fins científicos, acadêmicos e técnicos, desde que atribuída a devida autoria ao NGEO/IDEFLOR-Bio.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 5. Modal de Visualização Interativa em Alta Resolução (Zoom & Pan) -->
+  <div id="mapModalOverlay" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-window">
+      <div class="modal-header">
+        <div class="modal-header-titles">
+          <h3 id="modalTitle" class="modal-title">Título do Mapa</h3>
+          <span id="modalSubtitle" class="modal-subtitle">Subtítulo e Escala</span>
+        </div>
+        <button id="modalCloseBtn" class="modal-close-btn" title="Fechar visualizador (Esc)">✕</button>
+      </div>
+
+      <div class="modal-main-content">
+        <!-- Área Central da Imagem com Controles de Zoom -->
+        <div id="modalViewerArea" class="modal-viewer-area">
+          <img id="modalViewerImg" class="modal-viewer-image" src="" alt="Mapa em alta definição">
+          
+          <div class="viewer-controls-bar">
+            <button id="zoomOutBtn" class="viewer-btn" title="Diminuir Zoom (-)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </button>
+            <span id="zoomLevelDisplay" class="viewer-zoom-display">100%</span>
+            <button id="zoomInBtn" class="viewer-btn" title="Aumentar Zoom (+)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </button>
+            <button id="zoomResetBtn" class="viewer-btn" title="Ajustar à Tela (Reset)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Painel Lateral: Ficha Técnica & Downloads -->
+        <aside class="modal-sidebar">
+          <h4 class="sidebar-section-title">Resumo Técnico</h4>
+          <p id="modalDesc" class="sidebar-desc">Descrição do mapa...</p>
+
+          <h4 class="sidebar-section-title">Metadados da Carta</h4>
+          <dl id="modalMetadataList" class="sidebar-metadata-dl">
+            <!-- Preenchido via app.js -->
+          </dl>
+
+          <h4 class="sidebar-section-title">Arquivos Oficiais para Download</h4>
+          <div id="modalDownloadsList" class="sidebar-downloads-list">
+            <!-- Preenchido via app.js -->
+          </div>
+
+          <h4 class="sidebar-section-title">Como Citar (Padrão ABNT)</h4>
+          <div id="modalCitation" class="citation-box">Carregando citação...</div>
+          <button id="copyCitationBtn" class="copy-citation-btn">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            Copiar Referência ABNT
+          </button>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Rodapé Governamental Institucional (Padrão Estado do Pará / Gov.br) -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>IDEFLOR-Bio</h4>
+          <p><strong>Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará</strong></p>
+          <p>Autarquia Estadual responsável pela gestão das Unidades de Conservação e fomento às concessões florestais públicas sustentáveis.</p>
+          <p>Rua do Utinga, nº 723 (ou S/N) - Curió-Utinga<br>Belém - PA, CEP 66610-010</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Núcleo de Geotecnologias</h4>
+          <p>Responsável pela padronização e estruturação dos dados geoespaciais, sensoriamento remoto e cartografia oficial das Unidades de Conservação e políticas florestais do Estado do Pará.</p>
+          <p><strong>E-mail NGEO:</strong> ngeo@ideflorbio.pa.gov.br</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Sistemas e Portais Oficiais</h4>
+          <ul>
+            <li><a href="https://ideflorbio.pa.gov.br/" target="_blank" rel="noopener noreferrer">Portal Oficial do IDEFLOR-Bio</a></li>
+            <li><a href="https://ngeo-ideflor-bio.github.io/visualizador/" target="_blank" rel="noopener noreferrer">Visualizador WebGIS do Estado do Pará</a></li>
+            <li><a href="https://ngeo-ideflor-bio.github.io/guia-uc-para/" target="_blank" rel="noopener noreferrer">Guia Interativo de UCs do Pará</a></li>
+            <li><a href="https://www.pa.gov.br" target="_blank" rel="noopener noreferrer">Governo do Estado do Pará</a></li>
+            <li><a href="https://iterpa.pa.gov.br" target="_blank" rel="noopener noreferrer">ITERPA - Instituto de Terras do Pará</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legislação e Normas</h4>
+          <ul>
+            <li><a href="https://www.planalto.gov.br/ccivil_03/leis/l9985.htm" target="_blank" rel="noopener noreferrer">Lei Federal nº 9.985/2000 (SNUC)</a></li>
+            <li><a href="https://ideflorbio.pa.gov.br/legislacao/" target="_blank" rel="noopener noreferrer">Legislação e SEUC - IDEFLOR-Bio</a></li>
+            <li><a href="https://geoftp.ibge.gov.br/metodos_e_outros_documentos_de_referencia/normas/resolucao_pr_01_25fev2005.pdf" target="_blank" rel="noopener noreferrer">Resolução IBGE SIRGAS 2000</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-flex">
+        <div>
+          © 2026 Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará (IDEFLOR-Bio). Todos os direitos reservados.
+        </div>
+        <div>
+          Repositório Oficial de Malhas Territoriais e Cartografia Temática — NGEO / IDEFLOR-Bio
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
