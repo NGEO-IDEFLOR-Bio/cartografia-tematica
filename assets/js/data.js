@@ -314,8 +314,8 @@ const MAPS_DATABASE = [
         "label": "Documento PDF Vetorial",
         "filename": "estado-do-para-regioes-de-integracao.pdf",
         "url": "assets/downloads/estado-do-para-regioes-de-integracao.pdf",
-        "size": "7.5 MB",
-        "bytes": 7875932,
+        "size": "14.6 MB",
+        "bytes": 15305318,
         "extension": "PDF"
       }
     ]
