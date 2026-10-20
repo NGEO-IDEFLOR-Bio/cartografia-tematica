@@ -89,12 +89,11 @@ const MAPS_DATABASE = [
     "date": "Agosto de 2025",
     "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Carta temática oficial em alta resolução abrangendo a totalidade das Unidades de Conservação sob administração estadual no Pará (APAs, ESECs, FLOTAs, MONAs, Parques Estaduais, REVIS, REBIOs e RDS). Apresenta os limites municipais, malha hidrográfica estadual e encartes detalhados com zoom na Região Metropolitana de Belém, Arquipélago do Marajó e Mosaicos Regionais.",
+    "description": "Carta temática das Unidades de Conservação sob administração estadual no Pará (APAs, ESECs, FLOTAs, MONAs, Parques Estaduais, REVIS, REBIOs e RDS). Apresenta os limites municipais, malha hidrográfica estadual e encartes detalhados com zoom na Região Metropolitana de Belém, Arquipélago do Marajó e Mosaicos Regionais.",
     "tags": [
       "Unidades de Conservação",
       "Pará",
       "Folha A1",
-      "SIRGAS 2000",
       "IDEFLOR-Bio",
       "SEUC",
       "SNUC"
@@ -103,7 +102,7 @@ const MAPS_DATABASE = [
     "downloads": [
       {
         "key": "image",
-        "label": "Imagem JPEG de Alta Resolução",
+        "label": "Imagem JPEG",
         "filename": "mapa-unidades-de-conservacao-estaduais-pa-a1.jpg",
         "url": "assets/downloads/mapa-unidades-de-conservacao-estaduais-pa-a1.jpg",
         "size": "5.0 MB",
@@ -132,7 +131,6 @@ const MAPS_DATABASE = [
       "Unidades de Conservação",
       "Folha A4",
       "Executivo",
-      "SIRGAS 2000",
       "IDEFLOR-Bio"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-ucs-estaduais-a4.jpg",
@@ -163,19 +161,18 @@ const MAPS_DATABASE = [
     "date": "2025/2026",
     "source_org": "NGEO / DGMUC / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Mapeamento oficial integral das áreas sob jurisdição, monitoramento e fiscalização direta do IDEFLOR-Bio no Pará. Integra unidades de Uso Sustentável, Proteção Integral e perímetros prioritários para concessões florestais e restauração da biodiversidade.",
+    "description": "Mapeamento das áreas sob jurisdição, monitoramento e fiscalização direta do IDEFLOR-Bio no Pará. Integra unidades de Uso Sustentável, Proteção Integral e perímetros prioritários para concessões florestais e restauração da biodiversidade.",
     "tags": [
       "IDEFLOR-Bio",
       "Gestão Territorial",
       "Folha A1",
-      "SIRGAS 2000",
       "Amazônia"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-areas-ideflor-bio-a1.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "mapa-areas-ideflor-bio-pa-a1.pdf",
         "url": "assets/downloads/mapa-areas-ideflor-bio-pa-a1.pdf",
         "size": "3.3 MB",
@@ -199,19 +196,18 @@ const MAPS_DATABASE = [
     "date": "2025/2026",
     "source_org": "NGEO / IDEFLOR-Bio / ITERPA",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Mapeamento abrangente da malha fundiária estadual e federal em território paraense. Discrimina Terras Indígenas demarcadas e homologadas, Territórios Quilombolas titulados, Projetos de Assentamento da Reforma Agrária (PA, PAF, PDS), Glebas Públicas Estaduais e Federais e Imóveis Rurais.",
+    "description": "Mapeamento da malha fundiária estadual e federal em território paraense. Discrimina Terras Indígenas demarcadas e homologadas, Territórios Quilombolas titulados, Projetos de Assentamento da Reforma Agrária (PA, PAF, PDS), Glebas Públicas Estaduais e Federais e Imóveis Rurais.",
     "tags": [
       "Fundiário",
       "Terras Indígenas",
       "Quilombolas",
-      "Glebas Públicas",
-      "SIRGAS 2000"
+      "Glebas Públicas"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-categorias-fundiarias-a1.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "mapa-categorias-fundiarias-pa-a1.pdf",
         "url": "assets/downloads/mapa-categorias-fundiarias-pa-a1.pdf",
         "size": "22.0 MB",
@@ -235,20 +231,19 @@ const MAPS_DATABASE = [
     "date": "2025/2026",
     "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Balanço geoespacial oficial das áreas protegidas do Estado do Pará com dados quantitativos consolidados: Terras Indígenas (30.952.071 ha / 24,8%), UCs de Proteção Integral (13.763.504 ha / 11,0%), UCs de Uso Sustentável (19.102.263 ha / 15,3%) e Territórios Quilombolas (867.747 ha / 0,7%), totalizando mais de 51% do território estadual sob regime de salvaguarda.",
+    "description": "Balanço geoespacial das áreas protegidas do Estado do Pará com dados quantitativos consolidados: Terras Indígenas (30.952.071 ha / 24,8%), UCs de Proteção Integral (13.763.504 ha / 11,0%), UCs de Uso Sustentável (19.102.263 ha / 15,3%) e Territórios Quilombolas (867.747 ha / 0,7%), totalizando mais de 51% do território estadual sob regime de salvaguarda.",
     "tags": [
       "Áreas Protegidas",
       "SNUC",
       "SEUC",
       "Conservação",
-      "Biodiversidade",
-      "SIRGAS 2000"
+      "Biodiversidade"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-areas-protegidas-a1.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "mapa-areas-protegidas-pa-a1.pdf",
         "url": "assets/downloads/mapa-areas-protegidas-pa-a1.pdf",
         "size": "5.2 MB",
@@ -276,14 +271,13 @@ const MAPS_DATABASE = [
     "tags": [
       "Gerências Regionais",
       "Gestão Ambiental",
-      "IDEFLOR-Bio",
-      "SIRGAS 2000"
+      "IDEFLOR-Bio"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-ucs-gerencia-regional.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "unidades-de-conservacao-estaduais-por-gerencia-regional.pdf",
         "url": "assets/downloads/unidades-de-conservacao-estaduais-por-gerencia-regional.pdf",
         "size": "14.6 MB",
@@ -307,18 +301,17 @@ const MAPS_DATABASE = [
     "date": "2025/2026",
     "source_org": "NGEO / IDEFLOR-Bio / SEPLAN / FAPESPA",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Delimitação oficial das 12 Regiões de Integração do Estado do Pará adotadas na formulação do Plano Plurianual (PPA) e políticas setoriais: Araguaia, Baixo Amazonas, Carajás, Guajará, Guamá, Lago de Tucuruí, Marajó, Rio Caeté, Rio Capim, Tapajós, Tocantins e Xingu.",
+    "description": "Delimitação das 12 Regiões de Integração do Estado do Pará adotadas na formulação do Plano Plurianual (PPA) e políticas setoriais: Araguaia, Baixo Amazonas, Carajás, Guajará, Guamá, Lago de Tucuruí, Marajó, Rio Caeté, Rio Capim, Tapajós, Tocantins e Xingu.",
     "tags": [
       "Regiões de Integração",
       "Planejamento Regional",
-      "PPA",
-      "SIRGAS 2000"
+      "PPA"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-regioes-de-integracao.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "estado-do-para-regioes-de-integracao.pdf",
         "url": "assets/downloads/estado-do-para-regioes-de-integracao.pdf",
         "size": "7.5 MB",
@@ -342,19 +335,18 @@ const MAPS_DATABASE = [
     "date": "2025/2026",
     "source_org": "Governo do Estado do Pará / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Carta mestra do Macrozoneamento Ecológico-Econômico (ZEE) do Estado do Pará. Instrumento legal e técnico de ordenamento do território que estabelece diretrizes e zonas de consolidação produtiva, expansão ordenada e conservação dos recursos naturais.",
+    "description": "Mapa do Macrozoneamento Ecológico-Econômico (ZEE) do Estado do Pará. Instrumento legal e técnico de ordenamento do território que estabelece diretrizes e zonas de consolidação produtiva, expansão ordenada e conservação dos recursos naturais.",
     "tags": [
       "ZEE",
       "Zoneamento",
       "Macro",
-      "Sustentabilidade",
-      "SIRGAS 2000"
+      "Sustentabilidade"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-macrozoneamento-zee.jpg",
     "downloads": [
       {
         "key": "image",
-        "label": "Imagem PNG em Alta Resolução (A1, 300 dpi)",
+        "label": "Imagem PNG (A1, 300 dpi)",
         "filename": "macrozoneamento-ecologico-economico-zee.png",
         "url": "assets/downloads/macrozoneamento-ecologico-economico-zee.png",
         "size": "7.6 MB",
@@ -378,19 +370,18 @@ const MAPS_DATABASE = [
     "date": "Setembro de 2026",
     "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Acervo cartográfico completo em alta fidelidade vetorial apresentando a totalidade das Unidades de Conservação federais, estaduais e municipais cadastradas no território paraense, com limites geodésicos oficiais e zonas de amortecimento.",
+    "description": "Mapa das Unidades de Conservação federais, estaduais e municipais cadastradas no território paraense, com limites geodésicos e zonas de amortecimento.",
     "tags": [
       "Mosaico de UCs",
       "Federal e Estadual",
       "SNUC",
-      "Biodiversidade",
-      "SIRGAS 2000"
+      "Biodiversidade"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-panorama-ucs-para.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "unidades-de-conservacao-no-estado-do-para.pdf",
         "url": "assets/downloads/unidades-de-conservacao-no-estado-do-para.pdf",
         "size": "41.0 MB",
@@ -414,14 +405,13 @@ const MAPS_DATABASE = [
     "date": "Dezembro de 2025",
     "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Cartografia temática de alta precisão espacial delimitando as praias fluviais situadas no interior da UC REVIS Tabuleiro do Embaubal (Rio Xingu, município de Senador José Porfírio/PA). Essas faixas de praia são ecossistemas prioritários para a desova e monitoramento da Tartaruga-da-Amazônia e Tracajá.",
+    "description": "Mapa das praias fluviais situadas no interior da UC REVIS Tabuleiro do Embaubal (Rio Xingu, município de Senador José Porfírio/PA). Essas faixas de praia são ecossistemas prioritários para a desova e monitoramento da Tartaruga-da-Amazônia e Tracajá.",
     "tags": [
       "Tabuleiro do Embaubal",
       "REVIS",
       "Rio Xingu",
       "Quelônios",
       "Praias Fluviais",
-      "SIRGAS 2000",
       "Xingu"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-revis-tabuleiro-embaubal.jpg",
@@ -447,19 +437,18 @@ const MAPS_DATABASE = [
     "category_label": "Gerência Regional Calha Norte II",
     "theme": "Corredor Ecológico da Calha Norte Paraense",
     "scale": "1:1.000.000",
-    "paper_size": "A0 Cartográfico Oficial (841 × 1189 mm)",
+    "paper_size": "A0 (841 × 1189 mm)",
     "datum": "SIRGAS 2000",
     "date": "2025/2026",
     "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Carta mestra em formato A0 abrangendo todo o megacorredor de conservação da Calha Norte do Rio Amazonas na porção oeste paraense. Consolida a ESEC Mamuru, Florestas Estaduais de Faro, Paru e Trombetas, e o Parque Estadual PAGAM.",
+    "description": "Carta em formato A0 das Unidades de Conservação da Calha Norte do Rio Amazonas, na porção oeste paraense. Consolida a ESEC Mamuru, Florestas Estaduais de Faro, Paru e Trombetas, e o Parque Estadual PAGAM.",
     "tags": [
       "Calha Norte II",
       "GRCN-II",
       "Folha A0",
       "Corredor Ecológico",
-      "Manejo Florestal",
-      "SIRGAS 2000"
+      "Manejo Florestal"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-grcn2-mosaico-a0.jpg",
     "downloads": [
@@ -474,7 +463,7 @@ const MAPS_DATABASE = [
       },
       {
         "key": "image",
-        "label": "Imagem JPEG de Alta Resolução",
+        "label": "Imagem JPEG",
         "filename": "grcn-ii-mapeamento-unidades-de-conservacao-a0.jpg",
         "url": "assets/downloads/grcn-ii-mapeamento-unidades-de-conservacao-a0.jpg",
         "size": "6.1 MB",
@@ -503,7 +492,6 @@ const MAPS_DATABASE = [
       "Calha Norte II",
       "GRCN-II",
       "Síntese",
-      "SIRGAS 2000",
       "IDEFLOR-Bio"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-grcn2-sintese-ucs.jpg",
@@ -534,19 +522,18 @@ const MAPS_DATABASE = [
     "date": "2025/2026",
     "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Cartografia temática oficial da Estação Ecológica Mamuru (ESEC Mamuru), unidade de proteção integral destinada à salvaguarda da biodiversidade e à realização de pesquisas científicas.",
+    "description": "Mapa da Estação Ecológica Mamuru (ESEC Mamuru), unidade de proteção integral destinada à salvaguarda da biodiversidade e à realização de pesquisas científicas.",
     "tags": [
       "Mamuru",
       "ESEC",
       "Proteção Integral",
-      "Calha Norte II",
-      "SIRGAS 2000"
+      "Calha Norte II"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-grcn2-esec-mamuru.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-estacao-ecologica-mamuru.pdf",
         "url": "assets/downloads/grcn-ii-estacao-ecologica-mamuru.pdf",
         "size": "3.7 MB",
@@ -579,19 +566,18 @@ const MAPS_DATABASE = [
     "date": "2025/2026",
     "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Carta territorial da Floresta Estadual de Faro (FLOTA Faro), situada no oeste paraense na fronteira com o Estado do Amazonas. Delimita zonas de manejo florestal sustentável e proteção dos recursos hídricos.",
+    "description": "Mapa da Floresta Estadual de Faro (FLOTA Faro), situada no oeste paraense na fronteira com o Estado do Amazonas. Delimita zonas de manejo florestal sustentável e proteção dos recursos hídricos.",
     "tags": [
       "FLOTA Faro",
       "Faro",
       "Uso Sustentável",
-      "Concessão Florestal",
-      "SIRGAS 2000"
+      "Concessão Florestal"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-grcn2-flota-faro.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-floresta-estadual-de-faro.pdf",
         "url": "assets/downloads/grcn-ii-floresta-estadual-de-faro.pdf",
         "size": "4.0 MB",
@@ -629,14 +615,13 @@ const MAPS_DATABASE = [
       "FLOTA Paru",
       "Castanhais",
       "Manejo Florestal Sustentável",
-      "Calha Norte II",
-      "SIRGAS 2000"
+      "Calha Norte II"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-grcn2-flota-paru.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-floresta-estadual-do-paru.pdf",
         "url": "assets/downloads/grcn-ii-floresta-estadual-do-paru.pdf",
         "size": "9.1 MB",
@@ -669,19 +654,18 @@ const MAPS_DATABASE = [
     "date": "2025/2026",
     "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Carta territorial da Floresta Estadual do Trombetas (FLOTA Trombetas) na bacia do Rio Trombetas. Ilustra as áreas limítrofes a Terras Indígenas e corredores contíguos de conservação ambiental.",
+    "description": "Mapa da Floresta Estadual do Trombetas (FLOTA Trombetas) na bacia do Rio Trombetas. Ilustra as áreas limítrofes a Terras Indígenas e corredores contíguos de conservação ambiental.",
     "tags": [
       "FLOTA Trombetas",
       "Rio Trombetas",
       "Uso Sustentável",
-      "Calha Norte II",
-      "SIRGAS 2000"
+      "Calha Norte II"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-grcn2-flota-trombetas.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-floresta-estadual-do-trombetas.pdf",
         "url": "assets/downloads/grcn-ii-floresta-estadual-do-trombetas.pdf",
         "size": "5.6 MB",
@@ -714,20 +698,19 @@ const MAPS_DATABASE = [
     "date": "2025/2026",
     "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
-    "description": "Cartografia oficial do Parque Estadual Ambiental das Árvores Gigantes da Amazônia (PAGAM). Unidade de conservação criada para salvaguardar os maiores espécimes arbóreos da América do Sul (*Dinizia excelsa* de até 88,5 metros de altura) entre os rios Jari e Cupixi.",
+    "description": "Mapa do Parque Estadual Ambiental das Árvores Gigantes da Amazônia (PAGAM). Unidade de conservação criada para salvaguardar os maiores espécimes arbóreos da América do Sul (Dinizia excelsa de até 88,5 metros de altura) entre os rios Jari e Cupixi.",
     "tags": [
       "PAGAM",
       "Árvores Gigantes",
       "Parque Estadual",
       "Angelim Vermelho",
-      "Proteção Integral",
-      "SIRGAS 2000"
+      "Proteção Integral"
     ],
     "thumbnail": "assets/img/thumbnails/thumb-grcn2-pagam.jpg",
     "downloads": [
       {
         "key": "pdf",
-        "label": "Documento PDF Vetorial Oficial",
+        "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-parque-estadual-arvores-gigantes-pagam.pdf",
         "url": "assets/downloads/grcn-ii-parque-estadual-arvores-gigantes-pagam.pdf",
         "size": "2.0 MB",
