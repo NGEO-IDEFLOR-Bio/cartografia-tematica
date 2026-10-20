@@ -1,0 +1,21 @@
+# Insumos brutos locais (preservados localmente)
+mapas_originais/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

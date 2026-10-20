@@ -1,0 +1,1449 @@
+/* ==========================================================================
+   REPOSITÓRIO DE MALHAS TERRITORIAIS E CARTOGRAFIA TEMÁTICA
+   NGEO / IDEFLOR-Bio — Governo do Estado do Pará
+   Design System Institucional (Padrão Gov.br / IBGE Geociências)
+   ========================================================================== */
+
+:root {
+  --gov-blue-dark: #071d41;
+  --gov-blue-primary: #1351b4;
+  --gov-blue-hover: #0c326f;
+  --gov-blue-light: #e8f0fe;
+  
+  --gov-green-primary: #138644;
+  --gov-green-dark: #0b5d34;
+  --gov-green-light: #e6f4ea;
+  
+  --gov-gold: #c88719;
+  --gov-gold-light: #fef7e0;
+  
+  --gov-text-dark: #1f2937;
+  --gov-text-muted: #4b5563;
+  --gov-text-light: #6b7280;
+  
+  --gov-border: #d1d5db;
+  --gov-border-light: #e5e7eb;
+  
+  --gov-bg: #f9fafb;
+  --gov-card-bg: #ffffff;
+  
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  
+  --container-max-width: 1200px;
+  --transition: all 0.2s ease-in-out;
+}
+
+/* Modo Alto Contraste */
+body.high-contrast {
+  --gov-bg: #000000;
+  --gov-card-bg: #121212;
+  --gov-text-dark: #ffffff;
+  --gov-text-muted: #e0e0e0;
+  --gov-text-light: #cccccc;
+  --gov-border: #ffffff;
+  --gov-border-light: #555555;
+  --gov-blue-primary: #8ab4f8;
+  --gov-blue-light: #1e3a8a;
+  --gov-green-primary: #81c995;
+  --gov-green-light: #064e3b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--gov-bg);
+  color: var(--gov-text-dark);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Containers */
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* ==========================================================================
+   Barra Superior de Governo (Gov.br / Estado do Pará)
+   ========================================================================== */
+.gov-top-bar {
+  background-color: var(--gov-blue-dark);
+  color: #ffffff;
+  font-size: 0.8125rem;
+  border-bottom: 2px solid var(--gov-gold);
+}
+
+.gov-top-bar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 38px;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.gov-identification {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.gov-flag {
+  width: 20px;
+  height: 14px;
+  border-radius: 2px;
+  object-fit: cover;
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+
+.gov-title-link {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.gov-title-link:hover {
+  text-decoration: underline;
+}
+
+.gov-top-links {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  list-style: none;
+}
+
+.gov-top-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.gov-top-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.accessibility-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: var(--transition);
+}
+
+.accessibility-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: #ffffff;
+}
+
+/* ==========================================================================
+   Cabeçalho Principal do Órgão
+   ========================================================================== */
+.main-header {
+  background-color: var(--gov-card-bg);
+  border-bottom: 1px solid var(--gov-border-light);
+  padding: 1.25rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.header-logos {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.header-brasao {
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header-brand-divider {
+  width: 1px;
+  height: 52px;
+  background-color: var(--gov-border);
+}
+
+.header-logo-ideflor {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header-logo-ngeo {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+}
+
+.header-titles {
+  flex: 1;
+  min-width: 280px;
+}
+
+.header-portal-name {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--gov-blue-dark);
+  line-height: 1.25;
+  margin-bottom: 0.2rem;
+}
+
+.header-portal-sub {
+  font-size: 0.9375rem;
+  color: var(--gov-text-muted);
+  font-weight: 500;
+}
+
+.header-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.badge-sirgas {
+  background-color: var(--gov-blue-light);
+  color: var(--gov-blue-primary);
+  border: 1px solid rgba(19, 81, 180, 0.2);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* ==========================================================================
+   Breadcrumb (Padrão IBGE)
+   ========================================================================== */
+.breadcrumb-nav {
+  background-color: transparent;
+  padding: 0.85rem 0 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  color: var(--gov-text-muted);
+}
+
+.breadcrumb-list a {
+  color: var(--gov-blue-primary);
+  text-decoration: none;
+}
+
+.breadcrumb-list a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-separator {
+  color: var(--gov-text-light);
+  user-select: none;
+}
+
+/* ==========================================================================
+   Hero / Apresentação Institucional
+   ========================================================================== */
+.hero-section {
+  background: linear-gradient(135deg, #ffffff 0%, #f0f4f9 100%);
+  border: 1px solid var(--gov-border-light);
+  border-left: 5px solid var(--gov-blue-primary);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.hero-title {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--gov-blue-dark);
+  margin-bottom: 0.65rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.hero-title svg {
+  color: var(--gov-blue-primary);
+}
+
+.hero-description {
+  color: var(--gov-text-muted);
+  font-size: 0.975rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.hero-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--gov-border-light);
+}
+
+.hero-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.875rem;
+  color: var(--gov-text-dark);
+}
+
+.hero-meta-item svg {
+  color: var(--gov-green-primary);
+  flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Banner / Card de Destaque: Guia Interativo de UCs (WebGIS NGEO)
+   ========================================================================== */
+.interactive-systems-card {
+  background: linear-gradient(105deg, #071d41 0%, #0c326f 60%, #0b5d34 100%);
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 1.35rem 1.75rem;
+  margin-bottom: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.systems-badge-tag {
+  background-color: var(--gov-gold);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  margin-bottom: 0.35rem;
+}
+
+.systems-info-col h3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 0.35rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.systems-info-col p {
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  max-width: 650px;
+  line-height: 1.45;
+}
+
+.systems-action-col {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn-open-webgis {
+  background-color: #22c55e;
+  color: #052e16;
+  font-weight: 700;
+  padding: 0.65rem 1.15rem;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: var(--transition);
+}
+
+.btn-open-webgis:hover {
+  background-color: #16a34a;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.btn-github-code {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  font-weight: 600;
+  padding: 0.65rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  transition: var(--transition);
+}
+
+.btn-github-code:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Barra de Filtros e Ferramentas (IBGE Style)
+   ========================================================================== */
+.controls-card {
+  background-color: var(--gov-card-bg);
+  border: 1px solid var(--gov-border-light);
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.search-and-views {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.search-box-wrapper {
+  flex: 1;
+  min-width: 280px;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--gov-text-light);
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.65rem 2.5rem 0.65rem 2.5rem;
+  font-size: 0.95rem;
+  font-family: inherit;
+  border: 1.5px solid var(--gov-border);
+  border-radius: 4px;
+  background-color: var(--gov-card-bg);
+  color: var(--gov-text-dark);
+  transition: var(--transition);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--gov-blue-primary);
+  box-shadow: 0 0 0 3px rgba(19, 81, 180, 0.15);
+}
+
+.clear-search-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: var(--gov-text-light);
+  cursor: pointer;
+  padding: 4px;
+  display: none;
+}
+
+.clear-search-btn:hover {
+  color: var(--gov-text-dark);
+}
+
+.view-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.view-btn {
+  background-color: var(--gov-card-bg);
+  border: 1px solid var(--gov-border);
+  color: var(--gov-text-muted);
+  padding: 0.5rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: var(--transition);
+}
+
+.view-btn:hover {
+  border-color: var(--gov-blue-primary);
+  color: var(--gov-blue-primary);
+}
+
+.view-btn.active {
+  background-color: var(--gov-blue-primary);
+  color: #ffffff;
+  border-color: var(--gov-blue-primary);
+}
+
+/* Linha de Filtro por Gerência Regional */
+.regional-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--gov-border-light);
+  margin-bottom: 0.5rem;
+}
+
+.regional-filter-label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--gov-blue-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+.regional-select-wrapper {
+  flex: 1;
+  min-width: 260px;
+  max-width: 450px;
+  position: relative;
+}
+
+.regional-select {
+  width: 100%;
+  padding: 0.5rem 2rem 0.5rem 0.85rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--gov-text-dark);
+  background-color: #f8fafc;
+  border: 1.5px solid var(--gov-border);
+  border-radius: 4px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.regional-select:focus {
+  outline: none;
+  border-color: var(--gov-blue-primary);
+  box-shadow: 0 0 0 3px rgba(19, 81, 180, 0.15);
+}
+
+.regional-select-arrow {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--gov-text-muted);
+}
+
+.regional-status-pill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background-color: #e2e8f0;
+  color: #475569;
+}
+
+/* Abas de Categorias */
+.categories-tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--gov-border-light);
+  padding-top: 1rem;
+}
+
+.category-tab {
+  background-color: #f3f4f6;
+  border: 1px solid transparent;
+  color: var(--gov-text-dark);
+  padding: 0.45rem 0.95rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: var(--transition);
+}
+
+.category-tab:hover {
+  background-color: #e5e7eb;
+}
+
+.category-tab.active {
+  background-color: var(--gov-blue-primary);
+  color: #ffffff;
+  border-color: var(--gov-blue-primary);
+}
+
+.category-count {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: inherit;
+  font-size: 0.75rem;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.category-tab.active .category-count {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+/* Indicador de Resultados */
+.results-status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: var(--gov-text-muted);
+}
+
+.results-count {
+  font-weight: 700;
+  color: var(--gov-text-dark);
+}
+
+/* ==========================================================================
+   Modo Grade: Cards Cartográficos (Cards Gov.br)
+   ========================================================================== */
+.maps-grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.map-card {
+  background-color: var(--gov-card-bg);
+  border: 1px solid var(--gov-border-light);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.map-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--gov-border);
+}
+
+.card-preview-wrapper {
+  position: relative;
+  background-color: #e5e7eb;
+  height: 220px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.3s ease;
+}
+
+.map-card:hover .card-thumbnail {
+  transform: scale(1.03);
+}
+
+.card-overlay-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(7, 29, 65, 0.88);
+  color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  backdrop-filter: blur(2px);
+  text-transform: uppercase;
+}
+
+.card-overlay-scale {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.92);
+  color: var(--gov-blue-dark);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-category-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gov-blue-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.4rem;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gov-blue-dark);
+  line-height: 1.35;
+  margin-bottom: 0.6rem;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  color: var(--gov-text-muted);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.card-metadata-list {
+  background-color: #f8fafc;
+  border: 1px solid var(--gov-border-light);
+  border-radius: 4px;
+  padding: 0.65rem 0.85rem;
+  margin-bottom: 1.15rem;
+  font-size: 0.8125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.card-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-meta-label {
+  color: var(--gov-text-light);
+  font-weight: 500;
+}
+
+.card-meta-val {
+  color: var(--gov-text-dark);
+  font-weight: 600;
+}
+
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn-primary-preview {
+  background-color: var(--gov-blue-primary);
+  color: #ffffff;
+  border: 1px solid var(--gov-blue-primary);
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.btn-primary-preview:hover {
+  background-color: var(--gov-blue-hover);
+  border-color: var(--gov-blue-hover);
+}
+
+.card-download-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-download-item {
+  flex: 1;
+  min-width: 120px;
+  background-color: #ffffff;
+  border: 1px solid var(--gov-border);
+  color: var(--gov-text-dark);
+  padding: 0.45rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  transition: var(--transition);
+}
+
+.btn-download-item:hover {
+  background-color: #f3f4f6;
+  border-color: var(--gov-blue-primary);
+  color: var(--gov-blue-primary);
+}
+
+.btn-download-item.pdf-btn {
+  border-left: 3px solid #dc2626;
+}
+
+.btn-download-item.img-btn {
+  border-left: 3px solid #16a34a;
+}
+
+.file-weight-pill {
+  font-size: 0.7rem;
+  color: var(--gov-text-light);
+  font-weight: 400;
+}
+
+/* ==========================================================================
+   Modo Tabela: Malhas e Arquivos (Padrão IBGE Geociências)
+   ========================================================================== */
+.maps-table-view {
+  background-color: var(--gov-card-bg);
+  border: 1px solid var(--gov-border-light);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2.5rem;
+}
+
+.gov-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  text-align: left;
+}
+
+.gov-data-table thead {
+  background-color: var(--gov-blue-dark);
+  color: #ffffff;
+}
+
+.gov-data-table th {
+  padding: 0.85rem 1rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  border-bottom: 2px solid var(--gov-gold);
+  white-space: nowrap;
+}
+
+.gov-data-table tbody tr {
+  border-bottom: 1px solid var(--gov-border-light);
+  transition: background-color 0.15s ease;
+}
+
+.gov-data-table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.gov-data-table td {
+  padding: 0.85rem 1rem;
+  vertical-align: middle;
+}
+
+.table-thumb-col {
+  width: 80px;
+}
+
+.table-thumb-img {
+  width: 70px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--gov-border-light);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.table-thumb-img:hover {
+  transform: scale(1.1);
+}
+
+.table-title-cell {
+  max-width: 380px;
+}
+
+.table-title-text {
+  font-weight: 700;
+  color: var(--gov-blue-dark);
+  line-height: 1.3;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+}
+
+.table-title-text:hover {
+  color: var(--gov-blue-primary);
+  text-decoration: underline;
+}
+
+.table-sub-desc {
+  font-size: 0.775rem;
+  color: var(--gov-text-light);
+}
+
+.table-badge-cat {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: #eef2ff;
+  color: #3730a3;
+  white-space: nowrap;
+}
+
+.table-actions-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.table-action-btn {
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid var(--gov-border);
+  background-color: #ffffff;
+  color: var(--gov-text-dark);
+}
+
+.table-action-btn:hover {
+  background-color: #f3f4f6;
+  border-color: var(--gov-blue-primary);
+  color: var(--gov-blue-primary);
+}
+
+/* ==========================================================================
+   Seção Técnica / Metadados Geodésicos (Padrão INDE / IBGE)
+   ========================================================================== */
+.technical-section {
+  background-color: var(--gov-card-bg);
+  border: 1px solid var(--gov-border-light);
+  border-radius: 6px;
+  padding: 1.75rem;
+  margin-bottom: 2.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.tech-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--gov-blue-dark);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.tech-box {
+  background-color: #f8fafc;
+  border: 1px solid var(--gov-border-light);
+  border-left: 3px solid var(--gov-blue-primary);
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.tech-box h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--gov-blue-dark);
+  margin-bottom: 0.5rem;
+}
+
+.tech-box p, .tech-box ul {
+  font-size: 0.875rem;
+  color: var(--gov-text-muted);
+  line-height: 1.5;
+}
+
+.tech-box ul {
+  padding-left: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+/* ==========================================================================
+   Modal de Visualização Interativa em Alta Resolução (Zoom & Pan)
+   ========================================================================== */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(7, 29, 65, 0.85);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+  padding: 1rem;
+}
+
+.modal-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-window {
+  background-color: var(--gov-card-bg);
+  border-radius: 8px;
+  width: 95vw;
+  max-width: 1300px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.modal-header {
+  background-color: var(--gov-blue-dark);
+  color: #ffffff;
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--gov-gold);
+}
+
+.modal-header-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.modal-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.modal-subtitle {
+  font-size: 0.8125rem;
+  color: #cbd5e1;
+}
+
+.modal-close-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  transition: var(--transition);
+}
+
+.modal-close-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.modal-main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Área do Mapa com Zoom/Pan */
+.modal-viewer-area {
+  flex: 1;
+  background-color: #1e293b;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+
+.modal-viewer-area.panning {
+  cursor: grabbing;
+}
+
+.modal-viewer-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transform-origin: center center;
+  transition: transform 0.1s ease-out;
+  user-select: none;
+  pointer-events: auto;
+}
+
+.viewer-controls-bar {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(15, 23, 42, 0.9);
+  padding: 6px 12px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 10;
+}
+
+.viewer-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.viewer-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.viewer-zoom-display {
+  color: #ffffff;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  min-width: 48px;
+  text-align: center;
+}
+
+/* Painel Lateral de Ficha Técnica */
+.modal-sidebar {
+  width: 360px;
+  background-color: var(--gov-card-bg);
+  border-left: 1px solid var(--gov-border-light);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 1.25rem;
+}
+
+.sidebar-section-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--gov-blue-dark);
+  margin-bottom: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--gov-border-light);
+  padding-bottom: 4px;
+}
+
+.sidebar-desc {
+  font-size: 0.875rem;
+  color: var(--gov-text-muted);
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.sidebar-metadata-dl {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  font-size: 0.8125rem;
+  margin-bottom: 1.25rem;
+}
+
+.sidebar-metadata-dl dt {
+  color: var(--gov-text-light);
+  font-weight: 600;
+}
+
+.sidebar-metadata-dl dd {
+  color: var(--gov-text-dark);
+  font-weight: 500;
+}
+
+.sidebar-downloads-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.sidebar-dl-btn {
+  background-color: #ffffff;
+  border: 1.5px solid var(--gov-border);
+  color: var(--gov-blue-dark);
+  padding: 0.6rem 0.85rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: var(--transition);
+}
+
+.sidebar-dl-btn:hover {
+  background-color: var(--gov-blue-light);
+  border-color: var(--gov-blue-primary);
+  color: var(--gov-blue-primary);
+}
+
+.citation-box {
+  background-color: #f1f5f9;
+  border: 1px dashed var(--gov-border);
+  border-radius: 4px;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  color: var(--gov-text-dark);
+  font-family: monospace;
+  margin-top: 0.5rem;
+  position: relative;
+  word-break: break-all;
+}
+
+.copy-citation-btn {
+  background-color: var(--gov-card-bg);
+  border: 1px solid var(--gov-border);
+  color: var(--gov-text-dark);
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.4rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.copy-citation-btn:hover {
+  border-color: var(--gov-blue-primary);
+  color: var(--gov-blue-primary);
+}
+
+/* ==========================================================================
+   Rodapé Institucional Gov.br / Governo do Pará
+   ========================================================================== */
+.main-footer {
+  background-color: var(--gov-blue-dark);
+  color: #ffffff;
+  padding-top: 2.5rem;
+  border-top: 4px solid var(--gov-green-primary);
+  font-size: 0.875rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-col h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.85rem;
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+
+.footer-col h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 32px;
+  height: 2px;
+  background-color: var(--gov-gold);
+}
+
+.footer-col p {
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-col ul a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.footer-col ul a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-bottom-bar {
+  background-color: #041228;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.8125rem;
+  color: #94a3b8;
+}
+
+.footer-bottom-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* ==========================================================================
+   Responsividade Mobile
+   ========================================================================== */
+@media (max-width: 992px) {
+  .interactive-systems-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .systems-action-col {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .modal-main-content {
+    flex-direction: column;
+  }
+  .modal-sidebar {
+    width: 100%;
+    height: 40%;
+    border-left: none;
+    border-top: 1px solid var(--gov-border-light);
+  }
+  .modal-viewer-area {
+    height: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .maps-grid-view {
+    grid-template-columns: 1fr;
+  }
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-logos {
+    flex-wrap: wrap;
+  }
+  .search-and-views {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .regional-filter-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .regional-select-wrapper {
+    max-width: 100%;
+  }
+  .gov-data-table {
+    display: block;
+    overflow-x: auto;
+  }
+  .modal-window {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+}
