@@ -6,7 +6,7 @@
   <title>Repositório de Malhas Territoriais e Cartografia Temática | NGEO / IDEFLOR-Bio</title>
   
   <!-- Meta tags institucionais e SEO -->
-  <meta name="description" content="Repositório oficial de malhas territoriais, cartas temáticas e mapas de Unidades de Conservação do Estado do Pará. Elaborado pelo Núcleo de Geotecnologias (NGEO / IDEFLOR-Bio) no Sistema Geodésico SIRGAS 2000.">
+  <meta name="description" content="Repositório de malhas territoriais, cartas temáticas e mapas de Unidades de Conservação do Estado do Pará. Elaborado pelo Núcleo de Geotecnologias (NGEO / IDEFLOR-Bio) no Sistema Geodésico SIRGAS 2000.">
   <meta name="keywords" content="Mapas, Pará, Geociências, IDEFLOR-Bio, NGEO, Unidades de Conservação, SIRGAS 2000, Malhas Territoriais, ZEE, Calha Norte, Cartografia">
   <meta name="author" content="Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio — Governo do Estado do Pará">
   <meta name="theme-color" content="#1351b4">
@@ -14,7 +14,7 @@
   <!-- Open Graph / Redes Sociais -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Repositório de Cartografia Temática — NGEO / IDEFLOR-Bio">
-  <meta property="og:description" content="Catálogo oficial de cartas temáticas e malhas territoriais das Unidades de Conservação do Estado do Pará em alta definição.">
+  <meta property="og:description" content="Catálogo de cartas temáticas e malhas territoriais das Unidades de Conservação do Estado do Pará.">
   <meta property="og:image" content="assets/img/thumbnails/thumb-ucs-estaduais-a1.jpg">
   
   <link rel="icon" type="image/png" href="assets/img/brasao-para.png">
@@ -36,6 +36,7 @@
         <li><a href="https://ideflorbio.pa.gov.br/" target="_blank" rel="noopener noreferrer">Portal IDEFLOR-Bio</a></li>
         <li><a href="https://ngeo-ideflor-bio.github.io/visualizador/" target="_blank" rel="noopener noreferrer">Visualizador WebGIS</a></li>
         <li><a href="https://ngeo-ideflor-bio.github.io/guia-uc-para/" target="_blank" rel="noopener noreferrer">Guia de UCs</a></li>
+        <li><a href="https://ideflorbio.pa.gov.br/shapes-de-cada-unidade" target="_blank" rel="noopener noreferrer">Shapes das UCs</a></li>
         <li>
           <button id="contrastToggleBtn" class="accessibility-btn" title="Alternar Modo Alto Contraste">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
@@ -84,15 +85,20 @@
   </nav>
 
   <!-- 4. Conteúdo Central -->
-  <main class="container">
+  <main>
 
     <!-- Seção de Contexto e Apresentação Institucional -->
     <section class="hero-section">
-      <h2 class="hero-title">Bases Cartográficas e Produtos Geoespaciais do IDEFLOR-Bio</h2>
-      <p class="hero-description">
-        O Núcleo de Geotecnologias (NGEO) do IDEFLOR-Bio disponibiliza cartas temáticas das Unidades de Conservação Estaduais, corredores ecológicos, divisões por Gerências Regionais, Macrozoneamento (ZEE) e ordenamento territorial do Pará. Os arquivos podem ser baixados em PDF vetorial ou JPEG/PNG.
-      </p>
+      <div class="container">
+        <h2 class="hero-title">Bases Cartográficas e Produtos Geoespaciais do NGEO / IDEFLOR-Bio</h2>
+        <p class="hero-description">
+          O Núcleo de Geotecnologias (NGEO) do IDEFLOR-Bio disponibiliza cartas temáticas das Unidades de Conservação Estaduais, corredores ecológicos, divisões por Gerências Regionais, Macrozoneamento (ZEE) e ordenamento territorial do Pará. Os arquivos podem ser baixados em PDF vetorial ou JPEG/PNG.
+        </p>
+      </div>
     </section>
+
+    <section class="catalog-section">
+      <div class="container">
 
     <!-- Barra de Ferramentas, Busca e Filtros -->
     <section class="controls-card">
@@ -185,7 +191,6 @@
     <!-- Indicador de Resultados -->
     <div class="results-status-bar">
       <div>Exibindo <span id="resultsCount" class="results-count">17 mapas encontrados</span></div>
-      <div style="font-size: 0.8125rem;">Licença Creative Commons CC BY 4.0</div>
     </div>
 
     <!-- MODO 1: Grade de Cards Cartográficos -->
@@ -212,48 +217,6 @@
       </table>
     </section>
 
-    <!-- Seção de Metadados e Normas Técnicas Governamentais -->
-    <section class="technical-section">
-      <h3 class="tech-title">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="12" cy="12" r="10"></circle>
-          <line x1="12" y1="16" x2="12" y2="12"></line>
-          <line x1="12" y1="8" x2="12.01" y2="8"></line>
-        </svg>
-        Metadados, Padrões Cartográficos e Informações Legais
-      </h3>
-      <div class="tech-grid">
-        <div class="tech-box">
-          <h4>Sistema de Referência Espacial</h4>
-          <p>Todos os produtos geoespaciais foram elaborados e consolidados em conformidade com as normas oficiais da cartografia nacional:</p>
-          <ul>
-            <li><strong>Datum Geodésico:</strong> SIRGAS 2000 (EPSG: 4674)</li>
-            <li><strong>Elipsóide de Referência:</strong> GRS 1980</li>
-            <li><strong>Sistema de Coordenadas:</strong> Geográficas e Projetadas UTM (Fuso 21N, 21S, 22N, 22S).</li>
-          </ul>
-        </div>
-
-        <div class="tech-box">
-          <h4>Autoridade e Produção Técnica</h4>
-          <p>Elaboração conduzida pelo <strong>Núcleo de Geotecnologias (NGEO)</strong>, vinculado à Diretoria de Gestão e Desenvolvimento de Unidades de Conservação (DGMUC) do Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará (IDEFLOR-Bio).</p>
-        </div>
-
-        <div class="tech-box">
-          <h4>Bases Vetoriais e Fontes Oficiais</h4>
-          <p>As malhas cartográficas incorporam dados homologados de:</p>
-          <ul>
-            <li>Instituto de Desenvolvimento Florestal e da Biodiversidade (IDEFLOR-Bio)</li>
-            <li>Instituto de Terras do Pará (ITERPA)</li>
-            <li>Instituto Brasileiro de Geografia e Estatística (IBGE)</li>
-            <li>Fundação Nacional dos Povos Indígenas (FUNAI)</li>
-            <li>Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)</li>
-          </ul>
-        </div>
-
-        <div class="tech-box">
-          <h4>Licença e Direitos de Uso</h4>
-          <p>Estes dados são públicos e abertos sob os termos da licença <strong>Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)</strong>. É permitido o download, compartilhamento, adaptação e uso para fins científicos, acadêmicos e técnicos, desde que atribuída a devida autoria ao NGEO/IDEFLOR-Bio.</p>
-        </div>
       </div>
     </section>
 
@@ -328,18 +291,19 @@
 
         <div class="footer-col">
           <h4>Núcleo de Geotecnologias</h4>
-          <p>Responsável pela padronização e estruturação dos dados geoespaciais, sensoriamento remoto e cartografia oficial das Unidades de Conservação e políticas florestais do Estado do Pará.</p>
+          <p>O NGEO é o setor responsável pela padronização e estruturação dos dados geoespaciais, sensoriamento remoto e cartografia das Unidades de Conservação e políticas florestais do Estado do Pará.</p>
+          <p>Este portal é mantido pelo NGEO.</p>
           <p><strong>E-mail NGEO:</strong> ngeo@ideflorbio.pa.gov.br</p>
         </div>
 
         <div class="footer-col">
-          <h4>Sistemas e Portais Oficiais</h4>
+          <h4>Sistemas e Portais</h4>
           <ul>
-            <li><a href="https://ideflorbio.pa.gov.br/" target="_blank" rel="noopener noreferrer">Portal Oficial do IDEFLOR-Bio</a></li>
+            <li><a href="https://ideflorbio.pa.gov.br/" target="_blank" rel="noopener noreferrer">Portal do IDEFLOR-Bio</a></li>
             <li><a href="https://ngeo-ideflor-bio.github.io/visualizador/" target="_blank" rel="noopener noreferrer">Visualizador WebGIS do Estado do Pará</a></li>
             <li><a href="https://ngeo-ideflor-bio.github.io/guia-uc-para/" target="_blank" rel="noopener noreferrer">Guia Interativo de UCs do Pará</a></li>
+            <li><a href="https://ideflorbio.pa.gov.br/shapes-de-cada-unidade" target="_blank" rel="noopener noreferrer">Shapes das Unidades de Conservação</a></li>
             <li><a href="https://www.pa.gov.br" target="_blank" rel="noopener noreferrer">Governo do Estado do Pará</a></li>
-            <li><a href="https://iterpa.pa.gov.br" target="_blank" rel="noopener noreferrer">ITERPA - Instituto de Terras do Pará</a></li>
           </ul>
         </div>
 
@@ -347,8 +311,7 @@
           <h4>Legislação e Normas</h4>
           <ul>
             <li><a href="https://www.planalto.gov.br/ccivil_03/leis/l9985.htm" target="_blank" rel="noopener noreferrer">Lei Federal nº 9.985/2000 (SNUC)</a></li>
-            <li><a href="https://ideflorbio.pa.gov.br/legislacao/" target="_blank" rel="noopener noreferrer">Legislação e SEUC - IDEFLOR-Bio</a></li>
-            <li><a href="https://geoftp.ibge.gov.br/metodos_e_outros_documentos_de_referencia/normas/resolucao_pr_01_25fev2005.pdf" target="_blank" rel="noopener noreferrer">Resolução IBGE SIRGAS 2000</a></li>
+            <li><a href="https://ideflorbio.pa.gov.br/wp-content/uploads/2024/02/Lei-n-o-10.306-2023-Sistema-Estadual-de-Unidades-de-Conservacoes-SEUC.pdf" target="_blank" rel="noopener noreferrer">Lei nº 10.306/2023 — SEUC</a></li>
           </ul>
         </div>
       </div>
@@ -357,10 +320,10 @@
     <div class="footer-bottom-bar">
       <div class="container footer-bottom-flex">
         <div>
-          © 2026 Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará (IDEFLOR-Bio). Todos os direitos reservados.
+          © 2026 Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará (IDEFLOR-Bio). Conteúdo disponibilizado sob licença Creative Commons CC BY 4.0.
         </div>
         <div>
-          Repositório Oficial de Malhas Territoriais e Cartografia Temática — NGEO / IDEFLOR-Bio
+          Repositório de Malhas Territoriais e Cartografia Temática — NGEO / IDEFLOR-Bio
         </div>
       </div>
     </div>

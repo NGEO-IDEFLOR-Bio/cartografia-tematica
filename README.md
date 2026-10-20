@@ -1,14 +1,13 @@
-# Repositório de Malhas Territoriais e Cartografia Temática Oficial
+# Repositório de Malhas Territoriais e Cartografia Temática
 
 **Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará (IDEFLOR-Bio)**  
-**Diretoria de Gestão e Desenvolvimento de Unidades de Conservação (DGMUC)**  
 **Núcleo de Geotecnologias (NGEO)**  
 
 ---
 
 ## 1. Descrição do Repositório
 
-O presente repositório constitui o catálogo digital oficial de malhas territoriais, cartas temáticas e produtos cartográficos elaborados pelo Núcleo de Geotecnologias (NGEO) do Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará (IDEFLOR-Bio). 
+O presente repositório constitui o catálogo digital de malhas territoriais, cartas temáticas e produtos cartográficos elaborados pelo Núcleo de Geotecnologias (NGEO) do Instituto de Desenvolvimento Florestal e da Biodiversidade do Estado do Pará (IDEFLOR-Bio). 
 
 A infraestrutura foi concebida sob padrões de dados abertos governamentais para fornecer acesso público, padronizado e rastreável às bases cartográficas que subsidiam o planejamento territorial, a gestão das Unidades de Conservação da Natureza no âmbito do Sistema Estadual de Unidades de Conservação (SEUC), a regularização ambiental e as políticas públicas florestais no Estado do Pará.
 
@@ -122,4 +121,4 @@ A inclusão de novas folhas e cartas das demais Gerências Regionais deve observ
 
 Os dados e produtos cartográficos contidos neste repositório são públicos e regidos pela licença **Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)**. A utilização, reprodução e derivação são livres, mediante citação da fonte:
 
-> PARÁ (Estado). Instituto de Desenvolvimento Florestal e da Biodiversidade (IDEFLOR-Bio). Núcleo de Geotecnologias (NGEO). *Repositório de Malhas Territoriais e Cartografia Temática Oficial*. Belém: IDEFLOR-Bio, 2026.
+> PARÁ (Estado). Instituto de Desenvolvimento Florestal e da Biodiversidade (IDEFLOR-Bio). Núcleo de Geotecnologias (NGEO). *Repositório de Malhas Territoriais e Cartografia Temática*. Belém: IDEFLOR-Bio, 2026.

@@ -1,5 +1,5 @@
 /**
- * Repositório de Malhas Territoriais e Cartografia Temática Oficial
+ * Repositório de Malhas Territoriais e Cartografia Temática
  * Núcleo de Geotecnologias (NGEO) — Instituto de Desenvolvimento Florestal e da Biodiversidade (IDEFLOR-Bio)
  * Governo do Estado do Pará
  */
@@ -159,7 +159,7 @@ const MAPS_DATABASE = [
     "paper_size": "A1 (594 × 841 mm)",
     "datum": "SIRGAS 2000",
     "date": "2025/2026",
-    "source_org": "NGEO / DGMUC / IDEFLOR-Bio",
+    "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
     "description": "Mapeamento das áreas sob jurisdição, monitoramento e fiscalização direta do IDEFLOR-Bio no Pará. Integra unidades de Uso Sustentável, Proteção Integral e perímetros prioritários para concessões florestais e restauração da biodiversidade.",
     "tags": [
@@ -194,7 +194,7 @@ const MAPS_DATABASE = [
     "paper_size": "A1 (594 × 841 mm)",
     "datum": "SIRGAS 2000",
     "date": "2025/2026",
-    "source_org": "NGEO / IDEFLOR-Bio / ITERPA",
+    "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
     "description": "Mapeamento da malha fundiária estadual e federal em território paraense. Discrimina Terras Indígenas demarcadas e homologadas, Territórios Quilombolas titulados, Projetos de Assentamento da Reforma Agrária (PA, PAF, PDS), Glebas Públicas Estaduais e Federais e Imóveis Rurais.",
     "tags": [
@@ -265,7 +265,7 @@ const MAPS_DATABASE = [
     "paper_size": "A1 (594 × 841 mm)",
     "datum": "SIRGAS 2000",
     "date": "Outubro de 2026",
-    "source_org": "NGEO / DGMUC / IDEFLOR-Bio",
+    "source_org": "NGEO / IDEFLOR-Bio",
     "jurisdiction": "Governo do Estado do Pará",
     "description": "Espacialização de todas as Unidades de Conservação estaduais agrupadas por suas respectivas Gerências Regionais da DGMUC/IDEFLOR-Bio (Calha Norte I e II, Belém/Metropolitana, Marajó, Tocantins/Estrada de Ferro, Baixo Amazonas, Xingu, Tapajós e Araguaia).",
     "tags": [

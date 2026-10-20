@@ -1,5 +1,5 @@
 /**
- * Repositório de Malhas Territoriais e Cartografia Temática Oficial
+ * Repositório de Malhas Territoriais e Cartografia Temática
  * NGEO / IDEFLOR-Bio — Governo do Estado do Pará
  * Lógica da Aplicação (Busca, Filtros Regionais, Abas, Grade/Tabela e Modal Pan/Zoom)
  */
