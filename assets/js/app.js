@@ -158,10 +158,6 @@ document.addEventListener("DOMContentLoaded", () => {
             
             <div class="card-metadata-list">
               <div class="card-meta-row">
-                <span class="card-meta-label">Sistema Geodésico:</span>
-                <span class="card-meta-val">${map.datum}</span>
-              </div>
-              <div class="card-meta-row">
                 <span class="card-meta-label">Formato de Folha:</span>
                 <span class="card-meta-val">${map.paper_size}</span>
               </div>
@@ -177,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
                   <circle cx="12" cy="12" r="3"></circle>
                 </svg>
-                Visualizar Mapa em Alta Resolução
+                Visualizar mapa
               </button>
               <div class="card-download-buttons">
                 ${dlButtonsHTML}
@@ -237,7 +233,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="table-actions-cell">
               <button class="table-action-btn" style="background-color: var(--gov-blue-light); color: var(--gov-blue-primary); border-color: rgba(19,81,180,0.3);" onclick="window.openMapModal('${map.id}')">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path></svg>
-                Inspecionar
+                Visualizar
               </button>
               ${actionsHTML}
             </div>
@@ -422,7 +418,7 @@ document.addEventListener("DOMContentLoaded", () => {
     state.activeMap = map;
 
     modalTitle.textContent = map.title;
-    modalSubtitle.textContent = `${map.regional_name} • ${map.category_label} • Escala ${map.scale} • Datum ${map.datum}`;
+    modalSubtitle.textContent = `${map.regional_name} • ${map.category_label} • Escala ${map.scale}`;
     modalDesc.textContent = map.description;
 
     // Metadados técnicos no painel lateral
@@ -553,7 +549,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const originalText = copyCitationBtn.innerHTML;
       copyCitationBtn.innerHTML = `
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-        Copiado com Sucesso!
+        Copiado
       `;
       copyCitationBtn.style.borderColor = "var(--gov-green-primary)";
       copyCitationBtn.style.color = "var(--gov-green-primary)";
