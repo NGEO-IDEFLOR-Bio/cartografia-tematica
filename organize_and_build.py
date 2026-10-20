@@ -102,7 +102,7 @@ items_config = [
         "paper_size": "A1 (594 × 841 mm)",
         "datum": "SIRGAS 2000",
         "date": "2025/2026",
-        "source_org": "NGEO / DGMUC / IDEFLOR-Bio",
+        "source_org": "NGEO / IDEFLOR-Bio",
         "jurisdiction": "Governo do Estado do Pará",
         "description": "Mapeamento das áreas sob jurisdição, monitoramento e fiscalização direta do IDEFLOR-Bio no Pará. Integra unidades de Uso Sustentável, Proteção Integral e perímetros prioritários para concessões florestais e restauração da biodiversidade.",
         "tags": ["IDEFLOR-Bio", "Gestão Territorial", "Folha A1", "Amazônia"],
@@ -123,7 +123,7 @@ items_config = [
         "paper_size": "A1 (594 × 841 mm)",
         "datum": "SIRGAS 2000",
         "date": "2025/2026",
-        "source_org": "NGEO / IDEFLOR-Bio / ITERPA",
+        "source_org": "NGEO / IDEFLOR-Bio",
         "jurisdiction": "Governo do Estado do Pará",
         "description": "Mapeamento da malha fundiária estadual e federal em território paraense. Discrimina Terras Indígenas demarcadas e homologadas, Territórios Quilombolas titulados, Projetos de Assentamento da Reforma Agrária (PA, PAF, PDS), Glebas Públicas Estaduais e Federais e Imóveis Rurais.",
         "tags": ["Fundiário", "Terras Indígenas", "Quilombolas", "Glebas Públicas"],
@@ -165,7 +165,7 @@ items_config = [
         "paper_size": "A1 (594 × 841 mm)",
         "datum": "SIRGAS 2000",
         "date": "Outubro de 2026",
-        "source_org": "NGEO / DGMUC / IDEFLOR-Bio",
+        "source_org": "NGEO / IDEFLOR-Bio",
         "jurisdiction": "Governo do Estado do Pará",
         "description": "Espacialização de todas as Unidades de Conservação estaduais agrupadas por suas respectivas Gerências Regionais da DGMUC/IDEFLOR-Bio (Calha Norte I e II, Belém/Metropolitana, Marajó, Tocantins/Estrada de Ferro, Baixo Amazonas, Xingu, Tapajós e Araguaia).",
         "tags": ["Gerências Regionais", "Gestão Ambiental", "IDEFLOR-Bio"],
@@ -472,7 +472,7 @@ for item in items_config:
     })
 
 # Escrever assets/js/data.js com REGIONAL_OFFICES e MAPS_DATABASE
-js_code = "/**\n * Repositório de Malhas Territoriais e Cartografia Temática Oficial\n * Núcleo de Geotecnologias (NGEO) — Instituto de Desenvolvimento Florestal e da Biodiversidade (IDEFLOR-Bio)\n * Governo do Estado do Pará\n */\n\n"
+js_code = "/**\n * Repositório de Malhas Territoriais e Cartografia Temática\n * Núcleo de Geotecnologias (NGEO) — Instituto de Desenvolvimento Florestal e da Biodiversidade (IDEFLOR-Bio)\n * Governo do Estado do Pará\n */\n\n"
 js_code += f"const REGIONAL_OFFICES = {json.dumps(REGIONAL_OFFICES, indent=2, ensure_ascii=False)};\n\n"
 js_code += f"const MAPS_DATABASE = {json.dumps(processed_items, indent=2, ensure_ascii=False)};\n"
 
