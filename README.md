@@ -44,13 +44,23 @@ A divisão do acervo reflete a estrutura de governança territorial da DGMUC/IDE
 > **Fonte da estrutura de Gerências Regionais.** A lista acima reproduz a estrutura
 > oficial da DGMUC para as 29 Unidades de Conservação estaduais sob gestão do
 > IDEFLOR-Bio, o que totaliza 9 Gerências Regionais, conforme o cadastro
-> `shapes_de_todas_as_unidades_com_gerencia.geojson` (NGEO, 21/10/2026). O escopo
-> **GERAL** permanece como âmbito estadual geral dos produtos cartográficos.
+> **"Shapes de cada unidade"** do portal IDEFLOR-Bio
+> (<https://ideflorbio.pa.gov.br/shapes-de-cada-unidade>) e o shapefile consolidado
+> `Shapefile_UCs_Estaduais_IDEFLOR-Bio`. O escopo **GERAL** permanece como âmbito
+> estadual geral dos produtos cartográficos.
 >
 > *Registro de alteração (21/10/2026):* **GRCN-III**, **GRTUC**, **GRM** e **GRNE** foram
 > incorporadas; **GRMR**, **GRET**, **GRBA** e **GRT** não integram a estrutura vigente e
-> foram removidas. **GRCN-II** e **GRX** mantiveram seus identificadores, de modo que os
-> 17 produtos já publicados permanecem vinculados às respective gerências.
+> foram removidas — as quatro constavam apenas como "em processo de homologação técnica",
+> sem acervo correspondente e sem respaldo no cadastro oficial. **GRCN-II** e **GRX**
+> mantiveram seus identificadores, de modo que os 17 produtos já publicados permanecem
+> vinculados às respectivas gerências.
+>
+> *Observações de nomenclatura:* o cadastro oficial grafa as gerências da Calha Norte com
+> numeral romano por extenso ("Calha Norte l", "ll", "lll"), em que o caractere "l"
+> corresponde a "I" — a mesma substituição ocorre no portal com "UMF l/ll/lll" e
+> "UMF Vlll". A sigla **GRM** (Marajó) consta do shapefile consolidado, não da página
+> "Shapes de cada unidade".
 
 ---
 
