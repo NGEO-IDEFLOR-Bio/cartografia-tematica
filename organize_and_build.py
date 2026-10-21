@@ -32,12 +32,14 @@ def find_file_by_query(directories, keywords, extension):
     return None
 
 # Lista de Gerências Regionais do IDEFLOR-Bio.
-# Estrutura oficial da DGMUC, conforme o cadastro das 29 UCs estaduais sob gestão do
-# IDEFLOR-Bio (9 Gerências Regionais) - shapes_de_todas_as_unidades_com_gerencia.geojson
-# (NGEO, 21/10/2026). Registro de alteração: GRCN-III, GRTUC, GRM e GRNE foram
-# incorporadas; GRMR, GRET, GRBA e GRT não integram a estrutura vigente e foram
-# removidas. GRCN-II e GRX mantiveram os identificadores, preservando os vínculos
-# dos produtos já publicados.
+# Estrutura oficial da DGMUC para as 29 UCs estaduais sob gestão do IDEFLOR-Bio
+# (9 Gerências Regionais), conforme "Shapes de cada unidade" do portal IDEFLOR-Bio
+# (https://ideflorbio.pa.gov.br/shapes-de-cada-unidade) e o shapefile consolidado
+# Shapefile_UCs_Estaduais_IDEFLOR-Bio. Registro de alteração (21/10/2026): GRCN-III,
+# GRTUC, GRM e GRNE foram incorporadas; GRMR, GRET, GRBA e GRT não integram a estrutura
+# vigente e foram removidas (constavam apenas como "em homologação técnica", sem
+# acervo e sem respaldo no cadastro oficial). GRCN-II e GRX mantiveram os
+# identificadores, preservando os vínculos dos produtos já publicados.
 REGIONAL_OFFICES = [
     {"id": "all", "sigla": "TODAS", "name": "Todas as Gerências Regionais / Geral Estadual", "status": "active"},
     {"id": "estadual", "sigla": "GERAL", "name": "Âmbito Estadual Geral (Pará)", "status": "active"},
