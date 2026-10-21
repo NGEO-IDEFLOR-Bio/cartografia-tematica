@@ -31,15 +31,26 @@ A divisão do acervo reflete a estrutura de governança territorial da DGMUC/IDE
 | Identificador | Nomenclatura Regional | Abrangência e Status |
 | :--- | :--- | :--- |
 | **GERAL** | Âmbito Geral do Estado do Pará | Acervo ativo: ZEE Macro, Mosaicos Gerais e Ordenamento Territorial |
-| **GRCN-II** | Gerência Regional Calha Norte II | Acervo ativo: Cartas em folha A0, ESEC Mamuru, FLOTAs Faro, Paru e Trombetas, e PE PAGAM |
-| **GRX** | Gerência Regional Xingu | Acervo ativo: REVIS Tabuleiro do Embaubal e sítios críticos |
-| **GRCN-I** | Gerência Regional Calha Norte I | Em processo de homologação técnica |
-| **GRB** | Gerência Regional Belém / Região Metropolitana | Em processo de homologação técnica |
-| **GRMR** | Gerência Regional Marajó | Em processo de homologação técnica |
-| **GRET** | Gerência Regional Tocantins / Estrada de Ferro | Em processo de homologação técnica |
-| **GRBA** | Gerência Regional Baixo Amazonas | Em processo de homologação técnica |
-| **GRT** | Gerência Regional Tapajós | Em processo de homologação técnica |
-| **GRA** | Gerência Regional Araguaia | Em processo de homologação técnica |
+| **GRCN-II** | Gerência Regional da Calha Norte II | Acervo ativo: Cartas em folha A0, ESEC Mamuru, FLOTAs Faro, Paru e Trombetas, e PE PAGAM |
+| **GRX** | Gerência Regional do Xingu | Acervo ativo: REVIS Tabuleiro do Embaubal e sítios críticos |
+| **GRCN-I** | Gerência Regional da Calha Norte I | Em processo de homologação técnica |
+| **GRCN-III** | Gerência Regional da Calha Norte III | Em processo de homologação técnica |
+| **GRB** | Gerência Regional de Belém / Região Metropolitana | Em processo de homologação técnica |
+| **GRTUC** | Gerência Regional de Tucuruí | Em processo de homologação técnica |
+| **GRA** | Gerência Regional do Araguaia | Em processo de homologação técnica |
+| **GRM** | Gerência Regional do Marajó | Em processo de homologação técnica |
+| **GRNE** | Gerência Regional do Nordeste | Em processo de homologação técnica |
+
+> **Fonte da estrutura de Gerências Regionais.** A lista acima reproduz a estrutura
+> oficial da DGMUC para as 29 Unidades de Conservação estaduais sob gestão do
+> IDEFLOR-Bio, o que totaliza 9 Gerências Regionais, conforme o cadastro
+> `shapes_de_todas_as_unidades_com_gerencia.geojson` (NGEO, 21/10/2026). O escopo
+> **GERAL** permanece como âmbito estadual geral dos produtos cartográficos.
+>
+> *Registro de alteração (21/10/2026):* **GRCN-III**, **GRTUC**, **GRM** e **GRNE** foram
+> incorporadas; **GRMR**, **GRET**, **GRBA** e **GRT** não integram a estrutura vigente e
+> foram removidas. **GRCN-II** e **GRX** mantiveram seus identificadores, de modo que os
+> 17 produtos já publicados permanecem vinculados às respective gerências.
 
 ---
 
