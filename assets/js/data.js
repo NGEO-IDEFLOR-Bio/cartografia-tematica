@@ -20,55 +20,55 @@ const REGIONAL_OFFICES = [
   {
     "id": "grcn-2",
     "sigla": "GRCN-II",
-    "name": "Gerência Regional Calha Norte II",
+    "name": "Gerência Regional da Calha Norte II",
     "status": "active"
   },
   {
     "id": "grx",
     "sigla": "GRX",
-    "name": "Gerência Regional Xingu",
+    "name": "Gerência Regional do Xingu",
     "status": "active"
   },
   {
     "id": "grcn-1",
     "sigla": "GRCN-I",
-    "name": "Gerência Regional Calha Norte I",
+    "name": "Gerência Regional da Calha Norte I",
+    "status": "pending"
+  },
+  {
+    "id": "grcn-3",
+    "sigla": "GRCN-III",
+    "name": "Gerência Regional da Calha Norte III",
     "status": "pending"
   },
   {
     "id": "grb",
     "sigla": "GRB",
-    "name": "Gerência Regional Belém / Região Metropolitana",
+    "name": "Gerência Regional de Belém / Região Metropolitana",
     "status": "pending"
   },
   {
-    "id": "grmr",
-    "sigla": "GRMR",
-    "name": "Gerência Regional Marajó",
-    "status": "pending"
-  },
-  {
-    "id": "gret",
-    "sigla": "GRET",
-    "name": "Gerência Regional Tocantins / Estrada de Ferro",
-    "status": "pending"
-  },
-  {
-    "id": "grba",
-    "sigla": "GRBA",
-    "name": "Gerência Regional Baixo Amazonas",
-    "status": "pending"
-  },
-  {
-    "id": "grt",
-    "sigla": "GRT",
-    "name": "Gerência Regional Tapajós",
+    "id": "grtuc",
+    "sigla": "GRTUC",
+    "name": "Gerência Regional de Tucuruí",
     "status": "pending"
   },
   {
     "id": "gra",
     "sigla": "GRA",
-    "name": "Gerência Regional Araguaia",
+    "name": "Gerência Regional do Araguaia",
+    "status": "pending"
+  },
+  {
+    "id": "grm",
+    "sigla": "GRM",
+    "name": "Gerência Regional do Marajó",
+    "status": "pending"
+  },
+  {
+    "id": "grne",
+    "sigla": "GRNE",
+    "name": "Gerência Regional do Nordeste",
     "status": "pending"
   }
 ];
