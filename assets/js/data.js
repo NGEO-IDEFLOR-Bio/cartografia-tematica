@@ -727,5 +727,248 @@ const MAPS_DATABASE = [
         "extension": "JPG"
       }
     ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-limites",
+    "title": "Limites Territoriais e Unidades de Conservação Estaduais — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Limites e UCs — Tabuleiro do Embaubal e Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Delimitação Cartográfica e Regime Jurídico das UCs",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Delimitação territorial e espacialização do Refúgio de Vida Silvestre (REVIS) Tabuleiro do Embaubal (Proteção Integral) e da Reserva de Desenvolvimento Sustentável (RDS) Vitória de Souzel (Uso Sustentável). Destaca os limites municipais de Senador José Porfírio e Vitória do Xingu, a calha do Rio Xingu e os perímetros legais das unidades de conservação.",
+    "tags": [
+      "Tabuleiro do Embaubal",
+      "Vitória de Souzel",
+      "REVIS",
+      "RDS",
+      "Xingu",
+      "Senador José Porfírio",
+      "Folha A1",
+      "Limites Territoriais",
+      "Proteção Integral",
+      "Uso Sustentável"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-limites.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.pdf",
+        "size": "7.2 MB",
+        "bytes": 7543651,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.jpg",
+        "size": "1011 KB",
+        "bytes": 1035508,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-gestao",
+    "title": "Gestão Territorial, Infraestrutura Operacional e Acessos — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Gestão, Infraestrutura e Acessos — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Gestão Operacional, Acessos Fluviais e Infraestrutura",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Mapeamento da infraestrutura pública e operacional de apoio à gestão das UCs: bases de observação e monitoramento, trapiches e trajetos fluviais de acesso, escolas ribeirinhas, construções comunitárias e registro de pressões antrópicas, áreas afetadas por fogo/incêndio e criação de búfalos.",
+    "tags": [
+      "Gestão Territorial",
+      "Infraestrutura Operacional",
+      "Acessos Fluviais",
+      "Bases de Monitoramento",
+      "Xingu",
+      "REVIS",
+      "RDS",
+      "Pressões Ambientais"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-gestao.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
+        "size": "7.5 MB",
+        "bytes": 7837012,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.jpg",
+        "size": "1.0 MB",
+        "bytes": 1068466,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-biodiversidade",
+    "title": "Biodiversidade e Proteção Ambiental — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Biodiversidade e Proteção Ambiental — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Fauna, Flora e Habitats Críticos de Reprodução",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Zoneamento da biodiversidade com ênfase nas áreas de reprodução e desova de quelônios aquáticos (Tartaruga-da-Amazônia — Podocnemis expansa e Tracajá — Podocnemis unifilis) nos tabuleiros e praias fluviais do Rio Xingu, sítios de desova e refúgio de ictiofauna (curimatã e peixes migradores) e inventário de árvores matrizes da vegetação e flora amazônica.",
+    "tags": [
+      "Biodiversidade",
+      "Quelônios",
+      "Tartaruga-da-Amazônia",
+      "Tracajá",
+      "Áreas de Desova",
+      "Ictiofauna",
+      "Curimatã",
+      "Árvores Matrizes",
+      "Rio Xingu"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-biodiversidade.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
+        "size": "14.2 MB",
+        "bytes": 14896142,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.jpg",
+        "size": "1.0 MB",
+        "bytes": 1053868,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-comunidades",
+    "title": "Comunidades e Uso Tradicional — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Comunidades e Uso Tradicional — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Populações Tradicionais e Modo de Vida Ribeirinho",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Mapeamento socioambiental das comunidades ribeirinhas residentes e usuárias do território da RDS Vitória de Souzel e entorno do REVIS. Espacializa residências de moradores ribeirinhos, pontos de apoio pesqueiro e ranchos artesanais, fornecendo base cartográfica para acordos de gestão participativa e o plano de manejo da unidade.",
+    "tags": [
+      "Comunidades Tradicionais",
+      "Ribeirinhos",
+      "Pesca Artesanal",
+      "Ranchos Pesqueiros",
+      "RDS Vitória de Souzel",
+      "Uso Sustentável",
+      "Gestão Participativa"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-comunidades.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
+        "size": "7.6 MB",
+        "bytes": 7981933,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.jpg",
+        "size": "1.0 MB",
+        "bytes": 1092213,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-hidrografia",
+    "title": "Quadro Hidrográfico e Referências Locais — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Quadro Hidrográfico e Referências — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Malha Hidrográfica, Ilhas Fluviais, Praias e Toponímia",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Levantamento cartográfico do complexo hidrográfico do Rio Xingu no setor das unidades. Mapeia detalhadamente ilhas fluviais, praias, tabuleiros arenosos sazonais, furos, igarapés, lagos marginais e marcos de referência geográfica fundamentais à navegação fluvial, fiscalização e proteção territorial.",
+    "tags": [
+      "Hidrografia",
+      "Rio Xingu",
+      "Ilhas Fluviais",
+      "Praias Fluviais",
+      "Tabuleiros Arenosos",
+      "Igarapés",
+      "Furos",
+      "Toponímia",
+      "Navegação"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-hidrografia.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
+        "size": "8.4 MB",
+        "bytes": 8768047,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.jpg",
+        "size": "1.2 MB",
+        "bytes": 1234379,
+        "extension": "JPG"
+      }
+    ]
   }
 ];

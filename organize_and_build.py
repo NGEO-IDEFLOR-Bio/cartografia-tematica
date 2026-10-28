@@ -5,6 +5,7 @@ import shutil
 from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
 import pdfplumber
+import pypdfium2 as pdfium
 
 def format_size(bytes_num):
     if bytes_num >= 1024 * 1024 * 1024:
@@ -417,6 +418,116 @@ items_config = [
             {"dirs": ["mapas_originais/gerencias_regionais/calha_norte_ii", "calhanorte-II"], "keywords": ["PAGAM"], "ext": ".pdf", "dest": "grcn-ii-parque-estadual-arvores-gigantes-pagam.pdf", "label": "Documento PDF Vetorial", "key": "pdf"},
             {"dirs": ["mapas_originais/gerencias_regionais/calha_norte_ii", "calhanorte-II"], "keywords": ["PAGAM"], "ext": ".jpeg", "dest": "grcn-ii-parque-estadual-arvores-gigantes-pagam.jpg", "label": "Imagem JPEG de Alta Definição", "key": "image"}
         ]
+    },
+    {
+        "id": "grx-tabuleiro-souzel-limites",
+        "title": "Limites Territoriais e Unidades de Conservação Estaduais — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+        "short_title": "Limites e UCs — Tabuleiro do Embaubal e Souzel",
+        "regional_id": "grx",
+        "regional_name": "Gerência Regional Xingu",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Delimitação Cartográfica e Regime Jurídico das UCs",
+        "scale": "1:60.000",
+        "paper_size": "A1 (594 × 841 mm)",
+        "datum": "SIRGAS 2000",
+        "date": "Outubro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Delimitação territorial e espacialização do Refúgio de Vida Silvestre (REVIS) Tabuleiro do Embaubal (Proteção Integral) e da Reserva de Desenvolvimento Sustentável (RDS) Vitória de Souzel (Uso Sustentável). Destaca os limites municipais de Senador José Porfírio e Vitória do Xingu, a calha do Rio Xingu e os perímetros legais das unidades de conservação.",
+        "tags": ["Tabuleiro do Embaubal", "Vitória de Souzel", "REVIS", "RDS", "Xingu", "Senador José Porfírio", "Folha A1", "Limites Territoriais", "Proteção Integral", "Uso Sustentável"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["01", "limites"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.pdf", "label": "Documento PDF Vetorial Plotter (A1)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["01", "limites"], "ext": ".jpg", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.jpg", "label": "Imagem JPEG de Alta Definição", "key": "image"}
+        ]
+    },
+    {
+        "id": "grx-tabuleiro-souzel-gestao",
+        "title": "Gestão Territorial, Infraestrutura Operacional e Acessos — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+        "short_title": "Gestão, Infraestrutura e Acessos — Souzel",
+        "regional_id": "grx",
+        "regional_name": "Gerência Regional Xingu",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Gestão Operacional, Acessos Fluviais e Infraestrutura",
+        "scale": "1:60.000",
+        "paper_size": "A1 (594 × 841 mm)",
+        "datum": "SIRGAS 2000",
+        "date": "Outubro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Mapeamento da infraestrutura pública e operacional de apoio à gestão das UCs: bases de observação e monitoramento, trapiches e trajetos fluviais de acesso, escolas ribeirinhas, construções comunitárias e registro de pressões antrópicas, áreas afetadas por fogo/incêndio e criação de búfalos.",
+        "tags": ["Gestão Territorial", "Infraestrutura Operacional", "Acessos Fluviais", "Bases de Monitoramento", "Xingu", "REVIS", "RDS", "Pressões Ambientais"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["02", "gest"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf", "label": "Documento PDF Vetorial Plotter (A1)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["02", "gest"], "ext": ".jpg", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.jpg", "label": "Imagem JPEG de Alta Definição", "key": "image"}
+        ]
+    },
+    {
+        "id": "grx-tabuleiro-souzel-biodiversidade",
+        "title": "Biodiversidade e Proteção Ambiental — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+        "short_title": "Biodiversidade e Proteção Ambiental — Souzel",
+        "regional_id": "grx",
+        "regional_name": "Gerência Regional Xingu",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Fauna, Flora e Habitats Críticos de Reprodução",
+        "scale": "1:60.000",
+        "paper_size": "A1 (594 × 841 mm)",
+        "datum": "SIRGAS 2000",
+        "date": "Outubro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Zoneamento da biodiversidade com ênfase nas áreas de reprodução e desova de quelônios aquáticos (Tartaruga-da-Amazônia — Podocnemis expansa e Tracajá — Podocnemis unifilis) nos tabuleiros e praias fluviais do Rio Xingu, sítios de desova e refúgio de ictiofauna (curimatã e peixes migradores) e inventário de árvores matrizes da vegetação e flora amazônica.",
+        "tags": ["Biodiversidade", "Quelônios", "Tartaruga-da-Amazônia", "Tracajá", "Áreas de Desova", "Ictiofauna", "Curimatã", "Árvores Matrizes", "Rio Xingu"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["03", "biodiversidade"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf", "label": "Documento PDF Vetorial Plotter (A1)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["03", "biodiversidade"], "ext": ".jpg", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.jpg", "label": "Imagem JPEG de Alta Definição", "key": "image"}
+        ]
+    },
+    {
+        "id": "grx-tabuleiro-souzel-comunidades",
+        "title": "Comunidades e Uso Tradicional — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+        "short_title": "Comunidades e Uso Tradicional — Souzel",
+        "regional_id": "grx",
+        "regional_name": "Gerência Regional Xingu",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Populações Tradicionais e Modo de Vida Ribeirinho",
+        "scale": "1:60.000",
+        "paper_size": "A1 (594 × 841 mm)",
+        "datum": "SIRGAS 2000",
+        "date": "Outubro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Mapeamento socioambiental das comunidades ribeirinhas residentes e usuárias do território da RDS Vitória de Souzel e entorno do REVIS. Espacializa residências de moradores ribeirinhos, pontos de apoio pesqueiro e ranchos artesanais, fornecendo base cartográfica para acordos de gestão participativa e o plano de manejo da unidade.",
+        "tags": ["Comunidades Tradicionais", "Ribeirinhos", "Pesca Artesanal", "Ranchos Pesqueiros", "RDS Vitória de Souzel", "Uso Sustentável", "Gestão Participativa"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["04", "comunidades"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.pdf", "label": "Documento PDF Vetorial Plotter (A1)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["04", "comunidades"], "ext": ".jpg", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.jpg", "label": "Imagem JPEG de Alta Definição", "key": "image"}
+        ]
+    },
+    {
+        "id": "grx-tabuleiro-souzel-hidrografia",
+        "title": "Quadro Hidrográfico e Referências Locais — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+        "short_title": "Quadro Hidrográfico e Referências — Souzel",
+        "regional_id": "grx",
+        "regional_name": "Gerência Regional Xingu",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Malha Hidrográfica, Ilhas Fluviais, Praias e Toponímia",
+        "scale": "1:60.000",
+        "paper_size": "A1 (594 × 841 mm)",
+        "datum": "SIRGAS 2000",
+        "date": "Outubro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Levantamento cartográfico do complexo hidrográfico do Rio Xingu no setor das unidades. Mapeia detalhadamente ilhas fluviais, praias, tabuleiros arenosos sazonais, furos, igarapés, lagos marginais e marcos de referência geográfica fundamentais à navegação fluvial, fiscalização e proteção territorial.",
+        "tags": ["Hidrografia", "Rio Xingu", "Ilhas Fluviais", "Praias Fluviais", "Tabuleiros Arenosos", "Igarapés", "Furos", "Toponímia", "Navegação"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["05", "hidrog"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.pdf", "label": "Documento PDF Vetorial Plotter (A1)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["05", "hidrog"], "ext": ".jpg", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.jpg", "label": "Imagem JPEG de Alta Definição", "key": "image"}
+        ]
     }
 ]
 
@@ -436,6 +547,25 @@ for item in items_config:
             if src_file:
                 shutil.copy2(src_file, dest_file)
                 print(f"  Copied {src_file} -> {dest_file}")
+            elif spec["ext"].lower() in [".jpg", ".jpeg"]:
+                # Se não há JPEG original, renderiza em alta definição a partir do PDF
+                pdf_src = find_file_by_query(spec["dirs"], spec["keywords"], ".pdf")
+                if not pdf_src:
+                    # Tenta no próprio assets/downloads se o PDF já foi copiado
+                    pdf_candidates = [s["dest"] for s in item["downloads_spec"] if s["ext"].lower() == ".pdf"]
+                    if pdf_candidates and os.path.exists(os.path.join("assets", "downloads", pdf_candidates[0])):
+                        pdf_src = os.path.join("assets", "downloads", pdf_candidates[0])
+                if pdf_src and os.path.exists(pdf_src):
+                    doc = pdfium.PdfDocument(pdf_src)
+                    page = doc[0]
+                    w_pt, h_pt = page.get_size()
+                    scale = 4092.0 / w_pt if w_pt > 0 else 1.7165
+                    bm = page.render(scale=scale)
+                    pil_img = bm.to_pil().convert("RGB")
+                    pil_img.save(dest_file, "JPEG", quality=88, optimize=True)
+                    print(f"  Rendered high-res JPEG from {pdf_src} -> {dest_file}")
+                else:
+                    print(f"  [WARN] Source not found for {spec['dest']}")
             else:
                 print(f"  [WARN] Source not found for {spec['dest']}")
 
@@ -457,6 +587,24 @@ for item in items_config:
 
     thumb_filename = f"thumb-{item['id']}.jpg"
     thumb_path = os.path.join("assets", "img", "thumbnails", thumb_filename)
+
+    # Gera thumbnail otimizado para web se ainda não existir
+    if not os.path.exists(thumb_path):
+        if preferred_img_for_thumb and os.path.exists(preferred_img_for_thumb):
+            with Image.open(preferred_img_for_thumb) as im:
+                im_rgb = im.convert("RGB")
+                im_rgb.thumbnail((1280, 1280), Image.Resampling.LANCZOS)
+                im_rgb.save(thumb_path, "JPEG", quality=85, optimize=True)
+                print(f"  Generated thumbnail from image -> {thumb_path}")
+        elif preferred_pdf_for_thumb and os.path.exists(preferred_pdf_for_thumb):
+            doc = pdfium.PdfDocument(preferred_pdf_for_thumb)
+            page = doc[0]
+            w_pt, h_pt = page.get_size()
+            scale = 1280.0 / w_pt if w_pt > 0 else 0.537
+            bm = page.render(scale=scale)
+            pil_img = bm.to_pil().convert("RGB")
+            pil_img.save(thumb_path, "JPEG", quality=85, optimize=True)
+            print(f"  Generated thumbnail from PDF -> {thumb_path}")
 
     processed_items.append({
         "id": item["id"],
@@ -487,4 +635,4 @@ js_code += f"const MAPS_DATABASE = {json.dumps(processed_items, indent=2, ensure
 with open("assets/js/data.js", "w", encoding="utf-8") as f:
     f.write(js_code)
 
-print("SUCCESS: Generated assets/js/data.js with regional offices hierarchy and 17 maps.")
+print(f"SUCCESS: Generated assets/js/data.js with regional offices hierarchy and {len(processed_items)} maps.")

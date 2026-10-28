@@ -32,7 +32,7 @@ A divisão do acervo reflete a estrutura de governança territorial da DGMUC/IDE
 | :--- | :--- | :--- |
 | **GERAL** | Âmbito Geral do Estado do Pará | Acervo ativo: ZEE Macro, Mosaicos Gerais e Ordenamento Territorial |
 | **GRCN-II** | Gerência Regional da Calha Norte II | Acervo ativo: Cartas em folha A0, ESEC Mamuru, FLOTAs Faro, Paru e Trombetas, e PE PAGAM |
-| **GRX** | Gerência Regional do Xingu | Acervo ativo: REVIS Tabuleiro do Embaubal e sítios críticos |
+| **GRX** | Gerência Regional do Xingu | Acervo ativo: Mosaico REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel (5 cartas temáticas A1: Limites, Gestão, Biodiversidade, Comunidades e Hidrografia) e praias interiores |
 | **GRCN-I** | Gerência Regional da Calha Norte I | Em processo de homologação técnica |
 | **GRCN-III** | Gerência Regional da Calha Norte III | Em processo de homologação técnica |
 | **GRB** | Gerência Regional de Belém / Região Metropolitana | Em processo de homologação técnica |
@@ -53,8 +53,8 @@ A divisão do acervo reflete a estrutura de governança territorial da DGMUC/IDE
 > incorporadas; **GRMR**, **GRET**, **GRBA** e **GRT** não integram a estrutura vigente e
 > foram removidas — as quatro constavam apenas como "em processo de homologação técnica",
 > sem acervo correspondente e sem respaldo no cadastro oficial. **GRCN-II** e **GRX**
-> mantiveram seus identificadores, de modo que os 17 produtos já publicados permanecem
-> vinculados às respectivas gerências.
+> mantiveram seus identificadores, de modo que os 22 produtos já publicados permanecem
+> vinculados às respectivas gerências (incluindo o conjunto temático A1 do Mosaico Tabuleiro do Embaubal e Vitória de Souzel na GRX).
 >
 > *Observações de nomenclatura:* o cadastro oficial grafa as gerências da Calha Norte com
 > numeral romano por extenso ("Calha Norte l", "ll", "lll"), em que o caractere "l"
