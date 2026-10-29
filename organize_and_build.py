@@ -50,7 +50,7 @@ REGIONAL_OFFICES = [
     {"id": "grcn-3", "sigla": "GRCN-III", "name": "Gerência Regional da Calha Norte III", "status": "pending"},
     {"id": "grb", "sigla": "GRB", "name": "Gerência Regional de Belém / Região Metropolitana", "status": "pending"},
     {"id": "grtuc", "sigla": "GRTUC", "name": "Gerência Regional de Tucuruí", "status": "pending"},
-    {"id": "gra", "sigla": "GRA", "name": "Gerência Regional do Araguaia", "status": "pending"},
+    {"id": "gra", "sigla": "GRA", "name": "Gerência Regional do Araguaia", "status": "active"},
     {"id": "grm", "sigla": "GRM", "name": "Gerência Regional do Marajó", "status": "pending"},
     {"id": "grne", "sigla": "GRNE", "name": "Gerência Regional do Nordeste", "status": "pending"}
 ]
@@ -272,8 +272,8 @@ items_config = [
         "short_title": "Mosaico Calha Norte II — Folha A0",
         "regional_id": "grcn-2",
         "regional_name": "Gerência Regional Calha Norte II",
-        "category": "calha-norte",
-        "category_label": "Gerência Regional Calha Norte II",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
         "theme": "Corredor Ecológico da Calha Norte Paraense",
         "scale": "1:1.000.000",
         "paper_size": "A0 (841 × 1189 mm)",
@@ -294,8 +294,8 @@ items_config = [
         "short_title": "Calha Norte II (Síntese)",
         "regional_id": "grcn-2",
         "regional_name": "Gerência Regional Calha Norte II",
-        "category": "calha-norte",
-        "category_label": "Gerência Regional Calha Norte II",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
         "theme": "Visão Territorial Integrada GRCN-II",
         "scale": "1:1.500.000",
         "paper_size": "A1 (594 × 841 mm)",
@@ -315,8 +315,8 @@ items_config = [
         "short_title": "ESEC Mamuru",
         "regional_id": "grcn-2",
         "regional_name": "Gerência Regional Calha Norte II",
-        "category": "calha-norte",
-        "category_label": "Gerência Regional Calha Norte II",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
         "theme": "Unidade de Conservação de Proteção Integral",
         "scale": "1:250.000",
         "paper_size": "A1 (594 × 841 mm)",
@@ -337,8 +337,8 @@ items_config = [
         "short_title": "FLOTA de Faro",
         "regional_id": "grcn-2",
         "regional_name": "Gerência Regional Calha Norte II",
-        "category": "calha-norte",
-        "category_label": "Gerência Regional Calha Norte II",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
         "theme": "Unidade de Conservação de Uso Sustentável",
         "scale": "1:350.000",
         "paper_size": "A1 (594 × 841 mm)",
@@ -359,8 +359,8 @@ items_config = [
         "short_title": "FLOTA do Paru",
         "regional_id": "grcn-2",
         "regional_name": "Gerência Regional Calha Norte II",
-        "category": "calha-norte",
-        "category_label": "Gerência Regional Calha Norte II",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
         "theme": "Unidade de Conservação de Uso Sustentável",
         "scale": "1:500.000",
         "paper_size": "A1 (594 × 841 mm)",
@@ -381,8 +381,8 @@ items_config = [
         "short_title": "FLOTA do Trombetas",
         "regional_id": "grcn-2",
         "regional_name": "Gerência Regional Calha Norte II",
-        "category": "calha-norte",
-        "category_label": "Gerência Regional Calha Norte II",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
         "theme": "Unidade de Conservação de Uso Sustentável",
         "scale": "1:400.000",
         "paper_size": "A1 (594 × 841 mm)",
@@ -403,8 +403,8 @@ items_config = [
         "short_title": "Parque Estadual PAGAM",
         "regional_id": "grcn-2",
         "regional_name": "Gerência Regional Calha Norte II",
-        "category": "calha-norte",
-        "category_label": "Gerência Regional Calha Norte II",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
         "theme": "Unidade de Conservação de Proteção Integral",
         "scale": "1:300.000",
         "paper_size": "A1 (594 × 841 mm)",
@@ -528,6 +528,160 @@ items_config = [
             {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["05", "hidrog"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.pdf", "label": "Documento PDF Vetorial Plotter (A1)", "key": "pdf"},
             {"dirs": ["mapas_originais/gerencias_regionais/xingu", "mapas_originais/TABULEIRO DO EMBAUBAL E VITÓRIA DE SOUZEL"], "keywords": ["05", "hidrog"], "ext": ".jpg", "dest": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.jpg", "label": "Imagem JPEG de Alta Definição", "key": "image"}
         ]
+    },
+    {
+        "id": "gra-pesam-elevacao",
+        "title": "Mapa de Elevação do Parque Estadual Serra dos Martírios/Andorinhas (PESAM)",
+        "short_title": "PESAM — Elevação e Hipsometria",
+        "regional_id": "gra",
+        "regional_name": "Gerência Regional Araguaia",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Hipsometria e Modelado do Relevo",
+        "scale": "1:215.000",
+        "paper_size": "A4 (210 × 297 mm) — 300 dpi",
+        "datum": "SIRGAS 2000",
+        "date": "Setembro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Mapeamento hipsométrico do Parque Estadual Serra dos Martírios/Andorinhas (PESAM) e seu entorno em São Geraldo do Araguaia e Palestina do Pará (fronteira com Tocantins). Representa as faixas altimétricas em classes desde cotas fluviais basais (<= 200 m) até picos e cristas quartzíticas superiores a 500 metros de altitude.",
+        "tags": ["PESAM", "Serra dos Martírios", "Andorinhas", "São Geraldo do Araguaia", "Elevação", "Hipsometria", "Relevo", "Folha A4", "Araguaia"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["elevacao"], "ext": ".pdf", "dest": "gra-pesam-mapa-elevacao-a4.pdf", "label": "Documento PDF de Alta Resolução (A4)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["elevacao"], "ext": ".png", "dest": "gra-pesam-mapa-elevacao-a4.png", "label": "Imagem PNG (A4, 300 dpi)", "key": "image"}
+        ]
+    },
+    {
+        "id": "gra-pesam-geologia-tempo",
+        "title": "Geologia (Tempo Geológico) do Parque Estadual Serra dos Martírios/Andorinhas (PESAM)",
+        "short_title": "PESAM — Geologia (Tempo Geológico)",
+        "regional_id": "gra",
+        "regional_name": "Gerência Regional Araguaia",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Cronoestratigrafia e Épocas Geológicas",
+        "scale": "1:215.000",
+        "paper_size": "A4 (210 × 297 mm) — 300 dpi",
+        "datum": "SIRGAS 2000",
+        "date": "Setembro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Carta cronoestratigráfica do PESAM e bacia do Rio Araguaia. Identifica terrenos do Fanerozoico (Cenozoica Quaternário Holoceno e Neógeno Mioceno; Paleozoica Carbonífero Pensilvaniano e Devoniano Médio Givetiano) e formações antigas do Pré-Cambriano / Proterozoico (Neoproterozoico Ediacarano e Criogeniano) que sustentam o arcabouço da Serra.",
+        "tags": ["PESAM", "Geologia", "Tempo Geológico", "Estratigrafia", "Proterozoico", "Paleozoico", "Cenozoico", "Araguaia"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["tempo"], "ext": ".pdf", "dest": "gra-pesam-geologia-tempo-geologico-a4.pdf", "label": "Documento PDF de Alta Resolução (A4)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["tempo"], "ext": ".png", "dest": "gra-pesam-geologia-tempo-geologico-a4.png", "label": "Imagem PNG (A4, 300 dpi)", "key": "image"}
+        ]
+    },
+    {
+        "id": "gra-pesam-geologia-subprovincias",
+        "title": "Geologia (Subprovíncias) do Parque Estadual Serra dos Martírios/Andorinhas (PESAM)",
+        "short_title": "PESAM — Geologia (Subprovíncias)",
+        "regional_id": "gra",
+        "regional_name": "Gerência Regional Araguaia",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Províncias Estruturais e Tectônica Regional",
+        "scale": "1:215.000",
+        "paper_size": "A4 (210 × 297 mm) — 300 dpi",
+        "datum": "SIRGAS 2000",
+        "date": "Setembro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Mapeamento das subprovíncias e domínios estruturais geológicos na região do PESAM. Destaca a Faixa Móvel Araguaia-Tocantins, a Borda Sul/Ocidental da Bacia Sedimentar do Parnaíba e as Coberturas Cenozoicas Indiscriminadas no vale aluvial do Rio Araguaia.",
+        "tags": ["PESAM", "Geologia", "Subprovíncias", "Faixa Araguaia-Tocantins", "Bacia do Parnaíba", "Tectônica", "Araguaia"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["subprovincias"], "ext": ".pdf", "dest": "gra-pesam-geologia-subprovincias-a4.pdf", "label": "Documento PDF de Alta Resolução (A4)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["subprovincias"], "ext": ".png", "dest": "gra-pesam-geologia-subprovincias-a4.png", "label": "Imagem PNG (A4, 300 dpi)", "key": "image"}
+        ]
+    },
+    {
+        "id": "gra-pesam-geomorfologia",
+        "title": "Geomorfologia do Parque Estadual Serra dos Martírios/Andorinhas (PESAM)",
+        "short_title": "PESAM — Geomorfologia",
+        "regional_id": "gra",
+        "regional_name": "Gerência Regional Araguaia",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Macroformas de Relevo e Morfoestrutura",
+        "scale": "1:215.000",
+        "paper_size": "A4 (210 × 297 mm) — 300 dpi",
+        "datum": "SIRGAS 2000",
+        "date": "Setembro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Compartimentação geomorfológica do PESAM identificando os domínios morfoestruturais: Serras escarpadas e platôs quartzíticos (relevo residual sustentado pela Serra das Andorinhas e dos Martírios), Patamares estruturais periféricos, Depressões interplanálticas e Planícies fluviais ao longo do canal do Rio Araguaia.",
+        "tags": ["PESAM", "Geomorfologia", "Relevo", "Serras", "Platôs", "Patamares", "Planícies", "Depressões", "Araguaia"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["geomorfologia"], "ext": ".pdf", "dest": "gra-pesam-geomorfologia-a4.pdf", "label": "Documento PDF de Alta Resolução (A4)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["geomorfologia"], "ext": ".png", "dest": "gra-pesam-geomorfologia-a4.png", "label": "Imagem PNG (A4, 300 dpi)", "key": "image"}
+        ]
+    },
+    {
+        "id": "gra-pesam-cpas-cotas",
+        "title": "Localização das CPAs no Parque Estadual Serra dos Martírios/Andorinhas (PESAM)",
+        "short_title": "PESAM — Localização das CPAs",
+        "regional_id": "gra",
+        "regional_name": "Gerência Regional Araguaia",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Zonamento, Cotas de Proteção e Fitofisionomias",
+        "scale": "1:215.000",
+        "paper_size": "A4 (210 × 297 mm) — 300 dpi",
+        "datum": "SIRGAS 2000",
+        "date": "Setembro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Mapeamento das Áreas Ocupadas por Cotas / Compartimentos de Proteção e Amortecimento (CPAs) no interior do Parque Estadual Serra dos Martírios/Andorinhas. Espacializa a poligonal de cotas sobre as classes fitofisionômicas nativas (florestas ombrófilas e savanas), subsidiando o plano de manejo, regularização e fiscalização do parque.",
+        "tags": ["PESAM", "CPAs", "Cotas de Proteção", "Zonamento", "Gestão Ambiental", "Plano de Manejo", "Araguaia"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["cotas"], "ext": ".pdf", "dest": "gra-pesam-localizacao-cpas-cotas-a4.pdf", "label": "Documento PDF de Alta Resolução (A4)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["cotas"], "ext": ".png", "dest": "gra-pesam-localizacao-cpas-cotas-a4.png", "label": "Imagem PNG (A4, 300 dpi)", "key": "image"}
+        ]
+    },
+    {
+        "id": "gra-pesam-pedologia",
+        "title": "Pedologia do Parque Estadual Serra dos Martírios/Andorinhas (PESAM)",
+        "short_title": "PESAM — Pedologia (Solos)",
+        "regional_id": "gra",
+        "regional_name": "Gerência Regional Araguaia",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Classificação Pedológica e Aptidão de Solos",
+        "scale": "1:215.000",
+        "paper_size": "A4 (210 × 297 mm) — 300 dpi",
+        "datum": "SIRGAS 2000",
+        "date": "Setembro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Carta pedológica do PESAM estruturada pelo SiBCS/IBGE. Discrimina Neossolos Litólicos (RLd) associados aos terrenos escarpados e rochosos, Argissolos Vermelho-Amarelos Distróficos (PVAd), Neossolos Quartzarênicos Órticos (RQo), Gleissolos Háplicos Tb Distróficos (GXbd), Latossolos Amarelos (LAd) e Plintossolos Pétricos Concrecionários (FFc).",
+        "tags": ["PESAM", "Pedologia", "Solos", "Neossolos Litólicos", "Argissolos", "Latossolos", "Gleissolos", "SiBCS", "Araguaia"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["pedologia"], "ext": ".pdf", "dest": "gra-pesam-pedologia-a4.pdf", "label": "Documento PDF de Alta Resolução (A4)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["pedologia"], "ext": ".png", "dest": "gra-pesam-pedologia-a4.png", "label": "Imagem PNG (A4, 300 dpi)", "key": "image"}
+        ]
+    },
+    {
+        "id": "gra-pesam-vegetacao",
+        "title": "Vegetação do Parque Estadual Serra dos Martírios/Andorinhas (PESAM)",
+        "short_title": "PESAM — Cobertura Vegetal",
+        "regional_id": "gra",
+        "regional_name": "Gerência Regional Araguaia",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Fitofisionomias e Cobertura Vegetal Nativa",
+        "scale": "1:215.000",
+        "paper_size": "A4 (210 × 297 mm) — 300 dpi",
+        "datum": "SIRGAS 2000",
+        "date": "Setembro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Mapeamento das tipologias vegetais e cobertura da terra no PESAM e zona de amortecimento. Mapeia a Floresta Ombrófila Densa Aluvial nas margens do Rio Araguaia, Floresta Ombrófila Aberta Submontana, Savana Florestada e Savana Arborizada (Cerrado Rupestre / Savana Metalófila nos cumes rochosos), além de áreas de pastagens e vegetação secundária.",
+        "tags": ["PESAM", "Vegetação", "Fitofisionomias", "Floresta Ombrófila", "Savana", "Cerrado Rupestre", "Biodiversidade", "Botânica", "Araguaia"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["vegetacao"], "ext": ".pdf", "dest": "gra-pesam-vegetacao-a4.pdf", "label": "Documento PDF de Alta Resolução (A4)", "key": "pdf"},
+            {"dirs": ["mapas_originais/gerencias_regionais/araguaia", "mapas_originais/PESAM"], "keywords": ["vegetacao"], "ext": ".png", "dest": "gra-pesam-vegetacao-a4.png", "label": "Imagem PNG (A4, 300 dpi)", "key": "image"}
+        ]
     }
 ]
 
@@ -564,6 +718,16 @@ for item in items_config:
                     pil_img = bm.to_pil().convert("RGB")
                     pil_img.save(dest_file, "JPEG", quality=88, optimize=True)
                     print(f"  Rendered high-res JPEG from {pdf_src} -> {dest_file}")
+                else:
+                    print(f"  [WARN] Source not found for {spec['dest']}")
+            elif spec["ext"].lower() == ".pdf":
+                # Se não há PDF original, mas há imagem de alta resolução (PNG/JPEG), gera PDF de 300 dpi
+                img_src = find_file_by_query(spec["dirs"], spec["keywords"], ".png") or find_file_by_query(spec["dirs"], spec["keywords"], ".jpg")
+                if img_src and os.path.exists(img_src):
+                    with Image.open(img_src) as im:
+                        im_rgb = im.convert("RGB")
+                        im_rgb.save(dest_file, "PDF", resolution=300.0)
+                        print(f"  Generated PDF from image {img_src} -> {dest_file}")
                 else:
                     print(f"  [WARN] Source not found for {spec['dest']}")
             else:

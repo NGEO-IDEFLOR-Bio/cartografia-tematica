@@ -37,7 +37,7 @@ A divisão do acervo reflete a estrutura de governança territorial da DGMUC/IDE
 | **GRCN-III** | Gerência Regional da Calha Norte III | Em processo de homologação técnica |
 | **GRB** | Gerência Regional de Belém / Região Metropolitana | Em processo de homologação técnica |
 | **GRTUC** | Gerência Regional de Tucuruí | Em processo de homologação técnica |
-| **GRA** | Gerência Regional do Araguaia | Em processo de homologação técnica |
+| **GRA** | Gerência Regional do Araguaia | Acervo ativo: Parque Estadual da Serra dos Martírios/Andorinhas — PESAM (7 cartas temáticas A4: Elevação, Geologia Tempo Geológico, Geologia Subprovíncias, Geomorfologia, Localização das CPAs, Pedologia e Vegetação) |
 | **GRM** | Gerência Regional do Marajó | Em processo de homologação técnica |
 | **GRNE** | Gerência Regional do Nordeste | Em processo de homologação técnica |
 
@@ -53,8 +53,8 @@ A divisão do acervo reflete a estrutura de governança territorial da DGMUC/IDE
 > incorporadas; **GRMR**, **GRET**, **GRBA** e **GRT** não integram a estrutura vigente e
 > foram removidas — as quatro constavam apenas como "em processo de homologação técnica",
 > sem acervo correspondente e sem respaldo no cadastro oficial. **GRCN-II** e **GRX**
-> mantiveram seus identificadores, de modo que os 22 produtos já publicados permanecem
-> vinculados às respectivas gerências (incluindo o conjunto temático A1 do Mosaico Tabuleiro do Embaubal e Vitória de Souzel na GRX).
+> mantiveram seus identificadores, de modo que os 29 produtos já publicados permanecem
+> vinculados às respectivas gerências (incluindo as cartas A1 do Mosaico Tabuleiro do Embaubal e Vitória de Souzel na GRX e a série temática A4 do PESAM na GRA).
 >
 > *Observações de nomenclatura:* o cadastro oficial grafa as gerências da Calha Norte com
 > numeral romano por extenso ("Calha Norte l", "ll", "lll"), em que o caractere "l"
