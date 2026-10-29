@@ -316,20 +316,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const office = REGIONAL_OFFICES.find(r => r.id === state.regionalOffice);
       if (office) {
         regionalPill.textContent = office.sigla;
-        if (state.regionalOffice === "grcn-2") {
-          // Sincronizar com aba Calha Norte II se for o caso
-          categoryTabs.forEach(t => {
-            if (t.getAttribute("data-category") === "calha-norte") t.classList.add("active");
-            else t.classList.remove("active");
-          });
-          state.category = "calha-norte";
-        } else if (state.category === "calha-norte" && state.regionalOffice !== "grcn-2") {
-          categoryTabs.forEach(t => {
-            if (t.getAttribute("data-category") === "all") t.classList.add("active");
-            else t.classList.remove("active");
-          });
-          state.category = "all";
-        }
       }
       render();
     });
@@ -341,18 +327,6 @@ document.addEventListener("DOMContentLoaded", () => {
       categoryTabs.forEach(t => t.classList.remove("active"));
       tab.classList.add("active");
       state.category = tab.getAttribute("data-category");
-
-      // Se clicou na aba Calha Norte II, sincroniza o dropdown regional
-      if (state.category === "calha-norte") {
-        state.regionalOffice = "grcn-2";
-        if (regionalSelect) regionalSelect.value = "grcn-2";
-        if (regionalPill) regionalPill.textContent = "GRCN-II";
-      } else if (state.regionalOffice === "grcn-2") {
-        state.regionalOffice = "all";
-        if (regionalSelect) regionalSelect.value = "all";
-        if (regionalPill) regionalPill.textContent = "Todas as Regionais";
-      }
-
       render();
     });
   });
