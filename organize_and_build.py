@@ -44,15 +44,15 @@ def find_file_by_query(directories, keywords, extension):
 REGIONAL_OFFICES = [
     {"id": "all", "sigla": "TODAS", "name": "Todas as Gerências Regionais / Geral Estadual", "status": "active"},
     {"id": "estadual", "sigla": "GERAL", "name": "Âmbito Estadual Geral (Pará)", "status": "active"},
-    {"id": "grcn-2", "sigla": "GRCN-II", "name": "Gerência Regional da Calha Norte II", "status": "active"},
-    {"id": "grx", "sigla": "GRX", "name": "Gerência Regional do Xingu", "status": "active"},
     {"id": "grcn-1", "sigla": "GRCN-I", "name": "Gerência Regional da Calha Norte I", "status": "pending"},
+    {"id": "grcn-2", "sigla": "GRCN-II", "name": "Gerência Regional da Calha Norte II", "status": "active"},
     {"id": "grcn-3", "sigla": "GRCN-III", "name": "Gerência Regional da Calha Norte III", "status": "pending"},
     {"id": "grb", "sigla": "GRB", "name": "Gerência Regional de Belém / Região Metropolitana", "status": "pending"},
     {"id": "grtuc", "sigla": "GRTUC", "name": "Gerência Regional de Tucuruí", "status": "pending"},
     {"id": "gra", "sigla": "GRA", "name": "Gerência Regional do Araguaia", "status": "active"},
     {"id": "grm", "sigla": "GRM", "name": "Gerência Regional do Marajó", "status": "pending"},
-    {"id": "grne", "sigla": "GRNE", "name": "Gerência Regional do Nordeste", "status": "pending"}
+    {"id": "grne", "sigla": "GRNE", "name": "Gerência Regional do Nordeste", "status": "pending"},
+    {"id": "grx", "sigla": "GRX", "name": "Gerência Regional do Xingu", "status": "active"}
 ]
 
 items_config = [

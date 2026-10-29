@@ -18,22 +18,16 @@ const REGIONAL_OFFICES = [
     "status": "active"
   },
   {
-    "id": "grcn-2",
-    "sigla": "GRCN-II",
-    "name": "Gerência Regional da Calha Norte II",
-    "status": "active"
-  },
-  {
-    "id": "grx",
-    "sigla": "GRX",
-    "name": "Gerência Regional do Xingu",
-    "status": "active"
-  },
-  {
     "id": "grcn-1",
     "sigla": "GRCN-I",
     "name": "Gerência Regional da Calha Norte I",
     "status": "pending"
+  },
+  {
+    "id": "grcn-2",
+    "sigla": "GRCN-II",
+    "name": "Gerência Regional da Calha Norte II",
+    "status": "active"
   },
   {
     "id": "grcn-3",
@@ -70,6 +64,12 @@ const REGIONAL_OFFICES = [
     "sigla": "GRNE",
     "name": "Gerência Regional do Nordeste",
     "status": "pending"
+  },
+  {
+    "id": "grx",
+    "sigla": "GRX",
+    "name": "Gerência Regional do Xingu",
+    "status": "active"
   }
 ];
 
