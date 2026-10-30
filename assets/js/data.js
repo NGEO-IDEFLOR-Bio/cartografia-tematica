@@ -75,78 +75,6 @@ const REGIONAL_OFFICES = [
 
 const MAPS_DATABASE = [
   {
-    "id": "ucs-estaduais-a1",
-    "title": "Unidades de Conservação Estaduais do Pará — Folha A1",
-    "short_title": "UCs Estaduais do Pará (A1)",
-    "regional_id": "estadual",
-    "regional_name": "Âmbito Estadual Geral",
-    "category": "ucs",
-    "category_label": "Unidades de Conservação Estaduais",
-    "theme": "Cartografia Geral de Unidades de Conservação",
-    "scale": "1:3.000.000",
-    "paper_size": "A1 (594 × 841 mm)",
-    "datum": "SIRGAS 2000",
-    "date": "Agosto de 2025",
-    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
-    "jurisdiction": "Governo do Estado do Pará",
-    "description": "Carta temática das Unidades de Conservação sob administração estadual no Pará (APAs, ESECs, FLOTAs, MONAs, Parques Estaduais, REVIS, REBIOs e RDS). Apresenta os limites municipais, malha hidrográfica estadual e encartes detalhados com zoom na Região Metropolitana de Belém, Arquipélago do Marajó e Mosaicos Regionais.",
-    "tags": [
-      "Unidades de Conservação",
-      "Pará",
-      "Folha A1",
-      "IDEFLOR-Bio",
-      "SEUC",
-      "SNUC"
-    ],
-    "thumbnail": "assets/img/thumbnails/thumb-ucs-estaduais-a1.jpg",
-    "downloads": [
-      {
-        "key": "image",
-        "label": "Imagem JPEG",
-        "filename": "mapa-unidades-de-conservacao-estaduais-pa-a1.jpg",
-        "url": "assets/downloads/mapa-unidades-de-conservacao-estaduais-pa-a1.jpg",
-        "size": "5.0 MB",
-        "bytes": 5203731,
-        "extension": "JPG"
-      }
-    ]
-  },
-  {
-    "id": "ucs-estaduais-a4",
-    "title": "Unidades de Conservação Estaduais do Pará — Formato Executivo A4",
-    "short_title": "UCs Estaduais do Pará (A4)",
-    "regional_id": "estadual",
-    "regional_name": "Âmbito Estadual Geral",
-    "category": "ucs",
-    "category_label": "Unidades de Conservação Estaduais",
-    "theme": "Cartografia Sintética para Relatórios Técnicos",
-    "scale": "1:9.200.000",
-    "paper_size": "A4 (210 × 297 mm)",
-    "datum": "SIRGAS 2000",
-    "date": "Agosto de 2025",
-    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
-    "jurisdiction": "Governo do Estado do Pará",
-    "description": "Edição compacta e diagramada para relatórios técnicos, pareceres jurídicos e consultas executivas rápidas em padrão folha A4. Ilustra as categorias do SEUC distribuídas ao longo dos 144 municípios paraenses.",
-    "tags": [
-      "Unidades de Conservação",
-      "Folha A4",
-      "Executivo",
-      "IDEFLOR-Bio"
-    ],
-    "thumbnail": "assets/img/thumbnails/thumb-ucs-estaduais-a4.jpg",
-    "downloads": [
-      {
-        "key": "image",
-        "label": "Imagem JPEG Otimizada",
-        "filename": "mapa-unidades-de-conservacao-estaduais-pa-a4.jpg",
-        "url": "assets/downloads/mapa-unidades-de-conservacao-estaduais-pa-a4.jpg",
-        "size": "1.2 MB",
-        "bytes": 1293143,
-        "extension": "JPG"
-      }
-    ]
-  },
-  {
     "id": "areas-ideflor-bio-a1",
     "title": "Mapa de Áreas sob Gestão do IDEFLOR-Bio — Folha A1",
     "short_title": "Áreas sob Gestão do IDEFLOR-Bio",
@@ -387,6 +315,78 @@ const MAPS_DATABASE = [
         "size": "41.0 MB",
         "bytes": 43022577,
         "extension": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "ucs-estaduais-a1",
+    "title": "Unidades de Conservação Estaduais do Pará — Folha A1",
+    "short_title": "UCs Estaduais do Pará (A1)",
+    "regional_id": "estadual",
+    "regional_name": "Âmbito Estadual Geral",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Cartografia Geral de Unidades de Conservação",
+    "scale": "1:3.000.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Agosto de 2025",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Carta temática das Unidades de Conservação sob administração estadual no Pará (APAs, ESECs, FLOTAs, MONAs, Parques Estaduais, REVIS, REBIOs e RDS). Apresenta os limites municipais, malha hidrográfica estadual e encartes detalhados com zoom na Região Metropolitana de Belém, Arquipélago do Marajó e Mosaicos Regionais.",
+    "tags": [
+      "Unidades de Conservação",
+      "Pará",
+      "Folha A1",
+      "IDEFLOR-Bio",
+      "SEUC",
+      "SNUC"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-ucs-estaduais-a1.jpg",
+    "downloads": [
+      {
+        "key": "image",
+        "label": "Imagem JPEG",
+        "filename": "mapa-unidades-de-conservacao-estaduais-pa-a1.jpg",
+        "url": "assets/downloads/mapa-unidades-de-conservacao-estaduais-pa-a1.jpg",
+        "size": "5.0 MB",
+        "bytes": 5203731,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "ucs-estaduais-a4",
+    "title": "Unidades de Conservação Estaduais do Pará — Formato Executivo A4",
+    "short_title": "UCs Estaduais do Pará (A4)",
+    "regional_id": "estadual",
+    "regional_name": "Âmbito Estadual Geral",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Cartografia Sintética para Relatórios Técnicos",
+    "scale": "1:9.200.000",
+    "paper_size": "A4 (210 × 297 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Agosto de 2025",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Edição compacta e diagramada para relatórios técnicos, pareceres jurídicos e consultas executivas rápidas em padrão folha A4. Ilustra as categorias do SEUC distribuídas ao longo dos 144 municípios paraenses.",
+    "tags": [
+      "Unidades de Conservação",
+      "Folha A4",
+      "Executivo",
+      "IDEFLOR-Bio"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-ucs-estaduais-a4.jpg",
+    "downloads": [
+      {
+        "key": "image",
+        "label": "Imagem JPEG Otimizada",
+        "filename": "mapa-unidades-de-conservacao-estaduais-pa-a4.jpg",
+        "url": "assets/downloads/mapa-unidades-de-conservacao-estaduais-pa-a4.jpg",
+        "size": "1.2 MB",
+        "bytes": 1293143,
+        "extension": "JPG"
       }
     ]
   },
@@ -763,8 +763,8 @@ const MAPS_DATABASE = [
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.pdf",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.pdf",
-        "size": "7.2 MB",
-        "bytes": 7543651,
+        "size": "6.8 MB",
+        "bytes": 7081909,
         "extension": "PDF"
       },
       {
@@ -772,8 +772,8 @@ const MAPS_DATABASE = [
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.jpg",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.jpg",
-        "size": "1011 KB",
-        "bytes": 1035508,
+        "size": "994 KB",
+        "bytes": 1018080,
         "extension": "JPG"
       }
     ]
@@ -811,8 +811,8 @@ const MAPS_DATABASE = [
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
-        "size": "7.5 MB",
-        "bytes": 7837012,
+        "size": "7.4 MB",
+        "bytes": 7806096,
         "extension": "PDF"
       },
       {
@@ -821,7 +821,7 @@ const MAPS_DATABASE = [
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.jpg",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.jpg",
         "size": "1.0 MB",
-        "bytes": 1068466,
+        "bytes": 1094634,
         "extension": "JPG"
       }
     ]
@@ -860,8 +860,8 @@ const MAPS_DATABASE = [
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
-        "size": "14.2 MB",
-        "bytes": 14896142,
+        "size": "14.5 MB",
+        "bytes": 15219440,
         "extension": "PDF"
       },
       {
@@ -869,8 +869,8 @@ const MAPS_DATABASE = [
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.jpg",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.jpg",
-        "size": "1.0 MB",
-        "bytes": 1053868,
+        "size": "1017 KB",
+        "bytes": 1041321,
         "extension": "JPG"
       }
     ]
@@ -907,8 +907,8 @@ const MAPS_DATABASE = [
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
-        "size": "7.6 MB",
-        "bytes": 7981933,
+        "size": "12.9 MB",
+        "bytes": 13532827,
         "extension": "PDF"
       },
       {
@@ -917,7 +917,7 @@ const MAPS_DATABASE = [
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.jpg",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.jpg",
         "size": "1.0 MB",
-        "bytes": 1092213,
+        "bytes": 1061444,
         "extension": "JPG"
       }
     ]
@@ -956,8 +956,8 @@ const MAPS_DATABASE = [
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
-        "size": "8.4 MB",
-        "bytes": 8768047,
+        "size": "7.8 MB",
+        "bytes": 8224990,
         "extension": "PDF"
       },
       {
@@ -965,8 +965,458 @@ const MAPS_DATABASE = [
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.jpg",
         "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.jpg",
-        "size": "1.2 MB",
-        "bytes": 1234379,
+        "size": "1.1 MB",
+        "bytes": 1155525,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-cobertura-solo-1985",
+    "title": "Cobertura do Solo 1985 — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Cobertura do Solo (1985) — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Uso e Cobertura da Terra (MapBiomas Coleção 11)",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Mapeamento temático da cobertura da terra em 1985 para o mosaico REVIS Tabuleiro do Embaubal, RDS Vitória de Souzel e buffer envoltório de 2 km (área total de 27.023 ha), processado a partir do MapBiomas Coleção 11. Espacializa a distribuição de Floresta Alagável (50,5%), Corpos D'água (37,2%), Campo Pantanoso (11,2%) e Mosaico de Usos (1,1%), fornecendo o marco temporal inicial da série histórica de 40 anos.",
+    "tags": [
+      "Cobertura do Solo",
+      "MapBiomas",
+      "Uso da Terra",
+      "Floresta Alagável",
+      "Xingu",
+      "REVIS Tabuleiro do Embaubal",
+      "RDS Vitória de Souzel",
+      "Série Histórica",
+      "1985",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-cobertura-solo-1985.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.pdf",
+        "size": "6.5 MB",
+        "bytes": 6794824,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.jpg",
+        "size": "1.0 MB",
+        "bytes": 1081041,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-cobertura-solo-1995",
+    "title": "Cobertura do Solo 1995 — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Cobertura do Solo (1995) — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Uso e Cobertura da Terra (MapBiomas Coleção 11)",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Mapeamento temático da cobertura da terra em 1995 para o mosaico REVIS Tabuleiro do Embaubal, RDS Vitória de Souzel e buffer de 2 km, processado a partir do MapBiomas Coleção 11. Registra a estabilidade e dinâmica da vegetação alagável e ambientes aquáticos no Rio Xingu ao término do primeiro decênio analisado.",
+    "tags": [
+      "Cobertura do Solo",
+      "MapBiomas",
+      "Uso da Terra",
+      "Floresta Alagável",
+      "Xingu",
+      "REVIS Tabuleiro do Embaubal",
+      "RDS Vitória de Souzel",
+      "Série Histórica",
+      "1995",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-cobertura-solo-1995.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.pdf",
+        "size": "6.5 MB",
+        "bytes": 6794734,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.jpg",
+        "size": "1.0 MB",
+        "bytes": 1085193,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-cobertura-solo-2005",
+    "title": "Cobertura do Solo 2005 — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Cobertura do Solo (2005) — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Uso e Cobertura da Terra (MapBiomas Coleção 11)",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Mapeamento temático da cobertura da terra em 2005 para as UCs REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel e buffer de 2 km, processado a partir do MapBiomas Coleção 11. Subsídio histórico do uso do solo e preservação de habitats ripários no médio Xingu.",
+    "tags": [
+      "Cobertura do Solo",
+      "MapBiomas",
+      "Uso da Terra",
+      "Floresta Alagável",
+      "Xingu",
+      "REVIS Tabuleiro do Embaubal",
+      "RDS Vitória de Souzel",
+      "Série Histórica",
+      "2005",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-cobertura-solo-2005.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.pdf",
+        "size": "6.5 MB",
+        "bytes": 6794512,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.jpg",
+        "size": "1.0 MB",
+        "bytes": 1085319,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-cobertura-solo-2015",
+    "title": "Cobertura do Solo 2015 — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Cobertura do Solo (2015) — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Uso e Cobertura da Terra (MapBiomas Coleção 11)",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Mapeamento temático da cobertura da terra em 2015 para as UCs REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel e buffer de 2 km, processado a partir do MapBiomas Coleção 11. Permite avaliar a dinâmica de conservação e ocupação anterior à criação oficial do mosaico estadual.",
+    "tags": [
+      "Cobertura do Solo",
+      "MapBiomas",
+      "Uso da Terra",
+      "Floresta Alagável",
+      "Xingu",
+      "REVIS Tabuleiro do Embaubal",
+      "RDS Vitória de Souzel",
+      "Série Histórica",
+      "2015",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-cobertura-solo-2015.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.pdf",
+        "size": "6.5 MB",
+        "bytes": 6794981,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.jpg",
+        "size": "1.0 MB",
+        "bytes": 1085673,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-cobertura-solo-2024",
+    "title": "Cobertura do Solo 2024 — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Cobertura do Solo (2024) — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Uso e Cobertura da Terra (MapBiomas Coleção 11)",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Mapeamento temático atualizado da cobertura da terra em 2024 para as UCs REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel e buffer de 2 km, processado a partir do MapBiomas Coleção 11. Retrata o estado atual de conservação florestal e áreas alagáveis das unidades.",
+    "tags": [
+      "Cobertura do Solo",
+      "MapBiomas",
+      "Uso da Terra",
+      "Floresta Alagável",
+      "Xingu",
+      "REVIS Tabuleiro do Embaubal",
+      "RDS Vitória de Souzel",
+      "Série Histórica",
+      "2024",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-cobertura-solo-2024.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.pdf",
+        "size": "6.5 MB",
+        "bytes": 6795076,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.jpg",
+        "size": "1.0 MB",
+        "bytes": 1084595,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-cicatrizes-fogo-1985-1994",
+    "title": "Cicatrizes de Fogo (1985–1994) — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Cicatrizes de Fogo (1985–1994) — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Dinâmica Histórica de Queimadas e Cicatrizes de Fogo (MapBiomas Fogo Coleção 11)",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Espacialização das cicatrizes de fogo e áreas queimadas no decênio de 1985 a 1994 no REVIS Tabuleiro do Embaubal, RDS Vitória de Souzel e buffer envoltório de 2 km, derivadas do MapBiomas Fogo Coleção 11. Quantifica uma área total queimada de 5.317 ha no período (69,7% na RDS Souzel, 29,2% no buffer e 1,1% no REVIS).",
+    "tags": [
+      "Cicatrizes de Fogo",
+      "Queimadas",
+      "Incêndios Florestais",
+      "MapBiomas Fogo",
+      "Xingu",
+      "REVIS Tabuleiro do Embaubal",
+      "RDS Vitória de Souzel",
+      "Série Histórica",
+      "1985-1994",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-cicatrizes-fogo-1985-1994.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf",
+        "size": "3.9 MB",
+        "bytes": 4130109,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.jpg",
+        "size": "929 KB",
+        "bytes": 950885,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-cicatrizes-fogo-1995-2004",
+    "title": "Cicatrizes de Fogo (1995–2004) — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Cicatrizes de Fogo (1995–2004) — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Dinâmica Histórica de Queimadas e Cicatrizes de Fogo (MapBiomas Fogo Coleção 11)",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Espacialização das cicatrizes de fogo e áreas queimadas no decênio de 1995 a 2004 no mosaico REVIS Tabuleiro do Embaubal, RDS Vitória de Souzel e buffer de 2 km, derivadas do MapBiomas Fogo Coleção 11.",
+    "tags": [
+      "Cicatrizes de Fogo",
+      "Queimadas",
+      "Incêndios Florestais",
+      "MapBiomas Fogo",
+      "Xingu",
+      "REVIS Tabuleiro do Embaubal",
+      "RDS Vitória de Souzel",
+      "Série Histórica",
+      "1995-2004",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-cicatrizes-fogo-1995-2004.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf",
+        "size": "3.9 MB",
+        "bytes": 4128371,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.jpg",
+        "size": "862 KB",
+        "bytes": 883138,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-cicatrizes-fogo-2005-2014",
+    "title": "Cicatrizes de Fogo (2005–2014) — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Cicatrizes de Fogo (2005–2014) — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Dinâmica Histórica de Queimadas e Cicatrizes de Fogo (MapBiomas Fogo Coleção 11)",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Espacialização das cicatrizes de fogo e áreas queimadas no decênio de 2005 a 2014 no mosaico REVIS Tabuleiro do Embaubal, RDS Vitória de Souzel e buffer de 2 km, derivadas do MapBiomas Fogo Coleção 11.",
+    "tags": [
+      "Cicatrizes de Fogo",
+      "Queimadas",
+      "Incêndios Florestais",
+      "MapBiomas Fogo",
+      "Xingu",
+      "REVIS Tabuleiro do Embaubal",
+      "RDS Vitória de Souzel",
+      "Série Histórica",
+      "2005-2014",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-cicatrizes-fogo-2005-2014.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf",
+        "size": "3.9 MB",
+        "bytes": 4080497,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.jpg",
+        "size": "811 KB",
+        "bytes": 830966,
+        "extension": "JPG"
+      }
+    ]
+  },
+  {
+    "id": "grx-tabuleiro-souzel-cicatrizes-fogo-2015-2024",
+    "title": "Cicatrizes de Fogo (2015–2024) — REVIS Tabuleiro do Embaubal e RDS Vitória de Souzel",
+    "short_title": "Cicatrizes de Fogo (2015–2024) — Souzel",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Dinâmica Histórica de Queimadas e Cicatrizes de Fogo (MapBiomas Fogo Coleção 11)",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Espacialização das cicatrizes de fogo e áreas queimadas no decênio recente de 2015 a 2024 no mosaico REVIS Tabuleiro do Embaubal, RDS Vitória de Souzel e buffer de 2 km, derivadas do MapBiomas Fogo Coleção 11. Apresenta o comportamento mais recente do fogo na vigência das UCs.",
+    "tags": [
+      "Cicatrizes de Fogo",
+      "Queimadas",
+      "Incêndios Florestais",
+      "MapBiomas Fogo",
+      "Xingu",
+      "REVIS Tabuleiro do Embaubal",
+      "RDS Vitória de Souzel",
+      "Série Histórica",
+      "2015-2024",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-souzel-cicatrizes-fogo-2015-2024.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "Documento PDF Vetorial Plotter (A1)",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf",
+        "size": "4.0 MB",
+        "bytes": 4160220,
+        "extension": "PDF"
+      },
+      {
+        "key": "image",
+        "label": "Imagem JPEG de Alta Definição",
+        "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.jpg",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.jpg",
+        "size": "924 KB",
+        "bytes": 946537,
         "extension": "JPG"
       }
     ]
