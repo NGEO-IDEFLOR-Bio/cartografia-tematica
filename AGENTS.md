@@ -35,11 +35,11 @@ corrigido.
 | `assets/downloads/` | Cópias locais dos downloads — **ignorado pelo Git** |
 | `organize_and_build.py` | **Fonte da verdade do catálogo** (metadados + build) |
 | `sync_drive.py` | Envia downloads ao Drive e mantém o manifesto |
-| `drive_manifest.json` | `filename → {id, sha256, bytes, url}` (93 entradas hoje) |
+| `drive_manifest.json` | `filename → {id, sha256, bytes, url}` (94 entradas hoje) |
 | `mapas_originais/` | Insumos brutos locais — **ignorado pelo Git** |
 | `README.md` | Documentação institucional do repositório |
 
-Estado atual: **40 mapas**, 40 thumbnails, 93 downloads no Drive.
+Estado atual: **41 mapas**, 41 thumbnails, 94 downloads no Drive.
 
 ## 3. Regra de ouro
 
@@ -118,7 +118,7 @@ python organize_and_build.py
 | `short_title` | ≤ ~50 caracteres; sem adjetivos promocionais |
 | `regional_id` | Um de `REGIONAL_OFFICES` (`estadual`, `grcn-2`, `gra`, `grx`, …) |
 | `category` | `ucs`, `gestao` ou `fundiario` |
-| `paper_size` | **Somente A4, A1 ou A0**; em raster, indicar dpi (`A1 (594 × 841 mm) — PNG 300 dpi`) |
+| `paper_size` | **Somente A4, A1 ou A0** — e **A3 apenas para infográficos**; em raster, indicar dpi (`A1 (594 × 841 mm) — PNG 300 dpi`) |
 | `date` | `Mês de Ano` por extenso (`Outubro de 2026`) |
 | `source_org` | `Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio` |
 | `tags` | Termos de busca reais (UC, rio, município, tema, folha) |
@@ -246,7 +246,7 @@ exibe a mensagem de catalogação pendente em vez da grade.
 
 - Não editar `data.js` à mão.
 - Não mover downloads de volta para o Git.
-- Não criar formatos A2/A3 (não existem no acervo).
+- Não criar formatos A2; A3 somente para infográficos (não existem mapas A2/A3 no acervo).
 - Não alterar cores/fontes fora dos tokens do DS.
 - Não usar emojis ou linguagem de marketing em textos do portal.
 - Não rodar comandos rclone fora de `gdrive:cartografia-tematica/`.

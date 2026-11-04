@@ -120,6 +120,27 @@ items_config = [
         ]
     },
     {
+        "id": "quelonios-ucs-estaduais-a3",
+        "title": "Quelônios em Unidades de Conservação Estaduais do Pará — Infográfico",
+        "short_title": "Quelônios nas UCs Estaduais do Pará",
+        "regional_id": "estadual",
+        "regional_name": "Âmbito Estadual Geral",
+        "category": "gestao",
+        "category_label": "Áreas Protegidas e Gestão",
+        "theme": "Biodiversidade e Fauna das UCs Estaduais",
+        "scale": "1:7.500.000",
+        "paper_size": "A3 (420 × 297 mm)",
+        "datum": "SIRGAS 2000",
+        "date": "Novembro de 2026",
+        "source_org": "NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Infográfico das espécies de quelônios registradas em nove Unidades de Conservação estaduais sob gestão do IDEFLOR-Bio, separando o ambiente de água doce (Flota de Faro, PE Charapucu, APA Paytuna, REVIS Tabuleiro do Embaubal, APA do Lago de Tucuruí e APA de São Geraldo do Araguaia) do ambiente marinho (APA do Marajó, APA de Algodoal-Maiandeua e MONA Atalaia). Reúne 12 espécies — entre elas tartaruga-da-amazônia, tracajá, muçuã e as cinco tartarugas marinhas — com as unidades de ocorrência de cada uma.",
+        "tags": ["Quelônios", "Tartaruga-da-Amazônia", "Tracajá", "Tartaruga-marinha", "Biodiversidade", "Unidades de Conservação", "Infográfico", "Folha A3"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/geral", "."], "keywords": ["infografico", "quelonios"], "ext": ".pdf", "dest": "quelonios-ucs-estaduais-a3.pdf", "label": "Documento PDF Vetorial (A3)", "key": "pdf"}
+        ]
+    },
+    {
         "id": "ucs-gerencia-regional",
         "title": "Unidades de Conservação Estaduais por Gerência Regional",
         "short_title": "UCs por Gerência Regional",
