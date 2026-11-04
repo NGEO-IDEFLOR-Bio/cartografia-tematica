@@ -728,6 +728,74 @@ items_config = [
         ]
     },
     {
+        "id": "grx-tabuleiro-embaubal-mapeamento",
+        "title": "Mapeamento Temático da REVIS Tabuleiro do Embaubal — 14 Folhas",
+        "short_title": "Tabuleiro do Embaubal (Mapeamento por Unidade)",
+        "regional_id": "grx",
+        "regional_name": "Gerência Regional Xingu",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Mapeamento Temático por Unidade de Conservação",
+        "scale": "1:60.000",
+        "paper_size": "A1 (594 × 841 mm)",
+        "datum": "SIRGAS 2000",
+        "date": "Outubro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Série completa em 14 folhas do mapeamento temático da REVIS Tabuleiro do Embaubal (município de Senador José Porfírio/PA), recortada por unidade de conservação: limites territoriais e UCs, gestão e acessos, biodiversidade, comunidades e uso tradicional, quadro hidrográfico, cobertura do solo (1985–2024) e cicatrizes de fogo (1985–2024).",
+        "tags": ["Tabuleiro do Embaubal", "REVIS", "Rio Xingu", "Senador José Porfírio", "MapBiomas", "Cobertura do Solo", "Cicatrizes de Fogo", "Folha A1"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["01", "limites"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-01-limites-territoriais-ucs.pdf", "label": "01 — Limites Territoriais e UCs Estaduais", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["02", "gest"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-02-gestao-infraestrutura-acessos.pdf", "label": "02 — Gestão Territorial, Infraestrutura e Acessos", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["03", "biodiversidade"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-03-biodiversidade-protecao-ambiental.pdf", "label": "03 — Biodiversidade e Proteção Ambiental", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["04", "comunidades"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-04-comunidades-uso-tradicional.pdf", "label": "04 — Comunidades e Uso Tradicional", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["05", "hidrog"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-05-quadro-hidrografico-referencias.pdf", "label": "05 — Quadro Hidrográfico e Referências Locais", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["06", "1985"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-06-cobertura-solo-1985.pdf", "label": "06 — Cobertura do Solo (1985)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["06", "1995"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-06-cobertura-solo-1995.pdf", "label": "06 — Cobertura do Solo (1995)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["06", "2005"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-06-cobertura-solo-2005.pdf", "label": "06 — Cobertura do Solo (2005)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["06", "2015"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-06-cobertura-solo-2015.pdf", "label": "06 — Cobertura do Solo (2015)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["06", "2024"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-06-cobertura-solo-2024.pdf", "label": "06 — Cobertura do Solo (2024)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["07", "1985"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-1985-1994.pdf", "label": "07 — Cicatrizes de Fogo (1985–1994)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["07", "1995"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-1995-2004.pdf", "label": "07 — Cicatrizes de Fogo (1995–2004)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["07", "2005"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-2005-2014.pdf", "label": "07 — Cicatrizes de Fogo (2005–2014)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Tabuleiro do Embaubal"], "keywords": ["07", "2015"], "ext": ".pdf", "dest": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-2015-2024.pdf", "label": "07 — Cicatrizes de Fogo (2015–2024)", "key": "pdf"}
+        ]
+    },
+    {
+        "id": "grx-vitoria-souzel-mapeamento",
+        "title": "Mapeamento Temático da RDS Vitória de Souzel — 14 Folhas",
+        "short_title": "Vitória de Souzel (Mapeamento por Unidade)",
+        "regional_id": "grx",
+        "regional_name": "Gerência Regional Xingu",
+        "category": "ucs",
+        "category_label": "Unidades de Conservação Estaduais",
+        "theme": "Mapeamento Temático por Unidade de Conservação",
+        "scale": "1:60.000",
+        "paper_size": "A1 (594 × 841 mm)",
+        "datum": "SIRGAS 2000",
+        "date": "Outubro de 2026",
+        "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+        "jurisdiction": "Governo do Estado do Pará",
+        "description": "Série completa em 14 folhas do mapeamento temático da RDS Vitória de Souzel (município de Vitória do Xingu/PA), recortada por unidade de conservação: limites territoriais e UCs, gestão e acessos, biodiversidade, comunidades e uso tradicional, quadro hidrográfico, cobertura do solo (1985–2024) e cicatrizes de fogo (1985–2024).",
+        "tags": ["Vitória de Souzel", "RDS", "Rio Xingu", "Vitória do Xingu", "MapBiomas", "Cobertura do Solo", "Cicatrizes de Fogo", "Folha A1"],
+        "downloads_spec": [
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["01", "limites"], "ext": ".pdf", "dest": "grx-vitoria-souzel-01-limites-territoriais-ucs.pdf", "label": "01 — Limites Territoriais e UCs Estaduais", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["02", "gest"], "ext": ".pdf", "dest": "grx-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf", "label": "02 — Gestão Territorial, Infraestrutura e Acessos", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["03", "biodiversidade"], "ext": ".pdf", "dest": "grx-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf", "label": "03 — Biodiversidade e Proteção Ambiental", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["04", "comunidades"], "ext": ".pdf", "dest": "grx-vitoria-souzel-04-comunidades-uso-tradicional.pdf", "label": "04 — Comunidades e Uso Tradicional", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["05", "hidrog"], "ext": ".pdf", "dest": "grx-vitoria-souzel-05-quadro-hidrografico-referencias.pdf", "label": "05 — Quadro Hidrográfico e Referências Locais", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["06", "1985"], "ext": ".pdf", "dest": "grx-vitoria-souzel-06-cobertura-solo-1985.pdf", "label": "06 — Cobertura do Solo (1985)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["06", "1995"], "ext": ".pdf", "dest": "grx-vitoria-souzel-06-cobertura-solo-1995.pdf", "label": "06 — Cobertura do Solo (1995)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["06", "2005"], "ext": ".pdf", "dest": "grx-vitoria-souzel-06-cobertura-solo-2005.pdf", "label": "06 — Cobertura do Solo (2005)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["06", "2015"], "ext": ".pdf", "dest": "grx-vitoria-souzel-06-cobertura-solo-2015.pdf", "label": "06 — Cobertura do Solo (2015)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["06", "2024"], "ext": ".pdf", "dest": "grx-vitoria-souzel-06-cobertura-solo-2024.pdf", "label": "06 — Cobertura do Solo (2024)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["07", "1985"], "ext": ".pdf", "dest": "grx-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf", "label": "07 — Cicatrizes de Fogo (1985–1994)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["07", "1995"], "ext": ".pdf", "dest": "grx-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf", "label": "07 — Cicatrizes de Fogo (1995–2004)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["07", "2005"], "ext": ".pdf", "dest": "grx-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf", "label": "07 — Cicatrizes de Fogo (2005–2014)", "key": "pdf"},
+            {"dirs": ["mapas_originais/Vitória de Souzel"], "keywords": ["07", "2015"], "ext": ".pdf", "dest": "grx-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf", "label": "07 — Cicatrizes de Fogo (2015–2024)", "key": "pdf"}
+        ]
+    },
+    {
         "id": "gra-pesam-elevacao",
         "title": "Mapa de Elevação do Parque Estadual Serra dos Martírios/Andorinhas (PESAM)",
         "short_title": "PESAM — Elevação e Hipsometria",
@@ -945,7 +1013,7 @@ for item in items_config:
             })
             if spec["key"] == "image":
                 preferred_img_for_thumb = dest_file
-            elif spec["key"] == "pdf":
+            elif spec["key"] == "pdf" and preferred_pdf_for_thumb is None:
                 preferred_pdf_for_thumb = dest_file
 
     thumb_filename = f"thumb-{item['id']}.jpg"

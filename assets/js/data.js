@@ -1422,6 +1422,318 @@ const MAPS_DATABASE = [
     ]
   },
   {
+    "id": "grx-tabuleiro-embaubal-mapeamento",
+    "title": "Mapeamento Temático da REVIS Tabuleiro do Embaubal — 14 Folhas",
+    "short_title": "Tabuleiro do Embaubal (Mapeamento por Unidade)",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Mapeamento Temático por Unidade de Conservação",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Série completa em 14 folhas do mapeamento temático da REVIS Tabuleiro do Embaubal (município de Senador José Porfírio/PA), recortada por unidade de conservação: limites territoriais e UCs, gestão e acessos, biodiversidade, comunidades e uso tradicional, quadro hidrográfico, cobertura do solo (1985–2024) e cicatrizes de fogo (1985–2024).",
+    "tags": [
+      "Tabuleiro do Embaubal",
+      "REVIS",
+      "Rio Xingu",
+      "Senador José Porfírio",
+      "MapBiomas",
+      "Cobertura do Solo",
+      "Cicatrizes de Fogo",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-tabuleiro-embaubal-mapeamento.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "01 — Limites Territoriais e UCs Estaduais",
+        "filename": "grx-tabuleiro-embaubal-01-limites-territoriais-ucs.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-01-limites-territoriais-ucs.pdf",
+        "size": "3.7 MB",
+        "bytes": 3870733,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "02 — Gestão Territorial, Infraestrutura e Acessos",
+        "filename": "grx-tabuleiro-embaubal-02-gestao-infraestrutura-acessos.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-02-gestao-infraestrutura-acessos.pdf",
+        "size": "3.9 MB",
+        "bytes": 4105546,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "03 — Biodiversidade e Proteção Ambiental",
+        "filename": "grx-tabuleiro-embaubal-03-biodiversidade-protecao-ambiental.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-03-biodiversidade-protecao-ambiental.pdf",
+        "size": "7.6 MB",
+        "bytes": 7924270,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "04 — Comunidades e Uso Tradicional",
+        "filename": "grx-tabuleiro-embaubal-04-comunidades-uso-tradicional.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-04-comunidades-uso-tradicional.pdf",
+        "size": "5.0 MB",
+        "bytes": 5207508,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "05 — Quadro Hidrográfico e Referências Locais",
+        "filename": "grx-tabuleiro-embaubal-05-quadro-hidrografico-referencias.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-05-quadro-hidrografico-referencias.pdf",
+        "size": "4.2 MB",
+        "bytes": 4392256,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (1985)",
+        "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-1985.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-1985.pdf",
+        "size": "4.4 MB",
+        "bytes": 4641047,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (1995)",
+        "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-1995.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-1995.pdf",
+        "size": "4.4 MB",
+        "bytes": 4640337,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (2005)",
+        "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-2005.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-2005.pdf",
+        "size": "4.4 MB",
+        "bytes": 4640147,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (2015)",
+        "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-2015.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-2015.pdf",
+        "size": "4.4 MB",
+        "bytes": 4640298,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (2024)",
+        "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-2024.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-2024.pdf",
+        "size": "4.4 MB",
+        "bytes": 4640718,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "07 — Cicatrizes de Fogo (1985–1994)",
+        "filename": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-1985-1994.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-07-cicatrizes-fogo-1985-1994.pdf",
+        "size": "3.0 MB",
+        "bytes": 3182091,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "07 — Cicatrizes de Fogo (1995–2004)",
+        "filename": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-1995-2004.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-07-cicatrizes-fogo-1995-2004.pdf",
+        "size": "3.0 MB",
+        "bytes": 3156858,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "07 — Cicatrizes de Fogo (2005–2014)",
+        "filename": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-2005-2014.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-07-cicatrizes-fogo-2005-2014.pdf",
+        "size": "3.0 MB",
+        "bytes": 3153264,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "07 — Cicatrizes de Fogo (2015–2024)",
+        "filename": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-2015-2024.pdf",
+        "url": "assets/downloads/grx-tabuleiro-embaubal-07-cicatrizes-fogo-2015-2024.pdf",
+        "size": "3.0 MB",
+        "bytes": 3168047,
+        "extension": "PDF"
+      }
+    ]
+  },
+  {
+    "id": "grx-vitoria-souzel-mapeamento",
+    "title": "Mapeamento Temático da RDS Vitória de Souzel — 14 Folhas",
+    "short_title": "Vitória de Souzel (Mapeamento por Unidade)",
+    "regional_id": "grx",
+    "regional_name": "Gerência Regional Xingu",
+    "category": "ucs",
+    "category_label": "Unidades de Conservação Estaduais",
+    "theme": "Mapeamento Temático por Unidade de Conservação",
+    "scale": "1:60.000",
+    "paper_size": "A1 (594 × 841 mm)",
+    "datum": "SIRGAS 2000",
+    "date": "Outubro de 2026",
+    "source_org": "Núcleo de Geotecnologias — NGEO / IDEFLOR-Bio",
+    "jurisdiction": "Governo do Estado do Pará",
+    "description": "Série completa em 14 folhas do mapeamento temático da RDS Vitória de Souzel (município de Vitória do Xingu/PA), recortada por unidade de conservação: limites territoriais e UCs, gestão e acessos, biodiversidade, comunidades e uso tradicional, quadro hidrográfico, cobertura do solo (1985–2024) e cicatrizes de fogo (1985–2024).",
+    "tags": [
+      "Vitória de Souzel",
+      "RDS",
+      "Rio Xingu",
+      "Vitória do Xingu",
+      "MapBiomas",
+      "Cobertura do Solo",
+      "Cicatrizes de Fogo",
+      "Folha A1"
+    ],
+    "thumbnail": "assets/img/thumbnails/thumb-grx-vitoria-souzel-mapeamento.jpg",
+    "downloads": [
+      {
+        "key": "pdf",
+        "label": "01 — Limites Territoriais e UCs Estaduais",
+        "filename": "grx-vitoria-souzel-01-limites-territoriais-ucs.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-01-limites-territoriais-ucs.pdf",
+        "size": "5.9 MB",
+        "bytes": 6212707,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "02 — Gestão Territorial, Infraestrutura e Acessos",
+        "filename": "grx-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
+        "size": "6.6 MB",
+        "bytes": 6940834,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "03 — Biodiversidade e Proteção Ambiental",
+        "filename": "grx-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
+        "size": "13.7 MB",
+        "bytes": 14350201,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "04 — Comunidades e Uso Tradicional",
+        "filename": "grx-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
+        "size": "12.1 MB",
+        "bytes": 12664046,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "05 — Quadro Hidrográfico e Referências Locais",
+        "filename": "grx-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
+        "size": "7.0 MB",
+        "bytes": 7337347,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (1985)",
+        "filename": "grx-vitoria-souzel-06-cobertura-solo-1985.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-1985.pdf",
+        "size": "5.7 MB",
+        "bytes": 5936350,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (1995)",
+        "filename": "grx-vitoria-souzel-06-cobertura-solo-1995.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-1995.pdf",
+        "size": "5.7 MB",
+        "bytes": 5936644,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (2005)",
+        "filename": "grx-vitoria-souzel-06-cobertura-solo-2005.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-2005.pdf",
+        "size": "5.7 MB",
+        "bytes": 5936163,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (2015)",
+        "filename": "grx-vitoria-souzel-06-cobertura-solo-2015.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-2015.pdf",
+        "size": "5.7 MB",
+        "bytes": 5936579,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "06 — Cobertura do Solo (2024)",
+        "filename": "grx-vitoria-souzel-06-cobertura-solo-2024.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-2024.pdf",
+        "size": "5.7 MB",
+        "bytes": 5936834,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "07 — Cicatrizes de Fogo (1985–1994)",
+        "filename": "grx-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf",
+        "size": "3.1 MB",
+        "bytes": 3281999,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "07 — Cicatrizes de Fogo (1995–2004)",
+        "filename": "grx-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf",
+        "size": "3.1 MB",
+        "bytes": 3280533,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "07 — Cicatrizes de Fogo (2005–2014)",
+        "filename": "grx-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf",
+        "size": "3.1 MB",
+        "bytes": 3233180,
+        "extension": "PDF"
+      },
+      {
+        "key": "pdf",
+        "label": "07 — Cicatrizes de Fogo (2015–2024)",
+        "filename": "grx-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf",
+        "url": "assets/downloads/grx-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf",
+        "size": "3.1 MB",
+        "bytes": 3296244,
+        "extension": "PDF"
+      }
+    ]
+  },
+  {
     "id": "gra-pesam-elevacao",
     "title": "Mapa de Elevação do Parque Estadual Serra dos Martírios/Andorinhas (PESAM)",
     "short_title": "PESAM — Elevação e Hipsometria",

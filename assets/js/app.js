@@ -111,6 +111,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Código curto da folha (ex.: "01", "06 · 1985") para cards/tabelas com
+  // vários downloads do mesmo tipo — usado no mapeamento por unidade.
+  function getDownloadCode(dl, downloads) {
+    const m = /^(\d{2})\s*[—-]\s*(.+)$/.exec(dl.label || "");
+    if (!m) return null;
+    const sheet = m[1];
+    const sameSheet = downloads.filter(d => (d.label || "").startsWith(sheet)).length;
+    if (sameSheet <= 1) return sheet;
+    const year = /\d{4}/.exec(m[2]);
+    return year ? `${sheet} · ${year[0]}` : sheet;
+  }
+
   // Renderizar modo Grade (Cards)
   function renderGridView(maps) {
     // Se a regional selecionada estiver em status de "catalogação pendente"
@@ -128,6 +140,14 @@ document.addEventListener("DOMContentLoaded", () => {
     gridContainer.innerHTML = maps.map(map => {
       const dlButtonsHTML = map.downloads.map(dl => {
         const btnClass = dl.extension === "PDF" ? "pdf-btn" : "img-btn";
+        const sheetCode = getDownloadCode(dl, map.downloads);
+        if (sheetCode) {
+          return `
+            <a href="${dl.url}" download="${dl.filename}" class="btn-download-item ${btnClass} dl-chip" title="Baixar ${dl.label}">
+              <span>${sheetCode}</span>
+            </a>
+          `;
+        }
         const iconSvg = dl.extension === "PDF" 
           ? `<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9.5 8.5h-2v3H6V7.5h3.5c1.1 0 2 .9 2 2s-.9 2-2 2zm1-2h-1v1.5h1c.3 0 .5-.2.5-.5v-.5c0-.3-.2-.5-.5-.5zm6.5 2h-2v1.5h1.5v1.5H15v2h-1.5V7.5H17v1.5zm-3.5 4.5h-1.5v-7H13c1.1 0 2 .9 2 2v3c0 1.1-.9 2-2 2zm0-5.5v4c.3 0 .5-.2.5-.5v-3c0-.3-.2-.5-.5-.5z"/></svg>`
           : `<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>`;
@@ -175,7 +195,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </svg>
                 Visualizar mapa
               </button>
-              <div class="card-download-buttons">
+              <div class="card-download-buttons${map.downloads.some(dl => getDownloadCode(dl, map.downloads)) ? " compact" : ""}">
                 ${dlButtonsHTML}
               </div>
             </div>
@@ -203,7 +223,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return `
           <a href="${dl.url}" download="${dl.filename}" class="table-action-btn" title="Baixar ${dl.label}">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
-            ${dl.extension} (${dl.size})
+            ${getDownloadCode(dl, map.downloads) || dl.extension} (${dl.size})
           </a>
         `;
       }).join("");
