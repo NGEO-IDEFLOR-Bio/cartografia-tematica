@@ -951,6 +951,14 @@ items_config = [
     }
 ]
 
+# Manifest de arquivos hospedados no Google Drive (gerado por sync_drive.py).
+# Quando um download consta no manifesto, o botão aponta para o Drive em vez de
+# assets/downloads/ — e o arquivo não precisa existir no repositório.
+DRIVE_MANIFEST = {}
+if os.path.exists("drive_manifest.json"):
+    with open("drive_manifest.json", encoding="utf-8") as _manifest_file:
+        DRIVE_MANIFEST = json.load(_manifest_file)
+
 processed_items = []
 
 for item in items_config:
@@ -1000,21 +1008,37 @@ for item in items_config:
         else:
             print(f"  [WARN] Source not found for {spec['dest']}")
 
+        drive_entry = DRIVE_MANIFEST.get(spec["dest"])
+
         if os.path.exists(dest_file):
             real_size = os.path.getsize(dest_file)
             downloads.append({
                 "key": spec["key"],
                 "label": spec["label"],
                 "filename": spec["dest"],
-                "url": f"assets/downloads/{spec['dest']}",
+                "url": drive_entry["url"] if drive_entry else f"assets/downloads/{spec['dest']}",
                 "size": format_size(real_size),
                 "bytes": real_size,
                 "extension": os.path.splitext(spec["dest"])[1].upper().replace(".", "")
             })
+            if drive_entry:
+                downloads[-1]["hosted"] = "drive"
             if spec["key"] == "image":
                 preferred_img_for_thumb = dest_file
             elif spec["key"] == "pdf" and preferred_pdf_for_thumb is None:
                 preferred_pdf_for_thumb = dest_file
+        elif drive_entry:
+            # Arquivo hospedado no Drive e ausente localmente (clone limpo).
+            downloads.append({
+                "key": spec["key"],
+                "label": spec["label"],
+                "filename": spec["dest"],
+                "url": drive_entry["url"],
+                "size": format_size(drive_entry["bytes"]),
+                "bytes": drive_entry["bytes"],
+                "extension": os.path.splitext(spec["dest"])[1].upper().replace(".", ""),
+                "hosted": "drive"
+            })
 
     thumb_filename = f"thumb-{item['id']}.jpg"
     thumb_path = os.path.join("assets", "img", "thumbnails", thumb_filename)

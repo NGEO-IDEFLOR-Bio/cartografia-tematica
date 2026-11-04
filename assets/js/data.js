@@ -102,10 +102,11 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "mapa-areas-ideflor-bio-pa-a1.pdf",
-        "url": "assets/downloads/mapa-areas-ideflor-bio-pa-a1.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1EJ3yJY3nWL2xjB_gg9F0783OMYUD3UzQ",
         "size": "3.3 MB",
         "bytes": 3411475,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       }
     ]
   },
@@ -137,10 +138,11 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "mapa-categorias-fundiarias-pa-a1.pdf",
-        "url": "assets/downloads/mapa-categorias-fundiarias-pa-a1.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1hZ1jj-H95X5L6lqipq0HmVblEegY3TY7",
         "size": "22.0 MB",
         "bytes": 23094193,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       }
     ]
   },
@@ -173,10 +175,11 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "mapa-areas-protegidas-pa-a1.pdf",
-        "url": "assets/downloads/mapa-areas-protegidas-pa-a1.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1dfiXEY-vURnKsoqOnDSE_1OdrOHZe3O9",
         "size": "5.2 MB",
         "bytes": 5497218,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       }
     ]
   },
@@ -207,10 +210,11 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "unidades-de-conservacao-estaduais-por-gerencia-regional.pdf",
-        "url": "assets/downloads/unidades-de-conservacao-estaduais-por-gerencia-regional.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1Vca1jMVoxcXyUAnu0v8U9lfDexSO0zcx",
         "size": "14.6 MB",
         "bytes": 15284440,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       }
     ]
   },
@@ -241,10 +245,11 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "estado-do-para-regioes-de-integracao.pdf",
-        "url": "assets/downloads/estado-do-para-regioes-de-integracao.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1NYGEexgkve5IuSShka18OFV67bfqQx0H",
         "size": "14.6 MB",
         "bytes": 15305318,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       }
     ]
   },
@@ -276,10 +281,11 @@ const MAPS_DATABASE = [
         "key": "image",
         "label": "Imagem PNG (A1, 300 dpi)",
         "filename": "macrozoneamento-ecologico-economico-zee.png",
-        "url": "assets/downloads/macrozoneamento-ecologico-economico-zee.png",
+        "url": "https://drive.google.com/uc?export=download&id=1PZWVpRxIExvOVciE_d3OUWNaiCtnVvV3",
         "size": "7.6 MB",
         "bytes": 8012431,
-        "extension": "PNG"
+        "extension": "PNG",
+        "hosted": "drive"
       }
     ]
   },
@@ -311,10 +317,11 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "unidades-de-conservacao-no-estado-do-para.pdf",
-        "url": "assets/downloads/unidades-de-conservacao-no-estado-do-para.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1u_Rnwk3JtZ56D9lXVKquDlj7KvftmNI3",
         "size": "41.0 MB",
         "bytes": 43022577,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       }
     ]
   },
@@ -348,10 +355,11 @@ const MAPS_DATABASE = [
         "key": "image",
         "label": "Imagem JPEG",
         "filename": "mapa-unidades-de-conservacao-estaduais-pa-a1.jpg",
-        "url": "assets/downloads/mapa-unidades-de-conservacao-estaduais-pa-a1.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1DEsMzQIXLqP5xqRuOlfxkBgL-9NjzpgW",
         "size": "5.0 MB",
         "bytes": 5203731,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -383,10 +391,11 @@ const MAPS_DATABASE = [
         "key": "image",
         "label": "Imagem JPEG Otimizada",
         "filename": "mapa-unidades-de-conservacao-estaduais-pa-a4.jpg",
-        "url": "assets/downloads/mapa-unidades-de-conservacao-estaduais-pa-a4.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1r7H92CCWhFShdn7IMjn7XFjj1JdvJLCj",
         "size": "1.2 MB",
         "bytes": 1293143,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -420,10 +429,11 @@ const MAPS_DATABASE = [
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "revis-tabuleiro-do-embaubal-praias.jpg",
-        "url": "assets/downloads/revis-tabuleiro-do-embaubal-praias.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=15QFge6sC2i9wew3939Z6GkHopP2EJAmo",
         "size": "523 KB",
         "bytes": 535535,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -456,19 +466,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A0)",
         "filename": "grcn-ii-mapeamento-unidades-de-conservacao-a0.pdf",
-        "url": "assets/downloads/grcn-ii-mapeamento-unidades-de-conservacao-a0.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=157_cau2SEaMlw0j-Vigbg3zIIJD8oXMM",
         "size": "7.9 MB",
         "bytes": 8243873,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG",
         "filename": "grcn-ii-mapeamento-unidades-de-conservacao-a0.jpg",
-        "url": "assets/downloads/grcn-ii-mapeamento-unidades-de-conservacao-a0.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=10dz0vxK1cqsgmMy-Mk6sU-uJ9lBJn3Ac",
         "size": "6.1 MB",
         "bytes": 6373621,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -500,10 +512,11 @@ const MAPS_DATABASE = [
         "key": "image",
         "label": "Imagem JPEG Otimizada",
         "filename": "grcn-ii-unidades-de-conservacao-sintese.jpg",
-        "url": "assets/downloads/grcn-ii-unidades-de-conservacao-sintese.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1UiEhqp1gogkcAq6ODsbVagOw9JhZPHcB",
         "size": "1.2 MB",
         "bytes": 1217042,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -535,19 +548,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-estacao-ecologica-mamuru.pdf",
-        "url": "assets/downloads/grcn-ii-estacao-ecologica-mamuru.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1Wfzxmi7z7o1G8azua__ziBNVdhoYr2Ms",
         "size": "3.7 MB",
         "bytes": 3886239,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grcn-ii-estacao-ecologica-mamuru.jpg",
-        "url": "assets/downloads/grcn-ii-estacao-ecologica-mamuru.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1BaGTvka6fPnoYaeaPzYiLKN0iBcx6Xzv",
         "size": "848 KB",
         "bytes": 868177,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -579,19 +594,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-floresta-estadual-de-faro.pdf",
-        "url": "assets/downloads/grcn-ii-floresta-estadual-de-faro.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1vtN5ayi5rcDkmzIcsBVPLn0lIz0qQOMh",
         "size": "4.0 MB",
         "bytes": 4180376,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grcn-ii-floresta-estadual-de-faro.jpg",
-        "url": "assets/downloads/grcn-ii-floresta-estadual-de-faro.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1h4MQwiKsCCW6zBWWmOPFW1XoKR2qE4e3",
         "size": "790 KB",
         "bytes": 808462,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -623,19 +640,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-floresta-estadual-do-paru.pdf",
-        "url": "assets/downloads/grcn-ii-floresta-estadual-do-paru.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1QTc7jtM4qX_JEEgU5G2a2BTtjEOEQ6Sg",
         "size": "9.1 MB",
         "bytes": 9526999,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grcn-ii-floresta-estadual-do-paru.jpg",
-        "url": "assets/downloads/grcn-ii-floresta-estadual-do-paru.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1xD8-jbEcVtJstNXMto18t1ahvym_nQtm",
         "size": "984 KB",
         "bytes": 1008053,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -667,19 +686,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-floresta-estadual-do-trombetas.pdf",
-        "url": "assets/downloads/grcn-ii-floresta-estadual-do-trombetas.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1mAxKTkN8DaNh7Bo0qTsvCsPYAsERht6n",
         "size": "5.6 MB",
         "bytes": 5904592,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grcn-ii-floresta-estadual-do-trombetas.jpg",
-        "url": "assets/downloads/grcn-ii-floresta-estadual-do-trombetas.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1wrJIAKpkCdhVUREHfBymJQ3EQSw5R9yA",
         "size": "882 KB",
         "bytes": 903661,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -712,19 +733,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial",
         "filename": "grcn-ii-parque-estadual-arvores-gigantes-pagam.pdf",
-        "url": "assets/downloads/grcn-ii-parque-estadual-arvores-gigantes-pagam.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1WIdrFTGRNgEU8PKoF8OwGr4oa187HSIj",
         "size": "2.0 MB",
         "bytes": 2085721,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grcn-ii-parque-estadual-arvores-gigantes-pagam.jpg",
-        "url": "assets/downloads/grcn-ii-parque-estadual-arvores-gigantes-pagam.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1O0LrlleuCoPWrmAPbf4WMDE0IsXSvwoz",
         "size": "689 KB",
         "bytes": 705217,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -762,19 +785,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1-gcbANZDLUC4Hh-W4a3Z5FcNLlI4x5g6",
         "size": "6.8 MB",
         "bytes": 7081909,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1nRKHb6FV0GpRk1BcK8h0nQzESP_HKYX_",
         "size": "994 KB",
         "bytes": 1018080,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -810,19 +835,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1H4BZLixwYrDSkJn8Fv-5fPwFuCHWxHu2",
         "size": "7.4 MB",
         "bytes": 7806096,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1sBPlmi6bHkc1JVl1M9OJMzEwi3Oc_R9c",
         "size": "1.0 MB",
         "bytes": 1094634,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -859,19 +886,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1saUCN5pi8bmGDvKILj9IpppJpKA1ZuQJ",
         "size": "14.5 MB",
         "bytes": 15219440,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1ogdKcP8fskRzUxha8hJp3is6kaammaLb",
         "size": "1017 KB",
         "bytes": 1041321,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -906,19 +935,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1lsM2jKCbDVscySwzSXoIHKIMeT8jm1jX",
         "size": "12.9 MB",
         "bytes": 13532827,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1JzjJo513FtRt4lGCylnbD6U3XhoFJj-T",
         "size": "1.0 MB",
         "bytes": 1061444,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -955,19 +986,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1-cqCXO2cNS4mPotM_2XmKKj4mJUB-6BB",
         "size": "7.8 MB",
         "bytes": 8224990,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1Z9Re564y-9nJ2npVXNN1ECMlX8f4aLOS",
         "size": "1.1 MB",
         "bytes": 1155525,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1005,19 +1038,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1fNRTBbXF8ytJIFNX3QjbUWrTTouLNtOA",
         "size": "6.5 MB",
         "bytes": 6794824,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1yaTPGxnFVF3faBz0IYapKV-q9nhUkCk-",
         "size": "1.0 MB",
         "bytes": 1081041,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1055,19 +1090,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1g0PJ8qTCRp8TnoeCWNItWsFYBkgfUtmF",
         "size": "6.5 MB",
         "bytes": 6794734,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1u0kPg6ubeV9PGqZ_MdGrUlkNxlvICYgH",
         "size": "1.0 MB",
         "bytes": 1085193,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1105,19 +1142,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1Po-QIuD3QG5y9O6cOTVJlEGAi18fs50c",
         "size": "6.5 MB",
         "bytes": 6794512,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=104_2dZTVVg69SlCmdTpuLlrlhuB_naR9",
         "size": "1.0 MB",
         "bytes": 1085319,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1155,19 +1194,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1-y2p8wv551TYRxf_itrgzZmmpzXC62_C",
         "size": "6.5 MB",
         "bytes": 6794981,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1siIKschEOLln6Y-riU0BiP--wBQ4E2VG",
         "size": "1.0 MB",
         "bytes": 1085673,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1205,19 +1246,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1FZeUYPBP5-zvdch3r7xgJ5rohD9-gU4O",
         "size": "6.5 MB",
         "bytes": 6795076,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1cR4uXJwDi6pxw4o7ysB-nin3kNGN6fsz",
         "size": "1.0 MB",
         "bytes": 1084595,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1255,19 +1298,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1OyddTz-GdvBZ59IXfLlMuShhgz1duULC",
         "size": "3.9 MB",
         "bytes": 4130109,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1qb-3bnjmIl39kXXm2rlmeQn6XlxFN7eh",
         "size": "929 KB",
         "bytes": 950885,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1305,19 +1350,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1fV6Iukt5VF3heyyLNzA-t6YC4-K3Sz9D",
         "size": "3.9 MB",
         "bytes": 4128371,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1yzGXG1ZTrNsmGYb7yRM_XqiNfroQRNS0",
         "size": "862 KB",
         "bytes": 883138,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1355,19 +1402,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1hR3G4ejf09jNsuvhqmkQGUqUkF1-cRtq",
         "size": "3.9 MB",
         "bytes": 4080497,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=100dqLl1t-kcF6hp41qEGiLAdxB0tPQt1",
         "size": "811 KB",
         "bytes": 830966,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1405,19 +1454,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF Vetorial Plotter (A1)",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1YB9qaWrF-UPNCGJLKQkHL4nXWN5aEsyi",
         "size": "4.0 MB",
         "bytes": 4160220,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem JPEG de Alta Definição",
         "filename": "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.jpg",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.jpg",
+        "url": "https://drive.google.com/uc?export=download&id=1KXZ8BGcFbQZsENgv0b1nDte7hDFV9U6j",
         "size": "924 KB",
         "bytes": 946537,
-        "extension": "JPG"
+        "extension": "JPG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1453,127 +1504,141 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "01 — Limites Territoriais e UCs Estaduais",
         "filename": "grx-tabuleiro-embaubal-01-limites-territoriais-ucs.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-01-limites-territoriais-ucs.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1aLxzEqmHMVkvsZL1vAPIljha93Nm9dvq",
         "size": "3.7 MB",
         "bytes": 3870733,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "02 — Gestão Territorial, Infraestrutura e Acessos",
         "filename": "grx-tabuleiro-embaubal-02-gestao-infraestrutura-acessos.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-02-gestao-infraestrutura-acessos.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1bY-pgSLRV_rEwCtPrJKk8YjkxU4kVuX3",
         "size": "3.9 MB",
         "bytes": 4105546,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "03 — Biodiversidade e Proteção Ambiental",
         "filename": "grx-tabuleiro-embaubal-03-biodiversidade-protecao-ambiental.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-03-biodiversidade-protecao-ambiental.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1yyYsQ2BKAQRdCA7YTXmwDKEPpBaEJ79F",
         "size": "7.6 MB",
         "bytes": 7924270,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "04 — Comunidades e Uso Tradicional",
         "filename": "grx-tabuleiro-embaubal-04-comunidades-uso-tradicional.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-04-comunidades-uso-tradicional.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1C83bGuCommLpnGGuBLr_ANJ4INWkv5tG",
         "size": "5.0 MB",
         "bytes": 5207508,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "05 — Quadro Hidrográfico e Referências Locais",
         "filename": "grx-tabuleiro-embaubal-05-quadro-hidrografico-referencias.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-05-quadro-hidrografico-referencias.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1Mc0vBuAILsVAwpyZJQE5ftx_Xipv_kcC",
         "size": "4.2 MB",
         "bytes": 4392256,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (1985)",
         "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-1985.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-1985.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1FtIM-135Q9a1Ppkg6nyV5wPqIzTUIoey",
         "size": "4.4 MB",
         "bytes": 4641047,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (1995)",
         "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-1995.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-1995.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1jQnY4XY8QaxiceolqQBsAAPb4BtJFtKV",
         "size": "4.4 MB",
         "bytes": 4640337,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (2005)",
         "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-2005.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-2005.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1ZLN_ufHg0YuN0CYXAWu0lAOmX7PLKx8H",
         "size": "4.4 MB",
         "bytes": 4640147,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (2015)",
         "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-2015.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-2015.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1nWq004ZpcIZbyUuWdAGuIY_ONyXCf3mg",
         "size": "4.4 MB",
         "bytes": 4640298,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (2024)",
         "filename": "grx-tabuleiro-embaubal-06-cobertura-solo-2024.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-06-cobertura-solo-2024.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1JeODwm6L09wSucoEFdXsvVAGWggFFxi4",
         "size": "4.4 MB",
         "bytes": 4640718,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "07 — Cicatrizes de Fogo (1985–1994)",
         "filename": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-1985-1994.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-07-cicatrizes-fogo-1985-1994.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=121U72v0-kg_OHzMjqcM68e42Zk43nNnr",
         "size": "3.0 MB",
         "bytes": 3182091,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "07 — Cicatrizes de Fogo (1995–2004)",
         "filename": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-1995-2004.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-07-cicatrizes-fogo-1995-2004.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1WUhFeJjJMccQmB_gVZbHdCiGKTHk74VY",
         "size": "3.0 MB",
         "bytes": 3156858,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "07 — Cicatrizes de Fogo (2005–2014)",
         "filename": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-2005-2014.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-07-cicatrizes-fogo-2005-2014.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1UMnR26rkxI9_B_aoUQ4t5XGM2re5sgbQ",
         "size": "3.0 MB",
         "bytes": 3153264,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "07 — Cicatrizes de Fogo (2015–2024)",
         "filename": "grx-tabuleiro-embaubal-07-cicatrizes-fogo-2015-2024.pdf",
-        "url": "assets/downloads/grx-tabuleiro-embaubal-07-cicatrizes-fogo-2015-2024.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1xJRufdcne4x04OCimPDSFBjwnvVPXSxk",
         "size": "3.0 MB",
         "bytes": 3168047,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       }
     ]
   },
@@ -1609,127 +1674,141 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "01 — Limites Territoriais e UCs Estaduais",
         "filename": "grx-vitoria-souzel-01-limites-territoriais-ucs.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-01-limites-territoriais-ucs.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1XuMKrAtAdFtoQWaGW1Bp1jT5xq1eD0xm",
         "size": "5.9 MB",
         "bytes": 6212707,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "02 — Gestão Territorial, Infraestrutura e Acessos",
         "filename": "grx-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1k93wXUUAb3OhPPRWPpY5VlW4eV68OG6W",
         "size": "6.6 MB",
         "bytes": 6940834,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "03 — Biodiversidade e Proteção Ambiental",
         "filename": "grx-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1rqgAY9n-5TlYCZIL7bsZwQy1T22swyGe",
         "size": "13.7 MB",
         "bytes": 14350201,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "04 — Comunidades e Uso Tradicional",
         "filename": "grx-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-04-comunidades-uso-tradicional.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=12Qq7T-I-D-r8VyDPjpZaOo5nGe_Dd0s_",
         "size": "12.1 MB",
         "bytes": 12664046,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "05 — Quadro Hidrográfico e Referências Locais",
         "filename": "grx-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-05-quadro-hidrografico-referencias.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=13XkI_vITl1CuvVkJEL4Zm2NmDxTrWWvs",
         "size": "7.0 MB",
         "bytes": 7337347,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (1985)",
         "filename": "grx-vitoria-souzel-06-cobertura-solo-1985.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-1985.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1MioGncS2XsRi3t5VFkWX2o1yF_1daiBd",
         "size": "5.7 MB",
         "bytes": 5936350,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (1995)",
         "filename": "grx-vitoria-souzel-06-cobertura-solo-1995.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-1995.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1AnZnpqZNRAcsUOFnrY3kyycj7Q5TyzFu",
         "size": "5.7 MB",
         "bytes": 5936644,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (2005)",
         "filename": "grx-vitoria-souzel-06-cobertura-solo-2005.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-2005.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1EoAcaSTwAxwaetRwEd_OLOSXaP6Z251R",
         "size": "5.7 MB",
         "bytes": 5936163,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (2015)",
         "filename": "grx-vitoria-souzel-06-cobertura-solo-2015.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-2015.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1Tt8_KXN_r7rx_eQ-6w2PTuKkqtPDnUYe",
         "size": "5.7 MB",
         "bytes": 5936579,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "06 — Cobertura do Solo (2024)",
         "filename": "grx-vitoria-souzel-06-cobertura-solo-2024.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-06-cobertura-solo-2024.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1saKPhKcJoPGOqoNdOOfRWitAuyaJ9r-5",
         "size": "5.7 MB",
         "bytes": 5936834,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "07 — Cicatrizes de Fogo (1985–1994)",
         "filename": "grx-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1eCeS9oh0YXreVMhShlYNmjwUWIedtd7C",
         "size": "3.1 MB",
         "bytes": 3281999,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "07 — Cicatrizes de Fogo (1995–2004)",
         "filename": "grx-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1DR086tcRkia6prQsbHAKfT2byacl74Ii",
         "size": "3.1 MB",
         "bytes": 3280533,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "07 — Cicatrizes de Fogo (2005–2014)",
         "filename": "grx-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1kBiC9lKQFReGYdbks4muZFXLEzJupjpk",
         "size": "3.1 MB",
         "bytes": 3233180,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "pdf",
         "label": "07 — Cicatrizes de Fogo (2015–2024)",
         "filename": "grx-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf",
-        "url": "assets/downloads/grx-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1w-5POTFbFxl9GRXn85Q-oE_bXibpA2aZ",
         "size": "3.1 MB",
         "bytes": 3296244,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       }
     ]
   },
@@ -1766,19 +1845,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF de Alta Resolução (A4)",
         "filename": "gra-pesam-mapa-elevacao-a4.pdf",
-        "url": "assets/downloads/gra-pesam-mapa-elevacao-a4.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=16mQHtYag3rbiNZLjV094l8IDoNlKwF-k",
         "size": "832 KB",
         "bytes": 852033,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem PNG (A4, 300 dpi)",
         "filename": "gra-pesam-mapa-elevacao-a4.png",
-        "url": "assets/downloads/gra-pesam-mapa-elevacao-a4.png",
+        "url": "https://drive.google.com/uc?export=download&id=1l_eDV7TbDer3vn3D1AdfNK4mMxWUVXyZ",
         "size": "1.8 MB",
         "bytes": 1857942,
-        "extension": "PNG"
+        "extension": "PNG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1814,19 +1895,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF de Alta Resolução (A4)",
         "filename": "gra-pesam-geologia-tempo-geologico-a4.pdf",
-        "url": "assets/downloads/gra-pesam-geologia-tempo-geologico-a4.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1kUdT-0RsQWvKxCO-eqMYwSv-BqVV4_sl",
         "size": "669 KB",
         "bytes": 685092,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem PNG (A4, 300 dpi)",
         "filename": "gra-pesam-geologia-tempo-geologico-a4.png",
-        "url": "assets/downloads/gra-pesam-geologia-tempo-geologico-a4.png",
+        "url": "https://drive.google.com/uc?export=download&id=1wtzs4QXl_ycPykdHrAYM8PemrLqu1TqU",
         "size": "1.0 MB",
         "bytes": 1080897,
-        "extension": "PNG"
+        "extension": "PNG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1861,19 +1944,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF de Alta Resolução (A4)",
         "filename": "gra-pesam-geologia-subprovincias-a4.pdf",
-        "url": "assets/downloads/gra-pesam-geologia-subprovincias-a4.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1_NmvOnkFlty0QBeoqw4zaj6kUfxTml1Y",
         "size": "616 KB",
         "bytes": 630407,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem PNG (A4, 300 dpi)",
         "filename": "gra-pesam-geologia-subprovincias-a4.png",
-        "url": "assets/downloads/gra-pesam-geologia-subprovincias-a4.png",
+        "url": "https://drive.google.com/uc?export=download&id=1t5JaMCv1KUZT5KbXoBOkAIW3UL9eEDRL",
         "size": "958 KB",
         "bytes": 980922,
-        "extension": "PNG"
+        "extension": "PNG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1910,19 +1995,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF de Alta Resolução (A4)",
         "filename": "gra-pesam-geomorfologia-a4.pdf",
-        "url": "assets/downloads/gra-pesam-geomorfologia-a4.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=12NR2AMJNxXyRjk_vRajALdGCw24Wos20",
         "size": "611 KB",
         "bytes": 625864,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem PNG (A4, 300 dpi)",
         "filename": "gra-pesam-geomorfologia-a4.png",
-        "url": "assets/downloads/gra-pesam-geomorfologia-a4.png",
+        "url": "https://drive.google.com/uc?export=download&id=1FmB_wJpPuzBl4PctrATpywGsN5M7xePz",
         "size": "890 KB",
         "bytes": 911380,
-        "extension": "PNG"
+        "extension": "PNG",
+        "hosted": "drive"
       }
     ]
   },
@@ -1957,19 +2044,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF de Alta Resolução (A4)",
         "filename": "gra-pesam-localizacao-cpas-cotas-a4.pdf",
-        "url": "assets/downloads/gra-pesam-localizacao-cpas-cotas-a4.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1Rbnd7q0tCcWzIRMSbCntErlUvCaaiC2Z",
         "size": "748 KB",
         "bytes": 765472,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem PNG (A4, 300 dpi)",
         "filename": "gra-pesam-localizacao-cpas-cotas-a4.png",
-        "url": "assets/downloads/gra-pesam-localizacao-cpas-cotas-a4.png",
+        "url": "https://drive.google.com/uc?export=download&id=1SDY-A7hL8924s2yH9NOj4mnfENQmARxp",
         "size": "1.1 MB",
         "bytes": 1129697,
-        "extension": "PNG"
+        "extension": "PNG",
+        "hosted": "drive"
       }
     ]
   },
@@ -2006,19 +2095,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF de Alta Resolução (A4)",
         "filename": "gra-pesam-pedologia-a4.pdf",
-        "url": "assets/downloads/gra-pesam-pedologia-a4.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1vantUrU8LNXI08w5roZO42Okr-3ogtE-",
         "size": "602 KB",
         "bytes": 616863,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem PNG (A4, 300 dpi)",
         "filename": "gra-pesam-pedologia-a4.png",
-        "url": "assets/downloads/gra-pesam-pedologia-a4.png",
+        "url": "https://drive.google.com/uc?export=download&id=1AnggFBARS8fQ7l8oqtxoFzxWe-MnHhHA",
         "size": "921 KB",
         "bytes": 943542,
-        "extension": "PNG"
+        "extension": "PNG",
+        "hosted": "drive"
       }
     ]
   },
@@ -2055,19 +2146,21 @@ const MAPS_DATABASE = [
         "key": "pdf",
         "label": "Documento PDF de Alta Resolução (A4)",
         "filename": "gra-pesam-vegetacao-a4.pdf",
-        "url": "assets/downloads/gra-pesam-vegetacao-a4.pdf",
+        "url": "https://drive.google.com/uc?export=download&id=1cZb6gT4D5-rSFCSC9bpw5i6SOrYgcQDa",
         "size": "621 KB",
         "bytes": 635497,
-        "extension": "PDF"
+        "extension": "PDF",
+        "hosted": "drive"
       },
       {
         "key": "image",
         "label": "Imagem PNG (A4, 300 dpi)",
         "filename": "gra-pesam-vegetacao-a4.png",
-        "url": "assets/downloads/gra-pesam-vegetacao-a4.png",
+        "url": "https://drive.google.com/uc?export=download&id=1NPankZaK4zdfH3gizhOkx0OkEWob1lUL",
         "size": "957 KB",
         "bytes": 979770,
-        "extension": "PNG"
+        "extension": "PNG",
+        "hosted": "drive"
       }
     ]
   }

@@ -1,0 +1,560 @@
+{
+  "estado-do-para-regioes-de-integracao.pdf": {
+    "bytes": 15305318,
+    "id": "1NYGEexgkve5IuSShka18OFV67bfqQx0H",
+    "sha256": "a3fef390836203bc08e5058d0059f3b98b305a435cd989116442c7d19f7e7fe5",
+    "url": "https://drive.google.com/uc?export=download&id=1NYGEexgkve5IuSShka18OFV67bfqQx0H"
+  },
+  "gra-pesam-geologia-subprovincias-a4.pdf": {
+    "bytes": 630407,
+    "id": "1_NmvOnkFlty0QBeoqw4zaj6kUfxTml1Y",
+    "sha256": "726251ea3ce951ab100744c3a278fbf9f78f643162e2df7181d2398165eeafd3",
+    "url": "https://drive.google.com/uc?export=download&id=1_NmvOnkFlty0QBeoqw4zaj6kUfxTml1Y"
+  },
+  "gra-pesam-geologia-subprovincias-a4.png": {
+    "bytes": 980922,
+    "id": "1t5JaMCv1KUZT5KbXoBOkAIW3UL9eEDRL",
+    "sha256": "aa2c164bb030b6e2f9ac9677268d0dda0459eb74d964fcf559f203b016e36a6c",
+    "url": "https://drive.google.com/uc?export=download&id=1t5JaMCv1KUZT5KbXoBOkAIW3UL9eEDRL"
+  },
+  "gra-pesam-geologia-tempo-geologico-a4.pdf": {
+    "bytes": 685092,
+    "id": "1kUdT-0RsQWvKxCO-eqMYwSv-BqVV4_sl",
+    "sha256": "71a884e89cf31d8bde7ffcd958167430cd7bc20e9be901cfa44de66e24029355",
+    "url": "https://drive.google.com/uc?export=download&id=1kUdT-0RsQWvKxCO-eqMYwSv-BqVV4_sl"
+  },
+  "gra-pesam-geologia-tempo-geologico-a4.png": {
+    "bytes": 1080897,
+    "id": "1wtzs4QXl_ycPykdHrAYM8PemrLqu1TqU",
+    "sha256": "d33abc21ca571e045c575aa29700b95161f430c2833faea5e387754567075a6c",
+    "url": "https://drive.google.com/uc?export=download&id=1wtzs4QXl_ycPykdHrAYM8PemrLqu1TqU"
+  },
+  "gra-pesam-geomorfologia-a4.pdf": {
+    "bytes": 625864,
+    "id": "12NR2AMJNxXyRjk_vRajALdGCw24Wos20",
+    "sha256": "2ceeb23388bf5dd13a79fdc1d028a7d82f3b945a5681cd348533114839ed915c",
+    "url": "https://drive.google.com/uc?export=download&id=12NR2AMJNxXyRjk_vRajALdGCw24Wos20"
+  },
+  "gra-pesam-geomorfologia-a4.png": {
+    "bytes": 911380,
+    "id": "1FmB_wJpPuzBl4PctrATpywGsN5M7xePz",
+    "sha256": "5c6b9ed6dbe09aca842284614ceed48e2f98137bd859636c182be9dfeb51acb9",
+    "url": "https://drive.google.com/uc?export=download&id=1FmB_wJpPuzBl4PctrATpywGsN5M7xePz"
+  },
+  "gra-pesam-localizacao-cpas-cotas-a4.pdf": {
+    "bytes": 765472,
+    "id": "1Rbnd7q0tCcWzIRMSbCntErlUvCaaiC2Z",
+    "sha256": "9a8174706243c3bc475ba681889513f2be6290a0857cd63decb86c946364ea7a",
+    "url": "https://drive.google.com/uc?export=download&id=1Rbnd7q0tCcWzIRMSbCntErlUvCaaiC2Z"
+  },
+  "gra-pesam-localizacao-cpas-cotas-a4.png": {
+    "bytes": 1129697,
+    "id": "1SDY-A7hL8924s2yH9NOj4mnfENQmARxp",
+    "sha256": "42bc8a51876dab3fa5f8d5b9a5cdab7af2c9384bc784753839feed7fceff4db8",
+    "url": "https://drive.google.com/uc?export=download&id=1SDY-A7hL8924s2yH9NOj4mnfENQmARxp"
+  },
+  "gra-pesam-mapa-elevacao-a4.pdf": {
+    "bytes": 852033,
+    "id": "16mQHtYag3rbiNZLjV094l8IDoNlKwF-k",
+    "sha256": "4f289a050d424171684ff08b1efbc70cf1aaa23de2c2a4c9a8c77258314056d0",
+    "url": "https://drive.google.com/uc?export=download&id=16mQHtYag3rbiNZLjV094l8IDoNlKwF-k"
+  },
+  "gra-pesam-mapa-elevacao-a4.png": {
+    "bytes": 1857942,
+    "id": "1l_eDV7TbDer3vn3D1AdfNK4mMxWUVXyZ",
+    "sha256": "10fe53081c8aa15ca27794a182fb2ba7acb8b0a2feafe902f1c57e7d6e72b087",
+    "url": "https://drive.google.com/uc?export=download&id=1l_eDV7TbDer3vn3D1AdfNK4mMxWUVXyZ"
+  },
+  "gra-pesam-pedologia-a4.pdf": {
+    "bytes": 616863,
+    "id": "1vantUrU8LNXI08w5roZO42Okr-3ogtE-",
+    "sha256": "95f875b3eccdaaa8c7dfe08b316a7f98179de72e12d158d316debe8c0f4b52c6",
+    "url": "https://drive.google.com/uc?export=download&id=1vantUrU8LNXI08w5roZO42Okr-3ogtE-"
+  },
+  "gra-pesam-pedologia-a4.png": {
+    "bytes": 943542,
+    "id": "1AnggFBARS8fQ7l8oqtxoFzxWe-MnHhHA",
+    "sha256": "dc876cc1995c7e7ed4dd4aca71d7c4767de0a94d0eaccf8536447f64b88e845e",
+    "url": "https://drive.google.com/uc?export=download&id=1AnggFBARS8fQ7l8oqtxoFzxWe-MnHhHA"
+  },
+  "gra-pesam-vegetacao-a4.pdf": {
+    "bytes": 635497,
+    "id": "1cZb6gT4D5-rSFCSC9bpw5i6SOrYgcQDa",
+    "sha256": "321c33f8d8286e9b7eca7201a5ce5ce8d3aaba79afea246b910034390005b2fb",
+    "url": "https://drive.google.com/uc?export=download&id=1cZb6gT4D5-rSFCSC9bpw5i6SOrYgcQDa"
+  },
+  "gra-pesam-vegetacao-a4.png": {
+    "bytes": 979770,
+    "id": "1NPankZaK4zdfH3gizhOkx0OkEWob1lUL",
+    "sha256": "1bf7c45e29bd49e4f1de3c082d39bf19b412dba7323611e9defa2a08bd577958",
+    "url": "https://drive.google.com/uc?export=download&id=1NPankZaK4zdfH3gizhOkx0OkEWob1lUL"
+  },
+  "grcn-ii-estacao-ecologica-mamuru.jpg": {
+    "bytes": 868177,
+    "id": "1BaGTvka6fPnoYaeaPzYiLKN0iBcx6Xzv",
+    "sha256": "424ae272e779a85315de7aaadf2bdcbb9a14be1a8bc18b18d350a059d313b777",
+    "url": "https://drive.google.com/uc?export=download&id=1BaGTvka6fPnoYaeaPzYiLKN0iBcx6Xzv"
+  },
+  "grcn-ii-estacao-ecologica-mamuru.pdf": {
+    "bytes": 3886239,
+    "id": "1Wfzxmi7z7o1G8azua__ziBNVdhoYr2Ms",
+    "sha256": "28c997866961f8ea87f8f1d69b3cc4da370c3d3da3525d63471f2781b595f3b5",
+    "url": "https://drive.google.com/uc?export=download&id=1Wfzxmi7z7o1G8azua__ziBNVdhoYr2Ms"
+  },
+  "grcn-ii-floresta-estadual-de-faro.jpg": {
+    "bytes": 808462,
+    "id": "1h4MQwiKsCCW6zBWWmOPFW1XoKR2qE4e3",
+    "sha256": "c1db055feff1a7b78fd5d86c21e1e742b5cdeab26188ac245c8532b162770b0f",
+    "url": "https://drive.google.com/uc?export=download&id=1h4MQwiKsCCW6zBWWmOPFW1XoKR2qE4e3"
+  },
+  "grcn-ii-floresta-estadual-de-faro.pdf": {
+    "bytes": 4180376,
+    "id": "1vtN5ayi5rcDkmzIcsBVPLn0lIz0qQOMh",
+    "sha256": "33204fe58fbb6715b23191f944b262d64b612e04d4cdb95b6dc5b0e3276cf7a4",
+    "url": "https://drive.google.com/uc?export=download&id=1vtN5ayi5rcDkmzIcsBVPLn0lIz0qQOMh"
+  },
+  "grcn-ii-floresta-estadual-do-paru.jpg": {
+    "bytes": 1008053,
+    "id": "1xD8-jbEcVtJstNXMto18t1ahvym_nQtm",
+    "sha256": "51198a4fca36d0f98400a456e869165f5e010267755835d18c556847fbdde850",
+    "url": "https://drive.google.com/uc?export=download&id=1xD8-jbEcVtJstNXMto18t1ahvym_nQtm"
+  },
+  "grcn-ii-floresta-estadual-do-paru.pdf": {
+    "bytes": 9526999,
+    "id": "1QTc7jtM4qX_JEEgU5G2a2BTtjEOEQ6Sg",
+    "sha256": "354ec8697203f763cff343aa5fbe0418c019302d465ca07f9f9979a3a3ddddaa",
+    "url": "https://drive.google.com/uc?export=download&id=1QTc7jtM4qX_JEEgU5G2a2BTtjEOEQ6Sg"
+  },
+  "grcn-ii-floresta-estadual-do-trombetas.jpg": {
+    "bytes": 903661,
+    "id": "1wrJIAKpkCdhVUREHfBymJQ3EQSw5R9yA",
+    "sha256": "36b3d7f7e47c7bf6d2cf7097471eec266b727b2368ff8011d031cc765c79160a",
+    "url": "https://drive.google.com/uc?export=download&id=1wrJIAKpkCdhVUREHfBymJQ3EQSw5R9yA"
+  },
+  "grcn-ii-floresta-estadual-do-trombetas.pdf": {
+    "bytes": 5904592,
+    "id": "1mAxKTkN8DaNh7Bo0qTsvCsPYAsERht6n",
+    "sha256": "ee4de6bf177dccd5777672fc8832af6a168e613c953c92df1e2c3d1627170a34",
+    "url": "https://drive.google.com/uc?export=download&id=1mAxKTkN8DaNh7Bo0qTsvCsPYAsERht6n"
+  },
+  "grcn-ii-mapeamento-unidades-de-conservacao-a0.jpg": {
+    "bytes": 6373621,
+    "id": "10dz0vxK1cqsgmMy-Mk6sU-uJ9lBJn3Ac",
+    "sha256": "e053a979d6be2321cf7022f00ea49f017b723b9eb9e4079fc8a1b14683558706",
+    "url": "https://drive.google.com/uc?export=download&id=10dz0vxK1cqsgmMy-Mk6sU-uJ9lBJn3Ac"
+  },
+  "grcn-ii-mapeamento-unidades-de-conservacao-a0.pdf": {
+    "bytes": 8243873,
+    "id": "157_cau2SEaMlw0j-Vigbg3zIIJD8oXMM",
+    "sha256": "19d891645d91d6d81fd7a6440cc582b389cff2e19741335c5f817592c2ae887b",
+    "url": "https://drive.google.com/uc?export=download&id=157_cau2SEaMlw0j-Vigbg3zIIJD8oXMM"
+  },
+  "grcn-ii-parque-estadual-arvores-gigantes-pagam.jpg": {
+    "bytes": 705217,
+    "id": "1O0LrlleuCoPWrmAPbf4WMDE0IsXSvwoz",
+    "sha256": "6da7c07231dfe6a1b2c14dac917fd542e264b38eb7b0140cab859b94f84bf2c1",
+    "url": "https://drive.google.com/uc?export=download&id=1O0LrlleuCoPWrmAPbf4WMDE0IsXSvwoz"
+  },
+  "grcn-ii-parque-estadual-arvores-gigantes-pagam.pdf": {
+    "bytes": 2085721,
+    "id": "1WIdrFTGRNgEU8PKoF8OwGr4oa187HSIj",
+    "sha256": "a931b4e979e02a800f05f6bd9748e728af0628d67efe4d991be4015310cf13e3",
+    "url": "https://drive.google.com/uc?export=download&id=1WIdrFTGRNgEU8PKoF8OwGr4oa187HSIj"
+  },
+  "grcn-ii-unidades-de-conservacao-sintese.jpg": {
+    "bytes": 1217042,
+    "id": "1UiEhqp1gogkcAq6ODsbVagOw9JhZPHcB",
+    "sha256": "2699ee938c713a09ba3cd2bff9c9bc3cb64c153f6ceb15206b6f774c2057f77a",
+    "url": "https://drive.google.com/uc?export=download&id=1UiEhqp1gogkcAq6ODsbVagOw9JhZPHcB"
+  },
+  "grx-tabuleiro-embaubal-01-limites-territoriais-ucs.pdf": {
+    "bytes": 3870733,
+    "id": "1aLxzEqmHMVkvsZL1vAPIljha93Nm9dvq",
+    "sha256": "4cf0ea923ddca39a6d83b6c898ad9374e3891f204732901d1e5e3163780d2980",
+    "url": "https://drive.google.com/uc?export=download&id=1aLxzEqmHMVkvsZL1vAPIljha93Nm9dvq"
+  },
+  "grx-tabuleiro-embaubal-02-gestao-infraestrutura-acessos.pdf": {
+    "bytes": 4105546,
+    "id": "1bY-pgSLRV_rEwCtPrJKk8YjkxU4kVuX3",
+    "sha256": "a360120a304ee4d28336cbf5a87e78ffbdc299c07746363d028195fc16f057a2",
+    "url": "https://drive.google.com/uc?export=download&id=1bY-pgSLRV_rEwCtPrJKk8YjkxU4kVuX3"
+  },
+  "grx-tabuleiro-embaubal-03-biodiversidade-protecao-ambiental.pdf": {
+    "bytes": 7924270,
+    "id": "1yyYsQ2BKAQRdCA7YTXmwDKEPpBaEJ79F",
+    "sha256": "1bd7f14b4795042dc48e7821be33306e2118d6d7b680bab0ebb6fa623c9c8423",
+    "url": "https://drive.google.com/uc?export=download&id=1yyYsQ2BKAQRdCA7YTXmwDKEPpBaEJ79F"
+  },
+  "grx-tabuleiro-embaubal-04-comunidades-uso-tradicional.pdf": {
+    "bytes": 5207508,
+    "id": "1C83bGuCommLpnGGuBLr_ANJ4INWkv5tG",
+    "sha256": "62b8affa708dad4c4c12d87be543fd103fd204486a213c1b3fa06d1fe95001a6",
+    "url": "https://drive.google.com/uc?export=download&id=1C83bGuCommLpnGGuBLr_ANJ4INWkv5tG"
+  },
+  "grx-tabuleiro-embaubal-05-quadro-hidrografico-referencias.pdf": {
+    "bytes": 4392256,
+    "id": "1Mc0vBuAILsVAwpyZJQE5ftx_Xipv_kcC",
+    "sha256": "fdb09d892b44255c55fcd0ae5f1e3c9404277d0021e739a9bbd4447a2a365014",
+    "url": "https://drive.google.com/uc?export=download&id=1Mc0vBuAILsVAwpyZJQE5ftx_Xipv_kcC"
+  },
+  "grx-tabuleiro-embaubal-06-cobertura-solo-1985.pdf": {
+    "bytes": 4641047,
+    "id": "1FtIM-135Q9a1Ppkg6nyV5wPqIzTUIoey",
+    "sha256": "425a201125ae864e7d7d9ff3e7f340a3409a1c66c2275c4036abc8fba8687e51",
+    "url": "https://drive.google.com/uc?export=download&id=1FtIM-135Q9a1Ppkg6nyV5wPqIzTUIoey"
+  },
+  "grx-tabuleiro-embaubal-06-cobertura-solo-1995.pdf": {
+    "bytes": 4640337,
+    "id": "1jQnY4XY8QaxiceolqQBsAAPb4BtJFtKV",
+    "sha256": "3358a155cfbac0038b2ef82c47f71950c835724281390a69e9a78d1b3c3afab2",
+    "url": "https://drive.google.com/uc?export=download&id=1jQnY4XY8QaxiceolqQBsAAPb4BtJFtKV"
+  },
+  "grx-tabuleiro-embaubal-06-cobertura-solo-2005.pdf": {
+    "bytes": 4640147,
+    "id": "1ZLN_ufHg0YuN0CYXAWu0lAOmX7PLKx8H",
+    "sha256": "773b5390d2d528bd4fe81462d80828eaacee94a636a2eed45871204e909a1161",
+    "url": "https://drive.google.com/uc?export=download&id=1ZLN_ufHg0YuN0CYXAWu0lAOmX7PLKx8H"
+  },
+  "grx-tabuleiro-embaubal-06-cobertura-solo-2015.pdf": {
+    "bytes": 4640298,
+    "id": "1nWq004ZpcIZbyUuWdAGuIY_ONyXCf3mg",
+    "sha256": "92f14acbb3b779fcf0d9429cfdefcb1f5a0f9b393a48bdbed750307a74d5c185",
+    "url": "https://drive.google.com/uc?export=download&id=1nWq004ZpcIZbyUuWdAGuIY_ONyXCf3mg"
+  },
+  "grx-tabuleiro-embaubal-06-cobertura-solo-2024.pdf": {
+    "bytes": 4640718,
+    "id": "1JeODwm6L09wSucoEFdXsvVAGWggFFxi4",
+    "sha256": "49ff0a6ea8ebefcd52dc3da3d4cfc3e19e9fe8bfe9e6d6160c466b884c05b646",
+    "url": "https://drive.google.com/uc?export=download&id=1JeODwm6L09wSucoEFdXsvVAGWggFFxi4"
+  },
+  "grx-tabuleiro-embaubal-07-cicatrizes-fogo-1985-1994.pdf": {
+    "bytes": 3182091,
+    "id": "121U72v0-kg_OHzMjqcM68e42Zk43nNnr",
+    "sha256": "0a6c9c6a69e1493c10348726de2becab269e3d5482bd768e943aeea5e5a96f19",
+    "url": "https://drive.google.com/uc?export=download&id=121U72v0-kg_OHzMjqcM68e42Zk43nNnr"
+  },
+  "grx-tabuleiro-embaubal-07-cicatrizes-fogo-1995-2004.pdf": {
+    "bytes": 3156858,
+    "id": "1WUhFeJjJMccQmB_gVZbHdCiGKTHk74VY",
+    "sha256": "962c7d39b131acf1041ddce0eaed15821d09db2dc49e53893e4985a3b81bbacb",
+    "url": "https://drive.google.com/uc?export=download&id=1WUhFeJjJMccQmB_gVZbHdCiGKTHk74VY"
+  },
+  "grx-tabuleiro-embaubal-07-cicatrizes-fogo-2005-2014.pdf": {
+    "bytes": 3153264,
+    "id": "1UMnR26rkxI9_B_aoUQ4t5XGM2re5sgbQ",
+    "sha256": "a1ce440c474806303506f7d6466df892b1a80fcb336d7160d0fd822963f8d45c",
+    "url": "https://drive.google.com/uc?export=download&id=1UMnR26rkxI9_B_aoUQ4t5XGM2re5sgbQ"
+  },
+  "grx-tabuleiro-embaubal-07-cicatrizes-fogo-2015-2024.pdf": {
+    "bytes": 3168047,
+    "id": "1xJRufdcne4x04OCimPDSFBjwnvVPXSxk",
+    "sha256": "33daca9b9fa56361226ac4ebb1a5c420e5004f0ae7794d92e6475db9b8167f19",
+    "url": "https://drive.google.com/uc?export=download&id=1xJRufdcne4x04OCimPDSFBjwnvVPXSxk"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.jpg": {
+    "bytes": 1018080,
+    "id": "1nRKHb6FV0GpRk1BcK8h0nQzESP_HKYX_",
+    "sha256": "97f6420940ed501552467e71a38b2fd45472b8befff66485537c72ee1070c142",
+    "url": "https://drive.google.com/uc?export=download&id=1nRKHb6FV0GpRk1BcK8h0nQzESP_HKYX_"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-01-limites-territoriais-ucs.pdf": {
+    "bytes": 7081909,
+    "id": "1-gcbANZDLUC4Hh-W4a3Z5FcNLlI4x5g6",
+    "sha256": "5058e7f5b71c923cd2e6a09ccc64b5e9b54aa647deb5e20ddfbd3a9e20562633",
+    "url": "https://drive.google.com/uc?export=download&id=1-gcbANZDLUC4Hh-W4a3Z5FcNLlI4x5g6"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.jpg": {
+    "bytes": 1094634,
+    "id": "1sBPlmi6bHkc1JVl1M9OJMzEwi3Oc_R9c",
+    "sha256": "f05b67cdd261a92b134f761c8669cc0d7ecae2a89a7e101813b53c03b3688c12",
+    "url": "https://drive.google.com/uc?export=download&id=1sBPlmi6bHkc1JVl1M9OJMzEwi3Oc_R9c"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf": {
+    "bytes": 7806096,
+    "id": "1H4BZLixwYrDSkJn8Fv-5fPwFuCHWxHu2",
+    "sha256": "8db5859323b0a703aea4745c02954ca9929c3bdd303f4b529213118658a7a268",
+    "url": "https://drive.google.com/uc?export=download&id=1H4BZLixwYrDSkJn8Fv-5fPwFuCHWxHu2"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.jpg": {
+    "bytes": 1041321,
+    "id": "1ogdKcP8fskRzUxha8hJp3is6kaammaLb",
+    "sha256": "af86b40fbaf14e225d4ede1e3568ee6d9a833046f6a0aec0b8e5d84dae9161d8",
+    "url": "https://drive.google.com/uc?export=download&id=1ogdKcP8fskRzUxha8hJp3is6kaammaLb"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf": {
+    "bytes": 15219440,
+    "id": "1saUCN5pi8bmGDvKILj9IpppJpKA1ZuQJ",
+    "sha256": "c904ee2b4a7dd7c970d7bf5fe7ecd1fe7ab1a0bdad2a8745f862f28c1dc6cf06",
+    "url": "https://drive.google.com/uc?export=download&id=1saUCN5pi8bmGDvKILj9IpppJpKA1ZuQJ"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.jpg": {
+    "bytes": 1061444,
+    "id": "1JzjJo513FtRt4lGCylnbD6U3XhoFJj-T",
+    "sha256": "eb6c95e80abf207eceb8f7cef3ffd36be39b6d18265bbb22c92a89ba70c9762a",
+    "url": "https://drive.google.com/uc?export=download&id=1JzjJo513FtRt4lGCylnbD6U3XhoFJj-T"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-04-comunidades-uso-tradicional.pdf": {
+    "bytes": 13532827,
+    "id": "1lsM2jKCbDVscySwzSXoIHKIMeT8jm1jX",
+    "sha256": "38ad004e2356361b9763ac50ba0cb1196a10f171838fc4905c0417bb560ce632",
+    "url": "https://drive.google.com/uc?export=download&id=1lsM2jKCbDVscySwzSXoIHKIMeT8jm1jX"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.jpg": {
+    "bytes": 1155525,
+    "id": "1Z9Re564y-9nJ2npVXNN1ECMlX8f4aLOS",
+    "sha256": "ea608c54ee6d8b73fa9acd15d6b0562a88b1014f44883c8bf92fac02415e5b62",
+    "url": "https://drive.google.com/uc?export=download&id=1Z9Re564y-9nJ2npVXNN1ECMlX8f4aLOS"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-05-quadro-hidrografico-referencias.pdf": {
+    "bytes": 8224990,
+    "id": "1-cqCXO2cNS4mPotM_2XmKKj4mJUB-6BB",
+    "sha256": "9ac33733f2422aa8482ef5a678169a4a31484b14b3b969bdafadb380650668b6",
+    "url": "https://drive.google.com/uc?export=download&id=1-cqCXO2cNS4mPotM_2XmKKj4mJUB-6BB"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.jpg": {
+    "bytes": 1081041,
+    "id": "1yaTPGxnFVF3faBz0IYapKV-q9nhUkCk-",
+    "sha256": "eda39f48fdcb7589ff12ff98f479f6206d9791b8825b815f13de3c1e4e373fe5",
+    "url": "https://drive.google.com/uc?export=download&id=1yaTPGxnFVF3faBz0IYapKV-q9nhUkCk-"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1985.pdf": {
+    "bytes": 6794824,
+    "id": "1fNRTBbXF8ytJIFNX3QjbUWrTTouLNtOA",
+    "sha256": "20fef6d540e7d5163f73eb7c429b3329da451d84f243e2ab032c3c5c6fbd7988",
+    "url": "https://drive.google.com/uc?export=download&id=1fNRTBbXF8ytJIFNX3QjbUWrTTouLNtOA"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.jpg": {
+    "bytes": 1085193,
+    "id": "1u0kPg6ubeV9PGqZ_MdGrUlkNxlvICYgH",
+    "sha256": "f905fc5da50871cf1853c937af733977396f07db79013ed54ee244d02d318758",
+    "url": "https://drive.google.com/uc?export=download&id=1u0kPg6ubeV9PGqZ_MdGrUlkNxlvICYgH"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-1995.pdf": {
+    "bytes": 6794734,
+    "id": "1g0PJ8qTCRp8TnoeCWNItWsFYBkgfUtmF",
+    "sha256": "324ad049844bc187bc9e579931f57fd93bf3ee924878cec3548b852959fa3057",
+    "url": "https://drive.google.com/uc?export=download&id=1g0PJ8qTCRp8TnoeCWNItWsFYBkgfUtmF"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.jpg": {
+    "bytes": 1085319,
+    "id": "104_2dZTVVg69SlCmdTpuLlrlhuB_naR9",
+    "sha256": "17e47aa04e82641b6a75cca17a338fcf35801a5d640ae69ed3b130ae1ff3b975",
+    "url": "https://drive.google.com/uc?export=download&id=104_2dZTVVg69SlCmdTpuLlrlhuB_naR9"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2005.pdf": {
+    "bytes": 6794512,
+    "id": "1Po-QIuD3QG5y9O6cOTVJlEGAi18fs50c",
+    "sha256": "187f0ba0a92474ed3a5e2d62d603daada3946aace0af0286338ec324f8679b6f",
+    "url": "https://drive.google.com/uc?export=download&id=1Po-QIuD3QG5y9O6cOTVJlEGAi18fs50c"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.jpg": {
+    "bytes": 1085673,
+    "id": "1siIKschEOLln6Y-riU0BiP--wBQ4E2VG",
+    "sha256": "b0a933aa0fd944021cc3738e883e67fa48110b228b2468164fff6bd88d7eee0b",
+    "url": "https://drive.google.com/uc?export=download&id=1siIKschEOLln6Y-riU0BiP--wBQ4E2VG"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2015.pdf": {
+    "bytes": 6794981,
+    "id": "1-y2p8wv551TYRxf_itrgzZmmpzXC62_C",
+    "sha256": "627958ea8d4d0911b35abaf211531c92e70a4825a67cacab1e521e13127a8f2f",
+    "url": "https://drive.google.com/uc?export=download&id=1-y2p8wv551TYRxf_itrgzZmmpzXC62_C"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.jpg": {
+    "bytes": 1084595,
+    "id": "1cR4uXJwDi6pxw4o7ysB-nin3kNGN6fsz",
+    "sha256": "5b88eb353d83f8e0ee5505a5baee326501e18c2b90f814ed33664f67fc6f3273",
+    "url": "https://drive.google.com/uc?export=download&id=1cR4uXJwDi6pxw4o7ysB-nin3kNGN6fsz"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-06-cobertura-solo-2024.pdf": {
+    "bytes": 6795076,
+    "id": "1FZeUYPBP5-zvdch3r7xgJ5rohD9-gU4O",
+    "sha256": "c08e86df62919c1a8692bdf9f72026e44aae8227e7892cca7b9c62599f8501da",
+    "url": "https://drive.google.com/uc?export=download&id=1FZeUYPBP5-zvdch3r7xgJ5rohD9-gU4O"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.jpg": {
+    "bytes": 950885,
+    "id": "1qb-3bnjmIl39kXXm2rlmeQn6XlxFN7eh",
+    "sha256": "32e028552941e29907c8c164914a289f3b34e9d3faf462fb0d85d9c2c1253a5e",
+    "url": "https://drive.google.com/uc?export=download&id=1qb-3bnjmIl39kXXm2rlmeQn6XlxFN7eh"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf": {
+    "bytes": 4130109,
+    "id": "1OyddTz-GdvBZ59IXfLlMuShhgz1duULC",
+    "sha256": "a8c49905c5d671f7ff111fa9eaa1929299935a1de765bd933922a3f7c43bcfe8",
+    "url": "https://drive.google.com/uc?export=download&id=1OyddTz-GdvBZ59IXfLlMuShhgz1duULC"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.jpg": {
+    "bytes": 883138,
+    "id": "1yzGXG1ZTrNsmGYb7yRM_XqiNfroQRNS0",
+    "sha256": "7ad3c9237d47d5c28bba7aad72c67ba19c8d263d83afc6c42b69905333bf4733",
+    "url": "https://drive.google.com/uc?export=download&id=1yzGXG1ZTrNsmGYb7yRM_XqiNfroQRNS0"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf": {
+    "bytes": 4128371,
+    "id": "1fV6Iukt5VF3heyyLNzA-t6YC4-K3Sz9D",
+    "sha256": "80f54589c5b812adffdb254dc9c28781cc78c70b716a895a123fe02f39c55ccc",
+    "url": "https://drive.google.com/uc?export=download&id=1fV6Iukt5VF3heyyLNzA-t6YC4-K3Sz9D"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.jpg": {
+    "bytes": 830966,
+    "id": "100dqLl1t-kcF6hp41qEGiLAdxB0tPQt1",
+    "sha256": "a466b1fce440a03dfd5b262fd0928a318989be5d79cd65bcb0fe56b0150b4b1c",
+    "url": "https://drive.google.com/uc?export=download&id=100dqLl1t-kcF6hp41qEGiLAdxB0tPQt1"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf": {
+    "bytes": 4080497,
+    "id": "1hR3G4ejf09jNsuvhqmkQGUqUkF1-cRtq",
+    "sha256": "be271937a79f6a765cec1b05fd9620ca669eca13a745f247b084006a47822840",
+    "url": "https://drive.google.com/uc?export=download&id=1hR3G4ejf09jNsuvhqmkQGUqUkF1-cRtq"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.jpg": {
+    "bytes": 946537,
+    "id": "1KXZ8BGcFbQZsENgv0b1nDte7hDFV9U6j",
+    "sha256": "699936fd97bf3554b4fbde35c3e42f6983e8b5d0ea2c02ff7166e7b973e7c96d",
+    "url": "https://drive.google.com/uc?export=download&id=1KXZ8BGcFbQZsENgv0b1nDte7hDFV9U6j"
+  },
+  "grx-tabuleiro-embaubal-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf": {
+    "bytes": 4160220,
+    "id": "1YB9qaWrF-UPNCGJLKQkHL4nXWN5aEsyi",
+    "sha256": "af0d51c6f4bb2e6c6ed4bd9512e5e1a2d12bd5c146dd9fe485e3730094f53ebf",
+    "url": "https://drive.google.com/uc?export=download&id=1YB9qaWrF-UPNCGJLKQkHL4nXWN5aEsyi"
+  },
+  "grx-vitoria-souzel-01-limites-territoriais-ucs.pdf": {
+    "bytes": 6212707,
+    "id": "1XuMKrAtAdFtoQWaGW1Bp1jT5xq1eD0xm",
+    "sha256": "7284e3d77404a7097b9d7b852915a4cac861e782d51aa39a43dcf6c0b1a14c3c",
+    "url": "https://drive.google.com/uc?export=download&id=1XuMKrAtAdFtoQWaGW1Bp1jT5xq1eD0xm"
+  },
+  "grx-vitoria-souzel-02-gestao-infraestrutura-acessos.pdf": {
+    "bytes": 6940834,
+    "id": "1k93wXUUAb3OhPPRWPpY5VlW4eV68OG6W",
+    "sha256": "58e5ed064e65185bf5cd5812d054b203690cd49801eb7cb445da9296f8495a63",
+    "url": "https://drive.google.com/uc?export=download&id=1k93wXUUAb3OhPPRWPpY5VlW4eV68OG6W"
+  },
+  "grx-vitoria-souzel-03-biodiversidade-protecao-ambiental.pdf": {
+    "bytes": 14350201,
+    "id": "1rqgAY9n-5TlYCZIL7bsZwQy1T22swyGe",
+    "sha256": "d3ad05b3eb16493ce26210b39fba1c557be1b6818b840f5aaeec98916d18e70f",
+    "url": "https://drive.google.com/uc?export=download&id=1rqgAY9n-5TlYCZIL7bsZwQy1T22swyGe"
+  },
+  "grx-vitoria-souzel-04-comunidades-uso-tradicional.pdf": {
+    "bytes": 12664046,
+    "id": "12Qq7T-I-D-r8VyDPjpZaOo5nGe_Dd0s_",
+    "sha256": "af37f7dbd48671c92a389df3a6761fcee85ab6df45617cc19107dad68f196593",
+    "url": "https://drive.google.com/uc?export=download&id=12Qq7T-I-D-r8VyDPjpZaOo5nGe_Dd0s_"
+  },
+  "grx-vitoria-souzel-05-quadro-hidrografico-referencias.pdf": {
+    "bytes": 7337347,
+    "id": "13XkI_vITl1CuvVkJEL4Zm2NmDxTrWWvs",
+    "sha256": "3dd1415eddc65aba223873ad815c9f83835c1f6cdaecc8629ef493611363df81",
+    "url": "https://drive.google.com/uc?export=download&id=13XkI_vITl1CuvVkJEL4Zm2NmDxTrWWvs"
+  },
+  "grx-vitoria-souzel-06-cobertura-solo-1985.pdf": {
+    "bytes": 5936350,
+    "id": "1MioGncS2XsRi3t5VFkWX2o1yF_1daiBd",
+    "sha256": "7f0227b236d579a5bb1e49cfb4ca30952167b00ed66146d579594c451c124bfd",
+    "url": "https://drive.google.com/uc?export=download&id=1MioGncS2XsRi3t5VFkWX2o1yF_1daiBd"
+  },
+  "grx-vitoria-souzel-06-cobertura-solo-1995.pdf": {
+    "bytes": 5936644,
+    "id": "1AnZnpqZNRAcsUOFnrY3kyycj7Q5TyzFu",
+    "sha256": "116c6ffdfe9ec8ad71b12b9027f17651db4edfc6be4e76f9729ddfbc5ca8d47d",
+    "url": "https://drive.google.com/uc?export=download&id=1AnZnpqZNRAcsUOFnrY3kyycj7Q5TyzFu"
+  },
+  "grx-vitoria-souzel-06-cobertura-solo-2005.pdf": {
+    "bytes": 5936163,
+    "id": "1EoAcaSTwAxwaetRwEd_OLOSXaP6Z251R",
+    "sha256": "3c200666110f190264759bf137267b5ec7e88d44f1fc9b884b29690028494dee",
+    "url": "https://drive.google.com/uc?export=download&id=1EoAcaSTwAxwaetRwEd_OLOSXaP6Z251R"
+  },
+  "grx-vitoria-souzel-06-cobertura-solo-2015.pdf": {
+    "bytes": 5936579,
+    "id": "1Tt8_KXN_r7rx_eQ-6w2PTuKkqtPDnUYe",
+    "sha256": "751a29f3bf374f4d73686480ca82d82bb7d7831aea074608ea932993bb74ec1f",
+    "url": "https://drive.google.com/uc?export=download&id=1Tt8_KXN_r7rx_eQ-6w2PTuKkqtPDnUYe"
+  },
+  "grx-vitoria-souzel-06-cobertura-solo-2024.pdf": {
+    "bytes": 5936834,
+    "id": "1saKPhKcJoPGOqoNdOOfRWitAuyaJ9r-5",
+    "sha256": "5dc538153968b9d0d5666c8e59b78c3d013a8357e59e20bddec9cb2d651a00d0",
+    "url": "https://drive.google.com/uc?export=download&id=1saKPhKcJoPGOqoNdOOfRWitAuyaJ9r-5"
+  },
+  "grx-vitoria-souzel-07-cicatrizes-fogo-1985-1994.pdf": {
+    "bytes": 3281999,
+    "id": "1eCeS9oh0YXreVMhShlYNmjwUWIedtd7C",
+    "sha256": "d46268386c35da396a4393ff72999d99e5a42df767fd8d853b2e985e878f40c6",
+    "url": "https://drive.google.com/uc?export=download&id=1eCeS9oh0YXreVMhShlYNmjwUWIedtd7C"
+  },
+  "grx-vitoria-souzel-07-cicatrizes-fogo-1995-2004.pdf": {
+    "bytes": 3280533,
+    "id": "1DR086tcRkia6prQsbHAKfT2byacl74Ii",
+    "sha256": "a15adfec4b09e369fd7c8267596d7ea30366eda188f472c008c2e74aa066a4c8",
+    "url": "https://drive.google.com/uc?export=download&id=1DR086tcRkia6prQsbHAKfT2byacl74Ii"
+  },
+  "grx-vitoria-souzel-07-cicatrizes-fogo-2005-2014.pdf": {
+    "bytes": 3233180,
+    "id": "1kBiC9lKQFReGYdbks4muZFXLEzJupjpk",
+    "sha256": "b70dcccf4e8310a146a6bfb46c4444c55500807aaf339e7549a3871e0bc879b4",
+    "url": "https://drive.google.com/uc?export=download&id=1kBiC9lKQFReGYdbks4muZFXLEzJupjpk"
+  },
+  "grx-vitoria-souzel-07-cicatrizes-fogo-2015-2024.pdf": {
+    "bytes": 3296244,
+    "id": "1w-5POTFbFxl9GRXn85Q-oE_bXibpA2aZ",
+    "sha256": "e9ba2230e3a01142ced7466be6d8a9a774c459432aadb9692b514d666c8857da",
+    "url": "https://drive.google.com/uc?export=download&id=1w-5POTFbFxl9GRXn85Q-oE_bXibpA2aZ"
+  },
+  "macrozoneamento-ecologico-economico-zee.png": {
+    "bytes": 8012431,
+    "id": "1PZWVpRxIExvOVciE_d3OUWNaiCtnVvV3",
+    "sha256": "6fa35819e1cf32cbbb8ddc7ae196da5e28d00df34b1913e0434e2ec96af4c627",
+    "url": "https://drive.google.com/uc?export=download&id=1PZWVpRxIExvOVciE_d3OUWNaiCtnVvV3"
+  },
+  "mapa-areas-ideflor-bio-pa-a1.pdf": {
+    "bytes": 3411475,
+    "id": "1EJ3yJY3nWL2xjB_gg9F0783OMYUD3UzQ",
+    "sha256": "8b4f47a4c900001f8d5087d1c022483977c603348d0078f8cefad63d39ddb0c0",
+    "url": "https://drive.google.com/uc?export=download&id=1EJ3yJY3nWL2xjB_gg9F0783OMYUD3UzQ"
+  },
+  "mapa-areas-protegidas-pa-a1.pdf": {
+    "bytes": 5497218,
+    "id": "1dfiXEY-vURnKsoqOnDSE_1OdrOHZe3O9",
+    "sha256": "67817d9657c25f157bacb62209f10f857ba171bc7cd0786b0b0710624260a2c8",
+    "url": "https://drive.google.com/uc?export=download&id=1dfiXEY-vURnKsoqOnDSE_1OdrOHZe3O9"
+  },
+  "mapa-categorias-fundiarias-pa-a1.pdf": {
+    "bytes": 23094193,
+    "id": "1hZ1jj-H95X5L6lqipq0HmVblEegY3TY7",
+    "sha256": "3114c779fa21ea7cad907874ecfcf380afbd797b6bce951e56e896f33564eb61",
+    "url": "https://drive.google.com/uc?export=download&id=1hZ1jj-H95X5L6lqipq0HmVblEegY3TY7"
+  },
+  "mapa-unidades-de-conservacao-estaduais-pa-a1.jpg": {
+    "bytes": 5203731,
+    "id": "1DEsMzQIXLqP5xqRuOlfxkBgL-9NjzpgW",
+    "sha256": "79b693021f3cb573656c2288a4f11cadf10e02a802edfad688f22d5580a74889",
+    "url": "https://drive.google.com/uc?export=download&id=1DEsMzQIXLqP5xqRuOlfxkBgL-9NjzpgW"
+  },
+  "mapa-unidades-de-conservacao-estaduais-pa-a4.jpg": {
+    "bytes": 1293143,
+    "id": "1r7H92CCWhFShdn7IMjn7XFjj1JdvJLCj",
+    "sha256": "894007bbc31b62eb04a7fb5053337080c8bfee9ea1a5310b156d1971cbe1f1ea",
+    "url": "https://drive.google.com/uc?export=download&id=1r7H92CCWhFShdn7IMjn7XFjj1JdvJLCj"
+  },
+  "revis-tabuleiro-do-embaubal-praias.jpg": {
+    "bytes": 535535,
+    "id": "15QFge6sC2i9wew3939Z6GkHopP2EJAmo",
+    "sha256": "72cdf60c59f16294d1eb29e12fb41b3b10e92e5503d4373dff28b4ee2a938b66",
+    "url": "https://drive.google.com/uc?export=download&id=15QFge6sC2i9wew3939Z6GkHopP2EJAmo"
+  },
+  "unidades-de-conservacao-estaduais-por-gerencia-regional.pdf": {
+    "bytes": 15284440,
+    "id": "1Vca1jMVoxcXyUAnu0v8U9lfDexSO0zcx",
+    "sha256": "7e5543518763c5d3825cf04ac3d0736943cd35bb642f81b1fa75944200ba28c2",
+    "url": "https://drive.google.com/uc?export=download&id=1Vca1jMVoxcXyUAnu0v8U9lfDexSO0zcx"
+  },
+  "unidades-de-conservacao-no-estado-do-para.pdf": {
+    "bytes": 43022577,
+    "id": "1u_Rnwk3JtZ56D9lXVKquDlj7KvftmNI3",
+    "sha256": "12807df1b6bf4b8cbf64920ff7cf03e47040e1b6a88c3c18b0763a41a9da19cf",
+    "url": "https://drive.google.com/uc?export=download&id=1u_Rnwk3JtZ56D9lXVKquDlj7KvftmNI3"
+  }
+}

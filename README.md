@@ -82,12 +82,14 @@ maps/
 │   │   ├── logo-ideflor-bio.png Logomarca institucional do IDEFLOR-Bio
 │   │   ├── logo-ngeo.png        Logomarca do Núcleo de Geotecnologias
 │   │   └── thumbnails/          Representações matriciais otimizadas para visualização web
-│   └── downloads/               Repositório de arquivos finais padronizados para download
+│   └── downloads/               Arquivos finais de download — hospedados no Google Drive (não versionados)
 ├── mapas_originais/             Diretório de custódia dos arquivos fontes e insumos cartográficos
 │   ├── geral/                   Insumos cartográficos de âmbito estadual
 │   ├── gerencias_regionais/     Insumos organizados por gerência descentralizada
 │   └── logos_e_brasoes/         Elementos gráficos e institucionais originais
 ├── organize_and_build.py        Rotina de processamento, cálculo de integridade e metadados
+├── sync_drive.py                Sincronização dos downloads com o Google Drive (via rclone)
+├── drive_manifest.json          Mapa de file IDs estáveis no Drive e links de download
 └── .gitignore                   Definições de exclusão para versionamento
 ```
 
@@ -125,8 +127,11 @@ A inclusão de novas folhas e cartas das demais Gerências Regionais deve observ
 3. Execução da rotina:
    ```bash
    python organize_and_build.py
+   python sync_drive.py
    ```
 4. O script valida a existência dos insumos, gera as miniaturas em resolução calibrada, calcula as métricas de tamanho de arquivo e atualiza o arquivo `assets/js/data.js`.
+5. O `sync_drive.py` envia para o Google Drive apenas os arquivos novos ou alterados (controle por hash), mantendo o mesmo *file ID* nas atualizações, e registra o link em `drive_manifest.json`. Após um envio, executar novamente `python organize_and_build.py` para regravar o `data.js` com os links do Drive.
+6. O manifesto `drive_manifest.json` deve ser versionado no Git; a pasta `assets/downloads/` é local (fora do versionamento, conforme `.gitignore`).
 
 ---
 

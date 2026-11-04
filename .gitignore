@@ -1,6 +1,9 @@
 # Insumos brutos locais (preservados localmente)
 mapas_originais/
 
+# Downloads hospedados no Google Drive (links em drive_manifest.json)
+assets/downloads/
+
 # Python
 __pycache__/
 *.py[cod]
